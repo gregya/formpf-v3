@@ -1,0 +1,561 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>1b</title>
+
+
+<script src="kendo/js/jquery.min.js"></script>
+<script src="kendo/js/web.min.js"></script>
+
+
+<style type="text/css">
+
+</style>
+<link href="kendo/styles/kendo.common.min.css" />
+<link href="kendo/styles/kendo.default.min.css" />
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="PFsection">
+
+<h1>Section 1b: Information about the private funds you advise</h1>
+<hr />
+
+<div>Subject to Instruction 5, you must complete a separate Section 1b for each private fund that you advise.</div>
+
+<h2>Item A. Reporting fund identifying information</h2>
+<hr />
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="3%">5.</td>
+    <td width="4%">(a)</td>
+    <td width="44%"> Name of the reporting fund </td>
+    <td width="49%"><label for="textfield"></label>
+      <input name="FundName" type="text" id="FundName"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b)</td>
+    <td> Private fund identification number of the reporting fund </td>
+    <td><label for="textfield"></label>
+      <input type="text" name="FundID" id="FundID"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(c)</td>
+    <td> NFA identification number of the reporting fund, if applicable </td>
+    <td><label for="textfield"></label>
+      <input type="text" name="NFANumber" id="NFANumber"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(d)</td>
+    <td> LEI of the reporting fund, if applicable</td>
+    <td><label for="textfield"></label>
+      <input type="text" name="LEI" id="LEI"></td>
+  </tr>
+</table>
+</div>
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="3%">6.</td>
+    <td colspan="2"><div>Check &ldquo;yes&rdquo; below if the reporting fund is the master fund of a master-feeder arrangement and you are reporting for all of the funds in the master-feeder arrangement on an aggregated basis. Otherwise, check &ldquo;no.&rdquo; 
+          <p>(See Instruction 5 for information regarding aggregation of master-feeder arrangements. If you respond &ldquo;yes,&rdquo; do not complete a separate Section 1b, 1c, 2b, 3 or 4 with respect to any of the feeder funds.) </p>
+        </div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="50%"><input type="radio" name="IsMasterFund" id="IsMasterFund" value="Yes">
+      <label for="radio"></label>      <label for="checkbox">Yes</label></td>
+    <td width="47%">      <input type="radio" name="IsMasterFund" id="IsMasterFund" value="No">
+      No</td>
+  </tr>
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="4%">7.</td>
+    <td colspan="2">(a) Check “yes” below if the reporting fund is the largest fund in a parallel fund structure and you are reporting for all of the funds in the structure on an aggregated basis. Otherwise, check “no.”
+(See Instruction 5 for information regarding aggregation of parallel funds. If you respond “yes,” do not complete a separate Section 1b, 1c, 2b, 3 or 4 with respect to any of the other parallel funds in the structure.)</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="49%"><input type="radio" name="IsParallelFundsAggregated" id="IsParallelFundsAggregated" value="Yes">      <label for="checkbox">Yes</label></td>
+    <td width="47%"><input type="radio" name="IsParallelFundsAggregated" id="IsParallelFundsAggregated" value="Yes">      
+      No</td>
+  </tr>
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="4%">&nbsp;</td>
+    <td colspan="2">If you responded “yes” to Question 7(a), complete (b) through (e) below for each other parallel
+fund in the parallel fund structure.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="47%">(b) Name of the parallel fund </td>
+    <td width="49%"><label for="textfield70"></label>
+      <input name="FundName" type="text" id="FundName"></td>
+  </tr>
+   <tr>
+    <td>&nbsp;</td>
+    <td width="47%">(c) Private fund identification number of the parallel fund </td>
+    <td width="49%"><input type="text" name="ParallelFundID" id="ParallelFundID"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="47%">(d) NFA identification number of the parallel fund, if applicable </td>
+    <td width="49%"><input type="text" name="NFANumber" id="NFANumber"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="47%">(e) LEI of the parallel fund, if applicable </td>
+    <td width="49%"><input type="text" name="LEI" id="LEI"></td>
+  </tr>
+</table>
+</div>
+
+<h2>Item B. Assets, financing and investor concentration</h2>
+<hr />
+
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td>8. </td>
+    <td>Gross asset value of reporting fund</td>
+    <td><label for="textfield2"></label>
+      <input name="GrossAssetValue" type="text" id="GrossAssetValue" value=""></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="2"><p>(This amount may differ from the amount you reported in response to question 11 of Form ADV Section 7.B.1. For instance, the amounts may not be the same if you are filing Form PF on a quarterly basis, if you are aggregating a master-feeder arrangement for purposes of this Form PF and you did not aggregate that master-feeder arrangement for purposes of Form ADV Section 7.B.1. or if you are aggregating parallel funds for purposes of this Form PF.) </p></td>
+    </tr>
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="3%">9. </td>
+    <td width="47%">Net asset value of reporting fund</td>
+    <td width="50%">
+      <input type="text" name="NetAssetValue" id="NetAssetValue"></td>
+  </tr>
+ 
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="3%">10. </td>
+    <td width="47%">Value of reporting fund’s investments in equity of other private funds</td>
+    <td width="50%">
+      <input type="text" name="EquityValueInOtherFunds" id="EquityValueInOtherFunds"></td>
+  </tr>
+ 
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="3%">11. </td>
+    <td width="47%">Value of all parallel managed accounts related to the reporting fund </td>
+    <td width="50%"><label for="textfield2"></label>
+      <input type="text" name="ParallelManagedAccountValue" id="ParallelManagedAccountValue"></td>
+  </tr>
+  <tr>
+    <td width="3%">&nbsp;</td>
+    <td colspan="2"><p>(If any of your parallel managed accounts relates to more than one of the private funds you advise, only report the value of the account once, in connection with the largest private fund to which it relates.) </p><label for="textfield2"></label></td>
+    </tr>
+ 
+</table>
+</div>
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="4%">12.</td>
+    <td colspan="2"><div>
+      <p>Provide the following information regarding the value of the reporting fund&rsquo;s borrowings and the types of creditors. </p>
+      <p>(You are not required to respond to this question for any reporting fund with respect to which you are answering Question 43 in Section 2b. Do not net out amounts that the reporting fund loans to creditors or the value of collateral pledged to creditors.) </p>
+      <p>(The percentages borrowed from the specified types of creditors should add up to approximately 100%.) </p>
+    </div></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="74%">(a) Dollar amount of total borrowings </td>
+    <td width="22%"><label for="textfield2"></label>
+      <input type="text" name="BorrowedTotalAmount" id="BorrowedTotalAmount"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b) Percentage borrowed from U.S. financial institutions </td>
+    <td><label for="textfield2"></label>
+      <input type="text" name="BorrowedFromUSFinancialInstitutionAmount" id="BorrowedFromUSFinancialInstitutionAmount"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(c) Percentage borrowed from non-U.S. financial institutions </td>
+    <td><label for="textfield2"></label>
+      <input type="text" name="BorrowedFromNonUSFinancialInstitutionAmount" id="BorrowedFromNonUSFinancialInstitutionAmount"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(d) Percentage borrowed from U.S. creditors that are not financial institutions </td>
+    <td><label for="textfield2"></label>
+      <input type="text" name="BorrowedFromUSNonFinancialInstitutionAmount" id="BorrowedFromUSNonFinancialInstitutionAmount"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(e) Percentage borrowed from non-U.S. creditors that are not financial institutions </td>
+    <td><label for="textfield2"></label>
+      <input type="text" name="BorrowedFromNonUSNonFinancialInstitutionAmount" id="BorrowedFromNonUSNonFinancialInstitutionAmount"></td>
+  </tr>
+
+</table>
+</div>
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="5%">13.</td>
+    <td colspan="3">(a) Does the reporting fund have any outstanding derivatives positions?</td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="30%"><input type="radio" name="HasDerivativesPositions" id="HasDerivativesPositions" value="Yes">
+      <label for="HasDerivativesPositions"></label>      <label for="checkbox3">Yes</label></td>
+    <td width="42%"><input type="radio" name="HasDerivativesPositions" id="HasDerivativesPositions2" value="No">      
+      No</td>
+    <td width="23%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="2"><p>(b) If you responded &ldquo;yes&rdquo; to Question 13(a), provide the aggregate value of all derivatives positions of the reporting fund </p></td>
+    <td><input type="text" name="DerivativesPositionsValue" id="DerivativesPositionsValue"></td>
+  </tr>
+    <tr>
+    <td>&nbsp;</td>
+    <td colspan="3">(You are not required to respond to Question 13 for any reporting fund with respect to which you are answering Question 44 in Section 2b.)</td>
+    </tr>
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="5%">14</td>
+    <td width="95%" colspan="5"><div>
+      <p>Provide a summary of the reporting fund&rsquo;s assets and liabilities categorized using the hierarchy below. For assets and liabilities that you report internally and to current and prospective investors as representing fair value, or for which you are required to determine fair value in order to report the reporting fund&rsquo;s regulatory assets under management on Form ADV, categorize them into the following categories based on the valuation assumptions utilized: </p>
+      <p>Level 1 – Quoted prices (unadjusted) in active markets for identical assets or liabilities. </p>
+      <p>Level 2 – Other than quoted prices included within Level 1 that are observable for the asset or liability, either directly or indirectly. </p>
+      <p>Level 3 – Unobservable inputs, such as your assumptions or the fund&rsquo;s assumptions used to determine the fair value of the asset or liability. </p>
+      <p>For any assets and liabilities that you report internally and to current and prospective investors as representing a measurement attribute other than fair value, and for which you are not required to determine fair value in order to report the reporting fund&rsquo;s regulatory assets under management on Form ADV, separately report these assets and liabilities in the &ldquo;cost-based&rdquo; measurement column. </p>
+      <p>(If the fund&rsquo;s financial statements are prepared in accordance with U.S. generally accepted accounting principles (&ldquo;U.S. GAAP&rdquo;) or another accounting standard that requires the categorization of assets and liabilities using a fair value hierarchy similar to that established under U.S. GAAP, then respond to this question using the fair value hierarchy established under the applicable accounting standard.) </p>
+        <p>(This question requires the use of fair values and cost-based measurements, which may be different from the values contemplated by Instruction 15. You are only required to respond to this question if you are filing an annual update or a quarterly update for your fourth fiscal quarter .) </p>
+      
+    </div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="4" align="center">Fair value</td>
+    <td>Cost-based</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Level 1</td>
+    <td>Level 2</td>
+    <td>Level 3</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>Assets</td>
+    <td>$
+      <label for="textfield3"></label>
+      <input name="FairValueLevel1AssetsAmount" type="text" id="FairValueLevel1AssetsAmount" size="10"></td>
+    <td>$
+      <input name="FairValueLevel2AssetsAmount" type="text" id="FairValueLevel2AssetsAmount" size="10"></td>
+    <td>$
+      <input name="FairValueLevel3AssetsAmount" type="text" id="FairValueLevel3AssetsAmount" size="10"></td>
+    <td><input name="CostBasedAssetsAmount" type="text" id="CostBasedAssetsAmount" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>Liabilities </td>
+    <td>$
+      <input name="FairValueLevel1LiabilitiesAmount" type="text" id="FairValueLevel1LiabilitiesAmount" size="10"></td>
+    <td>$
+      <input name="FairValueLevel2LiabilitiesAmount" type="text" id="FairValueLevel2LiabilitiesAmount" size="10"></td>
+    <td>$
+      <input name="FairValueLevel3LiabilitiesAmount" type="text" id="FairValueLevel3LiabilitiesAmount" size="10"></td>
+    <td><input name="CostBasedLiabilitiesAmount" type="text" id="CostBasedLiabilitiesAmount" size="10"></td>
+  </tr>
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td>15. </td>
+    <td>Specify the approximate percentage of the reporting fund’s equity that is beneficially owned by the five beneficial owners having the largest equity interests in the reporting fund.</td>
+    <td><input type="text" name="BeneficiallyOwnedByTop5Percent" id="BeneficiallyOwnedByTop5Percent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="2"><p>(For purposes of this question, if you know that two or more beneficial owners of the reporting fund are affiliated with each other, you should treat them as a single beneficial owner.) </p></td>
+    </tr>
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="4%">16. </td>
+    <td colspan="2"><div>Specify the approximate percentage of the reporting fund&rsquo;s equity that is beneficially owned by the following groups of investors. 
+          <p>(Include each investor in only one group. The total should add up to approximately 100%. With respect to beneficial interests outstanding prior to March 31, 2012, that have not been transferred on or after that date, you may respond to this question using good faith estimates based on data currently available to you.) </p>
+        </div></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="76%">(a) Individuals that are United States persons (including their trusts) </td>
+    <td width="20%"><input type="text" name="BeneficiallyOwnedByUSPersonsPercent" id="BeneficiallyOwnedByUSPersonsPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b) Individuals that are not United States persons (including their trusts) </td>
+    <td><input type="text" name="eneficiallyOwnedByNonUSPersonsPercent" id="eneficiallyOwnedByNonUSPersonsPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(c) Broker-dealers </td>
+    <td><input type="text" name="BeneficiallyOwnedByBrokerDealersPercent" id="BeneficiallyOwnedByBrokerDealersPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(d) Insurance companies. </td>
+    <td><input type="text" name="BeneficiallyOwnedByInsuranceCompaniesPercent" id="BeneficiallyOwnedByInsuranceCompaniesPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(e) Investment companies registered with the SEC </td>
+    <td><input type="text" name="BeneficiallyOwnedByInvestmentCompaniesPercent" id="BeneficiallyOwnedByInvestmentCompaniesPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(f) &nbsp;Private funds </td>
+    <td><input type="text" name="BeneficiallyOwnedByPrivateFundsPercent" id="BeneficiallyOwnedByPrivateFundsPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(g) &nbsp;Non-profits </td>
+    <td><input type="text" name="BeneficiallyOwnedByNonProfitsPercent" id="BeneficiallyOwnedByNonProfitsPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(h) &nbsp;Pension plans (excluding governmental pension plans) </td>
+    <td><input type="text" name="BeneficiallyOwnedByPensionPlansPercent" id="BeneficiallyOwnedByPensionPlansPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(i) &nbsp;Banking or thrift institutions (proprietary) </td>
+    <td><input type="text" name="BeneficiallyOwnedByBankingInstitutionsPercent" id="BeneficiallyOwnedByBankingInstitutionsPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(j) &nbsp;State or municipal government entities (excluding governmental pension plans) </td>
+    <td><input type="text" name="BeneficiallyOwnedByGovernmentEntitiesPercent" id="BeneficiallyOwnedByGovernmentEntitiesPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(k) &nbsp;State or municipal governmental pension plans </td>
+    <td><input type="text" name="BeneficiallyOwnedByGovernmentPensionsPercent" id="BeneficiallyOwnedByGovernmentPensionsPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(l) &nbsp;Sovereign wealth funds and foreign official institutions </td>
+    <td><input type="text" name="BeneficiallyOwnedByForeignInstitutionsPercent" id="BeneficiallyOwnedByForeignInstitutionsPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(m) &nbsp;Investors that are not United States persons and about which the foregoing beneficial ownership information is not known and cannot reasonably be obtained because the beneficial interest is held through a chain involving one or more third- party intermediaries        </td>
+    <td><input type="text" name="BeneficiallyOwnedByNonUSIntermediariesPercent" id="BeneficiallyOwnedByNonUSIntermediariesPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(n) &nbsp;Other </td>
+    <td><input type="text" name="BeneficiallyOwnedByOthersPercent" id="BeneficiallyOwnedByOthersPercent"></td>
+  </tr>
+</table>
+</div>
+
+<h2>Item C. Reporting fund performance</h2>
+<hr />
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="4%">17. </td>
+    <td colspan="4"><div>
+      <p>Provide the reporting fund&rsquo;s gross and net performance, as reported to current and prospective investors (or, if calculated for other purposes but not reported to investors, as so calculated). If the fund reports different performance results to different groups of investors, provide the most representative results. You are required to provide monthly and quarterly performance results only if such results are calculated for the reporting fund (whether for purposes of reporting to current or prospective investors or otherwise). </p>
+      <p>(If your fiscal year is different from the reporting fund&rsquo;s fiscal year, then for any portion of the reporting fund&rsquo;s fiscal year that has not been completed as of the data reporting date, provide the relevant information from that portion of the reporting fund&rsquo;s preceding fiscal year.) </p>
+      <p>(Enter your responses as percentages rounded to the nearest one-hundredth of one percent. Performance results for monthly and quarterly periods should not be annualized. If any period precedes the date of the fund&rsquo;s formation, enter &ldquo;NA&rdquo;. You are not required to include performance results for any period with respect to which you previously provided performance results for the reporting fund on Form PF.) </p>
+    </div></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="54%">&nbsp;</td>
+    <td width="14%" align="center"><p>Last day of fiscal period </p></td>
+    <td width="14%" align="center"><p>Gross performance </p></td>
+    <td width="14%" align="center"><p>Net of management fees and incentive fees and allocations </p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(a) &nbsp;1st month of reporting fund&rsquo;s fiscal year </td>
+    <td><input type="text" name="LastFiscalDateMonth1" id="LastFiscalDateMonth1"></td>
+    <td><input type="text" name="GrossValueMonth1" id="GrossValueMonth1"></td>
+    <td><input type="text" name="NetValueMonth1" id="NetValueMonth1"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b) &nbsp;2nd month of reporting fund&rsquo;s fiscal year </td>
+    <td><input type="text" name="LastFiscalDateMonth2" id="LastFiscalDateMonth2"></td>
+    <td><input type="text" name="GrossValueMonth2" id="GrossValueMonth2"></td>
+    <td><input type="text" name="NetValueMonth2" id="NetValueMonth2"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(c) &nbsp;3rd month of reporting fund&rsquo;s fiscal year </td>
+    <td><input type="text" name="LastFiscalDateMonth3" id="LastFiscalDateMonth3"></td>
+    <td><input type="text" name="GrossValueMonth3" id="GrossValueMonth3"></td>
+    <td><input type="text" name="NetValueMonth3" id="NetValueMonth3"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(d) &nbsp;First quarter </td>
+    <td><input type="text" name="LastFiscalDateQuarter1" id="LastFiscalDateQuarter1"></td>
+    <td><input type="text" name="GrossValueQuarter1" id="GrossValueQuarter1"></td>
+    <td><input type="text" name="NetValueQuarter1" id="NetValueQuarter1"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(e) &nbsp;4th month of reporting fund&rsquo;s fiscal year </td>
+    <td><input type="text" name="LastFiscalDateMonth4" id="LastFiscalDateMonth4"></td>
+    <td><input type="text" name="GrossValueMonth4" id="GrossValueMonth4"></td>
+    <td><input type="text" name="NetValueMonth4" id="NetValueMonth4"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(f) &nbsp;5th month of reporting fund&rsquo;s fiscal year </td>
+    <td><input type="text" name="LastFiscalDateMonth5" id="LastFiscalDateMonth5"></td>
+    <td><input type="text" name="GrossValueMonth5" id="GrossValueMonth5"></td>
+    <td><input type="text" name="NetValueMonth5" id="NetValueMonth5"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(g) &nbsp;6th month of reporting fund&rsquo;s fiscal year </td>
+    <td><input type="text" name="LastFiscalDateMonth6" id="LastFiscalDateMonth6"></td>
+    <td><input type="text" name="GrossValueMonth6" id="GrossValueMonth6"></td>
+    <td><input type="text" name="NetValueMonth6" id="NetValueMonth6"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(h) &nbsp;Second quarter </td>
+    <td><input type="text" name="LastFiscalDateQuarter2" id="LastFiscalDateQuarter2"></td>
+    <td><input type="text" name="GrossValueQuarter2" id="GrossValueQuarter2"></td>
+    <td><input type="text" name="NetValueQuarter2" id="NetValueQuarter2"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(i) &nbsp;7th month of reporting fund&rsquo;s fiscal year </td>
+    <td><input type="text" name="LastFiscalDateMonth7" id="LastFiscalDateMonth7"></td>
+    <td><input type="text" name="GrossValueMonth7" id="GrossValueMonth7"></td>
+    <td><input type="text" name="NetValueMonth7" id="NetValueMonth7"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(j) &nbsp;8th month of reporting fund&rsquo;s fiscal year </td>
+    <td><input type="text" name="LastFiscalDateMonth8" id="LastFiscalDateMonth8"></td>
+    <td><input type="text" name="GrossValueMonth8" id="GrossValueMonth8"></td>
+    <td><input type="text" name="NetValueMonth8" id="NetValueMonth8"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(k) &nbsp;9th month of reporting fund&rsquo;s fiscal year </td>
+    <td><input type="text" name="LastFiscalDateMonth9" id="LastFiscalDateMonth9"></td>
+    <td><input type="text" name="GrossValueMonth9" id="GrossValueMonth9"></td>
+    <td><input type="text" name="NetValueMonth9" id="NetValueMonth9"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(l) &nbsp;Third quarter </td>
+    <td><input type="text" name="LastFiscalDateQuarter3" id="LastFiscalDateQuarter3"></td>
+    <td><input type="text" name="GrossValueQuarter3" id="GrossValueQuarter3"></td>
+    <td><input type="text" name="NetValueQuarter3" id="NetValueQuarter3"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(m) &nbsp;10th month of reporting fund&rsquo;s fiscal year </td>
+    <td><input type="text" name="LastFiscalDateMonth10" id="LastFiscalDateMonth10"></td>
+    <td><input type="text" name="GrossValueMonth10" id="GrossValueMonth10"></td>
+    <td><input type="text" name="NetValueMonth10" id="NetValueMonth10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(n) &nbsp;11th month of reporting fund&rsquo;s fiscal year </td>
+    <td><input type="text" name="LastFiscalDateMonth11" id="LastFiscalDateMonth11"></td>
+    <td><input type="text" name="GrossValueMonth11" id="GrossValueMonth11"></td>
+    <td><input type="text" name="NetValueMonth11" id="NetValueMonth11"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(o) &nbsp;12th month of reporting fund&rsquo;s fiscal year </td>
+    <td><input type="text" name="LastFiscalDateMonth12" id="LastFiscalDateMonth12"></td>
+    <td><input type="text" name="GrossValueMonth12" id="GrossValueMonth12"></td>
+    <td><input type="text" name="NetValueMonth12" id="NetValueMonth12"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(p) &nbsp;Fourth quarter </td>
+    <td><input type="text" name="LastFiscalDateQuarter4" id="LastFiscalDateQuarter4"></td>
+    <td><input type="text" name="GrossValueQuarter4" id="GrossValueQuarter4"></td>
+    <td><input type="text" name="NetValueQuarter4" id="NetValueQuarter4"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>Reporting fund&rsquo;s most recently completed fiscal year.
+        </ul></td>
+    <td><input type="text" name="LastFiscalDateYear" id="LastFiscalDateYear"></td>
+    <td><input type="text" name="GrossValueYear" id="GrossValueYear"></td>
+    <td><input type="text" name="NetValueYear" id="NetValueYear"></td>
+  </tr>
+</table>
+</div>
+
+
+</div>
+</body>
+</html>

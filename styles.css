@@ -1,0 +1,680 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+* {/*position: relative;*/ zoom: 1;}
+
+body {
+  	font-family: "Proxima Nova Light" , Arial, Sans-Serif;
+	line-height:1.5em;
+	font-size:13px;
+	overflow:auto;
+        background-color: #f5f5f5;	
+}
+
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+#PF-header{
+    
+    position: fixed;
+    right: 0;
+    left:  0;
+    top: 0;
+    background-color: #173B6B;
+    height: 70px;
+    z-index: 1000;
+    box-shadow: 0px 1px 8px 1px #0F2A4D;
+    -webkit-box-shadow: 0px 1px 8px 1px #0F2A4D;
+    -moz-box-shadow: 0px 1px 8px 1px #0F2A4D;
+    -o-box-shadow: 0px 1px 8px 1px #0F2A4D;
+}
+
+#PF-page-title{
+    color: rgb(3, 126, 166);
+    font-size: 3.3em;
+    font-weight: 400;
+    position: absolute;
+    right: 32px;
+    top: 28px;
+    
+    
+}
+
+
+/********************************************************************** dashboard specific  **********************************************/
+
+#PF-dash-content{
+    width: 90%;
+    margin: 100px auto 0 auto;
+    
+}
+
+#PF-dash-content-header-holder{
+	width: 100%;
+	height: 60px;
+	position: relative;
+	margin: 0 0 12px 0;
+	padding: 0px;
+}
+
+#PF-dash-client-header{
+	display: inline;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	font-size: 1.9em;
+	font-weight: bold;
+	color: #555;
+}
+
+
+
+#PF-dash-key-dates-holder{
+	border: 1px solid #dadada;
+	display: inline;
+	position: absolute;
+	right: 0px;
+	width: 370px;
+	height: 60px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+#PF-dash-key-dates-label-and-blocks-holder{
+	position: relative;
+}
+
+#key-dates-label{	
+	position: absolute;
+	top: -20px;
+	left: -1px;
+	height: 18px;
+	width: 64px;
+	padding: 0;
+	margin: 0px 20px 0px 0px;
+	border-top: 1px solid #dadada;
+	border-left: 1px solid #dadada;
+	border-right: 1px solid #dadada;
+	border-bottom: 1px solid #f5f5f5;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	
+	font-size: .8em;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.key-date-block {
+	position: relative;
+	float: left;
+	width: 180px;
+	height: 24px;
+	margin: 2px;
+}
+
+.key-date-filing-name {
+	background-color: rgb(19, 191, 177);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 140px;
+	height: 24px;
+	overflow: hidden;
+	padding: 0 0 0 6px;
+	line-height: 24px;
+	color: #fff;
+	font-size: .8em;
+}
+
+.key-date-filing-date{
+	background-color: rgb(11, 109, 101);
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 40px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	color: #fff;
+	font-size: 1.1em;
+}
+
+
+
+#PF-dash-content-subhead-holder{	
+	width: 100%;
+	height: 40px;
+	position: relative;
+	margin: 46px 0 6px 0;
+	padding: 0px;
+}
+
+#PF-dash-content-subhead{
+	display: inline;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #555;
+	line-height: 32px;
+	
+}
+
+#PF-dash-new-button{
+	display: inline;
+	position: absolute;
+	right:0px;
+}
+
+.dash-grid-holder{ 
+    
+    
+}
+
+#PF-dash-content-subhead-old{	
+	margin: 40px 0 20px 0;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #555;
+}
+
+#PF-logo-holder{
+    width:230px;
+    height: 50px;
+    background-image:url('images/logo.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top:16px;
+    left:16px;
+}
+
+
+
+/* old
+.PF-dash-keydate{
+	display: inline-block;
+	width: 282px;
+	height: 180px;
+	border: 1px dotted tomato;
+}
+*/
+
+/************************************************************ SETUP ********************************************************************/
+
+#PF-dash-content-subhead-holder-setup{
+	width: 100%;
+	height: 40px;
+	position: relative;
+	margin: 26px 0 36px 0;
+	padding: 0px;
+}
+
+
+#formPF-setup-body{
+	width:800px;
+	margin: 0 0 0 36px;
+	}
+
+.setup-block{
+	margin: 22px 0 22px 0;
+	}
+
+.setup-sumbit{
+	text-align:right;
+	margin-top: 22px;
+	}
+
+#setup-glossary-pop1 {
+	position: absolute;
+	background: #fff;
+	border: #ccc;
+	z-index: 100;
+	width: 200px;
+	height: 100px;
+	
+}
+
+/************************************************************ filing menu, page specific styles *****************************************/
+
+#PF-filing-menu{
+    position: fixed;
+    top: 78px;
+    left: 0px;
+    background-color: #f3f3f3;
+    width: 240px;
+    border-left: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+    z-index: 1000;
+
+}
+
+#PF-filing-body{
+    position: relative;
+    left:246px;
+    top: 80px;
+    
+}
+
+#PF-filing-menu-top{
+	padding: 0 6px 0 0;
+	margin: 2px 0 12px 20px;
+}
+
+
+#PF-filing-menu-filing-title{
+	margin: 12px 0 0px 0px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+
+#PF-filing-navtree-holder{
+	margin: 24px 0 0 0;
+	width: 100%;
+	display: block;
+	
+}
+
+#PF-filing-navtree{
+	width: 90%;
+	display: block;
+	
+}
+
+
+#PF-filing-bug-holder{
+	
+	position: fixed;
+	right: 0;
+	top: 130px;
+	width: 30px;
+	height: 96px;
+	  background: rgb(90, 100, 100);
+  border-width: 1px;
+  border-style: solid;
+  border-color: #999;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 0 0 2px rgba(0,0,0,.2);
+  overflow: hidden;
+  opacity: .8;
+}
+
+#PF-filing-menu-home-icon{
+	background-image: url("images/home.png");
+	background-repeat: no-repeat;
+	background-position:center;
+	width: 30px;
+	height: 26px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+#PF-filing-menu-info-icon{
+	background-image: url("images/info.png");
+	background-repeat: no-repeat;
+	background-position:center;
+	width: 30px;
+	height: 26px;
+	margin-bottom: 4px;
+}
+
+#PF-filing-menu-user-icon{
+	background-image: url("images/cog.png");
+	background-repeat: no-repeat;
+	background-position:center;
+	width: 30px;
+	height: 26px;
+	
+}
+
+/*************************************************************************** individual elements ****************************************/
+
+.btn {
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1;
+  font-size: 13px;
+  font-weight: normal;
+  padding: 6px 16px;
+  border-radius: 4px;
+  background-color: #f3f3f3;
+  background-image: -moz-linear-gradient(top, #ffffff, #e1e1e1);
+  background-image: -ms-linear-gradient(top, #ffffff, #e1e1e1);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e1e1e1));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e1e1e1);
+  background-image: -o-linear-gradient(top, #ffffff, #e1e1e1);
+  background-image: linear-gradient(top, #ffffff, #e1e1e1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e1e1e1', GradientType=0);
+  border: 1px solid #dadada;
+  border-left: 1px solid #d2d2d2;
+  border-right: 1px solid #d2d2d2;
+  border-bottom-color: #a9a9a9;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15), inset 0 1px 1px 0 rgba(255, 255, 255, 0.6);
+  text-shadow: 0 1px 0px #ffffff;
+}
+.btn,
+.btn:hover {
+  color: #000;
+}
+.btn:hover {
+  filter: none;
+  background: none;
+  background: #eee;
+  text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+/* Active  */
+.btn-big.btn-active,
+.btn-big.btn-active:hover {
+  padding: 11px 25px;
+}
+.btn-active,
+.btn-active:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) inset;
+  color: #555;
+  border: none;
+  background: none;
+  filter: none;
+  background-color: #ddd;
+  text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
+  padding: 7px 17px 8px 17px;
+}
+/* Small */
+.btn-small {
+  padding: 4px 8px;
+  font-size: 11px;
+}
+.btn-small.btn-active {
+  padding: 5px 12px;
+}
+/* Big */
+.btn-big {
+  padding: 10px 24px;
+  font-size: 20px;
+}
+/* Square */
+.btn-square {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+/* Round */
+.btn-round {
+  border-radius: 15px;
+  border-radius: 0 \0;
+  /* ie9 hack */
+}
+/* Full */
+.btn-full {
+  width: 100%;
+}
+/* Group  */
+.btn-group {
+  display: inline-block;
+  margin-right: 2px;
+  vertical-align: bottom;
+}
+.btn-group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.btn-group > .btn,
+.btn-group > input {
+  float: left;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  margin-left: -1px;
+}
+.btn-group > .btn:first-child {
+  border-radius: 4px 0 0 4px;
+}
+.btn-group > .btn:last-child {
+  border-radius: 0 4px 4px 0;
+}
+.btn-group > .btn.btn-round:first-child,
+.btn-group > .input-search:first-child {
+  border-radius: 15px 0 0 15px;
+}
+.btn-group > .btn.btn-round:last-child,
+.btn-group > .input-search:last-child {
+  border-radius: 0 15px 15px 0;
+}
+/* Append  */
+.btn-append {
+  margin-left: -2px;
+  border-radius: 0 4px 4px 0;
+}
+/* Disabled  */
+.btn.disabled,
+.btn[disabled] {
+  border: none;
+  filter: none;
+  background: none;
+  background-color: #e9e9e9;
+  opacity: 0.6;
+  cursor: default;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
+}
+/* FF fix */
+@-moz-document url-prefix("http://") {
+  input[type=submit].btn::-moz-focus-inner,
+  button.btn::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }}
+
+/********************************************************************** progress bar *****************************************************/
+
+ul#progress-bar{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#PF-progress-holder{
+	width: 80%;
+	1position: fixed;
+}
+
+#progress-bar{
+  background: #eee;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f5f5f5 #e5e5e5 #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 2px rgba(0,0,0,.2);
+  overflow: hidden;
+  width: 100%;
+}
+
+#progress-bar li{
+  float: left;
+}
+
+#progress-bar a{
+  padding: .7em 1em .7em 2em;
+  float: left;
+  text-decoration: none;
+  color: #444;
+  position: relative;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  background-color: #ddd;
+  background-image: linear-gradient(to right, #f5f5f5, #ddd);
+  
+}
+
+#progress-bar li:first-child a{
+  padding-left: 1em;
+  border-radius: 5px 0 0 5px;
+}
+
+#progress-bar a:hover{
+  background: #ddd;
+}
+
+#progress-bar a:after,
+#progress-bar a:before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  margin-top: -1.5em;   
+  border-top: 1.5em solid transparent;
+  border-bottom: 1.5em solid transparent;
+  border-left: 1em solid;
+  right: -1em;
+}
+
+#progress-bar a:after{ 
+  z-index: 2;
+  border-left-color: #ddd;  
+}
+
+#progress-bar a:before{
+  border-left-color: #ccc;  
+  right: -1.1em;
+  z-index: 1; 
+}
+
+#progress-bar a:hover:after{
+  border-left-color: #ddd;
+}
+
+#progress-bar .current,
+#progress-bar .current:hover{
+  font-weight: bold;
+  background: none;
+}
+
+#progress-bar .current:after,
+#progress-bar .current:before{
+  content: normal;  
+}
+
+
+.progress-icon{
+	padding: 1px 4px 0 0;
+	margin-bottom: -2px;
+}
+
+
+
+/****************** FOR DEMO *******************/
+
+#progress-modal-window{
+	position: absolute;
+	top: -200px;
+	left: 160px;
+	width: 900px;
+	height: 500px;
+	background-color: #fff;
+	border: 2px solid #ddd;
+	border-radius: 6px;
+	z-index: 99;
+}
+
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+.table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.table thead th {
+  vertical-align: bottom;
+}
+
+.table caption + thead tr:first-child th,
+.table caption + thead tr:first-child td,
+.table colgroup + thead tr:first-child th,
+.table colgroup + thead tr:first-child td,
+.table thead:first-child tr:first-child th,
+.table thead:first-child tr:first-child td {
+  border-top: 0;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+
+
+
+
+/*********************************************************** PF SECTIONS *****************************************************/
+
+	
+.PFsection {
+	padding: 16px;
+	width:80%;
+}
+
+
+.q-block {
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+	padding-left: 16px;
+	padding-right: 6px;
+}
+
+h1{
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 10px 0 10px 0;
+}
+
+
+
+/********************************************************* ADMIN screen *********************************************************/
+

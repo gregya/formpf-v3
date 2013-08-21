@@ -1,0 +1,3118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form PF</title>
+<script src="kendo/js/jquery.min.js"></script>
+<script src="kendo/js/kendo.web.min.js"></script>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<link href="kendo/styles/kendo.common.min.css" rel="stylesheet" type="text/css">
+<link href="kendo/styles/kendo.default.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<div id="PF-header">
+		<div id="PF-logo-holder"></div>
+		<div id="PF-page-title">Form PF</div>
+	</div>
+	
+	
+	<div id="PF-filing-body">
+		<div id="PF-progress-holder">
+			<ul id="progress-bar">
+				<li><a href=""><img src="images/check.png" class="progress-icon"/> Section 1a</a></li>
+				<li><a href=""><img src="images/check.png" class="progress-icon"/> Section 1b</a></li>
+				<li><a href=""><img src="images/minus.png" class="progress-icon"/> Section 1c</a></li>
+				<li><a href=""> <img src="images/minus.png" class="progress-icon"/> Section 2a</a></li>
+				<li><a href=""> <img src="images/minus.png" class="progress-icon"/> Section 2b</a></li>
+				<li><a href=""><img src="images/minus.png" class="progress-icon"/> Review</a></li>
+				<li><a href="" class="current"> <img src="images/minus.png" class="progress-icon"/> File</a></li>
+				
+			</ul>
+			
+		</div>
+		
+	<div style="padding: 30px; margin-right: 80px;">
+		
+		<div id="SECTION1A">
+			  <h1>Item A. Information about you</h1>
+  <hr />
+    <div class="q-block">
+    <table width="90%">
+      <tr>
+        <td width="2%" valign="top">1. </td>
+        <td width="3%" valign="top">(a) </td>
+        <td width="95%"><p>Provide your name and the other identifying information requested below.</p>
+        <p>(This should be your full legal name. If you are a sole proprietor, this will be your last, first, and middle names. If you are a SID, enter the full legal name of your bank. Please use the same name that you use in your Form ADV.)</p></td>
+      </tr>
+    </table>
+    <table width="90%" border="0">
+      <tr>
+    <th scope="col">&nbsp;</th>
+    <th align="center" valign="middle" scope="col">Legal name </th>
+    <th align="center" valign="middle" scope="col">SEC 801-Number </th>
+    <th align="center" valign="middle" scope="col">NFA ID Number, if any  	</th>
+    <th align="center" valign="middle" scope="col">Large trader ID, if any  	</th>
+    <th align="center" valign="middle" scope="col">Large trader ID suffix, if any  	</th>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td align="center" valign="middle"><label for="textfield"></label>
+      <input type="text" name="LegalName" id="LegalName"></td>
+    <td align="center" valign="middle"><label for="textfield"></label>
+      <input type="text" name="SECNumber" id="SECNumber"></td>
+    <td align="center" valign="middle"><label for="textfield"></label>
+      <input type="text" name="NFANumber" id="NFANumber"></td>
+    <td align="center" valign="middle"><label for="textfield"></label>
+      <input type="text" name="LargeTraderID" id="LargeTraderID"></td>
+    <td align="center" valign="middle"><label for="textfield"></label>
+      <input type="text" name="LargeTraderIDSuffix" id="LargeTraderIDSuffix"></td>
+  </tr>
+</table>
+</div>
+    
+    
+         <h2>Item B. Information about assets of private funds that you advise  	</h2>
+  <hr />
+  
+  <div class="q-block">
+    <table width="90%" border="0">
+      <tr>
+        <td width="3%" valign="top">3.</td>
+        <td width="97%">Provide a breakdown of your regulatory assets under management and your net assets under management as follows: (If you are filing a quarterly update for your first, second or third fiscal quarter, you are only required to update row (a), in the case of a large hedge fund adviser, or row (b), in the case of a large liquidity fund adviser.) </td>
+      </tr>
+    </table>
+  </div>
+    
+     <div>
+  <table width="90%" border="0">
+  <tr>
+    <th width="3%" scope="col">&nbsp;</th>
+    <th width="54%" scope="col">&nbsp;</th>
+    <th width="23%" scope="col">Regulatory assets under management</th>
+    <th width="20%" scope="col">Net assets under management</th>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(a) Hedge funds </td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="RegulatoryAssetsFunds" id="RegulatoryAssetsFunds"></td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="NetAssetsFunds" id="NetAssetsFunds"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b) Liquidity funds </td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="RegulatoryAssetsFunds" id="RegulatoryAssetsFunds"></td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="NetAssetsFunds" id="NetAssetsFunds"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(c) Private equity funds </td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="RegulatoryAssetsFunds" id="RegulatoryAssetsFunds"></td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="NetAssetsFunds" id="NetAssetsFunds"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(d) Real estate funds </td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="RegulatoryAssetsFunds" id="RegulatoryAssetsFunds"></td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="NetAssetsFunds" id="NetAssetsFunds"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(e) Securitized asset funds </td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="RegulatoryAssetsFunds" id="RegulatoryAssetsFunds"></td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="NetAssetsFunds" id="NetAssetsFunds"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(f) Venture capital funds </td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="RegulatoryAssetsFunds" id="RegulatoryAssetsFunds"></td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="NetAssetsFunds" id="NetAssetsFunds"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(g) Other private funds </td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="RegulatoryAssetsFunds" id="RegulatoryAssetsFunds"></td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="NetAssetsFunds" id="NetAssetsFunds"></td>
+  </tr>
+   <tr>
+     <td>&nbsp;</td>
+    <td>(h) Funds and accounts other than private funds (i.e., the remainder of your assets under management)        </td>
+<td align="center">
+      <input type="text" name="RegulatoryAssetsFunds" id="RegulatoryAssetsFunds"></td>
+  <td align="center">      <input type="text" name="NetAssetsFunds" id="NetAssetsFunds">
+   </td>
+  </tr>
+</table>
+  </div>
+    
+    
+    <div>
+  <h2>Item C. Miscellaneous 	</h2>
+  <hr /> 
+  </div>
+  
+  <div class="q-block">
+    <table width="90%" border="0">
+      <tr>
+        <td>4.</td>
+        <td colspan="3">You may use the space below to explain any assumptions that you made in responding to any question in this Form PF. Assumptions must be in addition to, or reasonably follow from, any instructions or other guidance relating to Form PF. If you are aware of any instructions or other guidance that may require a different assumption, provide a citation and explain why that assumption is not appropriate for this purpose. </td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>Question
+number</td>
+        <td>Description</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td valign="middle">&nbsp;</td>
+        <td valign="top"><input type="text" name="QuestionNumber2" id="QuestionNumber2"> </td>
+        <td><textarea name="Description2" cols="40" rows="2" id="Description2"></textarea></td>
+      </tr>
+      <tr>
+        <td width="2%">&nbsp;</td>
+        <td width="4%">&nbsp;</td>
+        <td width="33%" valign="top"><input type="text" name="QuestionNumber3" id="QuestionNumber3"> </td>
+        <td width="61%"><textarea name="Description3" cols="40" rows="2" id="Description3"></textarea></td>
+      </tr>
+      </table>
+  </div>
+  
+    
+    
+   
+ 
+			
+		</div><!-- don't close-->
+		
+		<div id="SECTION1B">
+			
+<h1>Section 1b: Information about the private funds you advise</h1>
+<hr />
+
+<div>Subject to Instruction 5, you must complete a separate Section 1b for each private fund that you advise.</div>
+
+<h2>Item A. Reporting fund identifying information</h2>
+<hr />
+
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="3%">5.</td>
+    <td width="4%">(a)</td>
+    <td width="44%"> Name of the reporting fund </td>
+    <td width="49%"><label for="textfield"></label>
+      <input name="FundName" type="text" id="FundName"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b)</td>
+    <td> Private fund identification number of the reporting fund </td>
+    <td><label for="textfield"></label>
+      <input type="text" name="FundID" id="FundID"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(c)</td>
+    <td> NFA identification number of the reporting fund, if applicable </td>
+    <td><label for="textfield"></label>
+      <input type="text" name="NFANumber" id="NFANumber"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(d)</td>
+    <td> LEI of the reporting fund, if applicable</td>
+    <td><label for="textfield"></label>
+      <input type="text" name="LEI" id="LEI"></td>
+  </tr>
+</table>
+</div>
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="3%">6.</td>
+    <td colspan="2"><div>Check &ldquo;yes&rdquo; below if the reporting fund is the master fund of a master-feeder arrangement and you are reporting for all of the funds in the master-feeder arrangement on an aggregated basis. Otherwise, check &ldquo;no.&rdquo; 
+          <p>(See Instruction 5 for information regarding aggregation of master-feeder arrangements. If you respond &ldquo;yes,&rdquo; do not complete a separate Section 1b, 1c, 2b, 3 or 4 with respect to any of the feeder funds.) </p>
+        </div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="50%"><input type="radio" name="IsMasterFund" id="IsMasterFund" value="Yes">
+      <label for="radio"></label>      <label for="checkbox">Yes</label></td>
+    <td width="47%">      <input type="radio" name="IsMasterFund" id="IsMasterFund" value="No">
+      No</td>
+  </tr>
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="4%">7.</td>
+    <td colspan="2">(a) Check "yes" below if the reporting fund is the largest fund in a parallel fund structure and you are reporting for all of the funds in the structure on an aggregated basis. Otherwise, check "no."
+(See Instruction 5 for information regarding aggregation of parallel funds. If you respond "yes," do not complete a separate Section 1b, 1c, 2b, 3 or 4 with respect to any of the other parallel funds in the structure.)</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="49%"><input type="radio" name="IsParallelFundsAggregated" id="IsParallelFundsAggregated" value="Yes">      <label for="checkbox">Yes</label></td>
+    <td width="47%"><input type="radio" name="IsParallelFundsAggregated" id="IsParallelFundsAggregated" value="Yes">      
+      No</td>
+  </tr>
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="4%">&nbsp;</td>
+    <td colspan="2">If you responded "yes" to Question 7(a), complete (b) through (e) below for each other parallel
+fund in the parallel fund structure.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="47%">(b) Name of the parallel fund </td>
+    <td width="49%"><label for="textfield70"></label>
+      <input name="FundName" type="text" id="FundName"></td>
+  </tr>
+   <tr>
+    <td>&nbsp;</td>
+    <td width="47%">(c) Private fund identification number of the parallel fund </td>
+    <td width="49%"><input type="text" name="ParallelFundID" id="ParallelFundID"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="47%">(d) NFA identification number of the parallel fund, if applicable </td>
+    <td width="49%"><input type="text" name="NFANumber" id="NFANumber"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="47%">(e) LEI of the parallel fund, if applicable </td>
+    <td width="49%"><input type="text" name="LEI" id="LEI"></td>
+  </tr>
+</table>
+</div>
+
+<h2>Item B. Assets, financing and investor concentration</h2>
+<hr />
+
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td>8. </td>
+    <td>Gross asset value of reporting fund</td>
+    <td><label for="textfield2"></label>
+      <input name="GrossAssetValue" type="text" id="GrossAssetValue" value=""></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="2"><p>(This amount may differ from the amount you reported in response to question 11 of Form ADV Section 7.B.1. For instance, the amounts may not be the same if you are filing Form PF on a quarterly basis, if you are aggregating a master-feeder arrangement for purposes of this Form PF and you did not aggregate that master-feeder arrangement for purposes of Form ADV Section 7.B.1. or if you are aggregating parallel funds for purposes of this Form PF.) </p></td>
+    </tr>
+</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+		</div><!-- don't close-->
+		
+		<div id="SECTION1C">
+			
+			<h1>Section 1c: Information about the hedge funds you advise</h1>
+
+
+<div>Subject to Instruction 5, you must complete a separate Section 1c for each hedge fund that you advise.</div>
+
+<h2>Item A. Reporting fund identifying information</h2>
+<hr />
+
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td>18. </td>
+    <td>(a) Name of the reporting fund</td>
+    <td><label for="textfield"></label>
+      <input type="text" name="textfield" id="textfield"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b) Private fund identification number of the reporting fund </td>
+    <td><input type="text" name="textfield2" id="textfield2"></td>
+  </tr>
+</table>
+</div>
+		
+		
+	<h2>Item B. Certain information regarding the reporting fund</h2>
+<hr />
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td width="5%">19. </td>
+    <td width="95%" colspan="2">Does the reporting fund have a single primary investment strategy or multiple strategies? </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" name="StrategyTypeSM" id="StrategyTypeSM" value="S">
+      <label for="radio"></label>      <label for="checkbox">Single primary strategy </label></td>
+    <td><input type="radio" name="StrategyTypeSM" id="StrategyTypeSM" value="M">      
+      Multi-strategy </td>
+  </tr>
+</table>
+</div>	
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td width="5%">20. </td>
+    <td colspan="3"><p>Indicate which of the investment strategies below best describe the reporting fund&rsquo;s strategies. For each strategy that you have selected, provide a good faith estimate of the percentage of the reporting fund&rsquo;s net asset value represented by that strategy. If, in your view, the reporting fund&rsquo;s allocation among strategies is appropriately represented by the percentage of deployed capital, you may also provide that information.</p> 
+          
+          <p>
+          (Select the investment strategies that best describe the reporting fund&rsquo;s strategies, even if the descriptions below do not precisely match your characterization of those strategies; select &ldquo;other&rdquo; only if a strategy that the reporting fund uses is significantly different from any of the strategies identified below. You may refer to the reporting fund&rsquo;s use of these strategies as of the data reporting date or throughout the reporting period, but you must report using the same basis in future filings.) </p>
+          
+          <p>(The strategies listed below are mutually exclusive (i.e., do not report the same assets under multiple strategies). If providing percentages of capital, the total should add up to approximately 100%.) </p>
+        </td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="45%">Strategy</td>
+    <td width="30%"><p>% of NAV (required) </p></td>
+    <td width="20%">% of capital (optional) 	</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="1" type="checkbox" id="checkbox" value="StrategyChecked">
+      <label for="checkbox"></label>      
+      <label for="checkbox3">Equity, Market Neutral </label></td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="2" type="checkbox" id="checkbox2" value="StrategyChecked">      
+      Equity, Long/Short </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="3" type="checkbox" id="checkbox3" value="StrategyChecked">      
+      Equity, Short Bias </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="4" type="checkbox" id="checkbox4" value="StrategyChecked">      
+      Equity, Long Bias </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="5" type="checkbox" id="checkbox5" value="StrategyChecked">      
+      Macro, Active Trading </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="6" type="checkbox" id="checkbox6" value="StrategyChecked">      
+      Macro, Commodity </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="textfield14" id="textfield14"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="checkbox" name="7" id="checkbox7">      
+      Macro, Currency </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="8" type="checkbox" id="checkbox8" value="StrategyChecked">      
+      Macro, Global Macro </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="checkbox" name="9" id="checkbox9">      
+      Relative Value, Fixed Income Asset Backed </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="10" type="checkbox" id="10" value="StrategyChecked">
+      Relative Value, Fixed Income Convertible Arbitrage </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="11" type="checkbox" id="11" value="StrategyChecked">
+      Relative Value, Fixed Income Corporate<br/></td>
+    <td><input type="text" name="textfield23" id="textfield23"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="12" type="checkbox" id="12" value="StrategyChecked">
+      Relative Value, Fixed Income Sovereign<br/></td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="13" type="checkbox" id="13" value="StrategyChecked">
+      Relative Value, Volatility Arbitrage </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="textfield28" id="textfield28"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="14" type="checkbox" id="14" value="StrategyChecked">
+      Event Driven, Distressed/Restructuring<br/></td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="15" type="checkbox" id="15" value="StrategyChecked">
+      Event Driven, Risk Arbitrage/Merger Arbitrage </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="16" type="checkbox" id="16" value="StrategyChecked">
+      Event Driven, Equity Special Situations </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="17" type="checkbox" id="17" value="StrategyChecked">
+      Credit, Long/Short<br/></td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="18" type="checkbox" id="18" value="StrategyChecked">
+      Credit, Asset Based Lending </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="19" type="checkbox" id="19" value="StrategyChecked">
+      Managed Futures/CTA, Fundamental </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="20" type="checkbox" id="20" value="StrategyChecked">
+      Managed Futures/CTA, Quantitative </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="21" type="checkbox" id="21" value="StrategyChecked">
+      Investment in other funds </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="checkbox22" type="checkbox" id="checkbox22" value="StrategyChecked">
+      Other: 
+        <label for="textfield67"></label>
+        <input name="StrategyOtherDescription" type="text" id="StrategyOtherDescription" size="30"></td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  </table>
+</div>		
+		
+		
+		
+		
+		
+			
+		</div><!-- don't close-->
+		
+		<div id="SECTION2A">
+			<h1>Section 2a: Aggregated information about hedge funds that you advise</h1>
+
+
+<h2>Item A. Exposure of hedge fund assets</h2>
+<hr />
+
+
+<div class="q-block">
+<table width="90%" border="1">
+  <tr>
+    <td width="3%">26. </td>
+    <td colspan="7"><div>
+      <p>Aggregate hedge fund exposures </p>
+      <p>&nbsp;</p>
+      <p>(Give a dollar value for long and short positions as of the last day in each month of the reporting period, by sub-asset class, including all exposure whether held physically, synthetically or through derivatives. Enter &ldquo;NA&rdquo; in each space for which there are no relevant positions.) </p>
+      <p>&nbsp;</p>
+      <p>(Include any closed out and OTC forward positions that have not yet expired/matured. Do not net positions within sub-asset classes. Positions held in side-pockets should be included as positions of the hedge funds. Provide the absolute value of short positions. Each position should only be included in a single sub-asset class.) </p>
+      <p>&nbsp;</p>
+      <p>(Where &ldquo;duration/WAT/10-year eq.&rdquo; is required, provide at least one of the following with respect to the position and indicate which measure is being used: bond duration, weighted average tenor or 10-year bond equivalent. Duration and weighted average tenor should be entered in terms of years to two decimal places.) </p>
+    </div></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="36%">&nbsp;</td>
+    <td colspan="2">1st Month </td>
+    <td colspan="2"> 2nd Month </td>
+    <td colspan="2"> 3rd Month </td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td width="10%">LV</td>
+    <td width="10%">SV</td>
+    <td width="10%">LV</td>
+    <td width="10%">SV</td>
+    <td width="10%">LV</td>
+    <td width="11%">SV</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>Listed equity </td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr id="ListedEquityIssuedByFinancialInstitutions">
+    <td>&nbsp;</td>
+    <td>Issued by financial institutions </td>
+    <td>
+      <input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="ListedEquityOtherListedEquity">
+    <td>&nbsp;</td>
+    <td>Other listed equity </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>Unlisted equity </td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr id="UnlistedEquityIssuedByFinancialInstitutions">
+    <td>&nbsp;</td>
+    <td>Issued by financial institutions </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="UnlistedEquityOtherUnlistedEquity">
+    <td>&nbsp;</td>
+    <td>Other unlisted equity </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>Listed equity derivatives </td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr id="istedEquityDerivativesRelatedToFinancialInstitutions">
+    <td>&nbsp;</td>
+    <td>Related to financial institutions </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="ListedEquityDerivativesOtherListedEquityDerivatives">
+    <td>&nbsp;</td>
+    <td>Other listed equity derivatives </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>Derivative exposures to unlisted equities </td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr id="DerivativeExposuresToUnlistedEquitiesRelatedToFinancialInstitutions">
+    <td>&nbsp;</td>
+    <td>Related to financial institutions </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="DerivativeExposuresToUnlistedEquitiesOtherDerivativeExposuresToUnlistedEquities">
+    <td>&nbsp;</td>
+    <td>Other derivative exposures to unlisted equities. </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsInvestmentGrade">
+    <td>&nbsp;</td>
+    <td>Corporate bonds issued by financial 
+      institutions (other than convertible bonds) </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsInvestmentGradeMeasure">
+    <td>&nbsp;</td>
+    <td>Investment grade </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>
+    
+    <input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsInvestmentGradeMeasure" id="DRTN" value="DRTN">
+     
+      Duration 
+      
+      <input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsInvestmentGradeMeasure" id="WAT" value="radio">
+WAT
+<input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsInvestmentGradeMeasure" id="10YR-EQ" value="radio"> 10-year eq
+      </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="textfield63" type="text" id="textfield63" size="10"></td>
+    <td><input name="textfield64" type="text" id="textfield64" size="10"></td>
+    <td><input name="textfield65" type="text" id="textfield65" size="10"></td>
+    <td><input name="textfield66" type="text" id="textfield66" size="10"></td>
+  </tr>
+  <tr id="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGrade">
+    <td>&nbsp;</td>
+    <td>Non-investment grade </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGrade" id="InvestmentGradeMeasureCodeType" value="DRTN">
+      <label for="checkbox"></label>
+Duration
+<input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGrade" id="InvestmentGradeMeasureCodeType" value="radio">
+WAT
+<input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGrade" id="InvestmentGradeMeasureCodeType" value="radio">
+<label for="checkbox9"></label>
+10-year eq
+<label for="checkbox8"></label></td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="textfield75" type="text" id="textfield75" size="10"></td>
+    <td><input name="textfield76" type="text" id="textfield76" size="10"></td>
+    <td><input name="textfield77" type="text" id="textfield77" size="10"></td>
+    <td><input name="textfield78" type="text" id="textfield78" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><p>Corporate bonds not issued by financial institutions (other than convertible bonds) </p></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr id="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure">
+    <td>&nbsp;</td>
+    <td>Investment grade </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CorporateBondsNotIssuedByFinancialInstitutionsOtherThanConvertibleBondsInvestmentGradeMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure" id="DRTN3" value="DRTN">
+      
+Duration
+<input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure" id="WAT3" value="WAT3">
+WAT
+<input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure" id="10YR-EQ3" value="10YR-EQ3">
+<label for="checkbox12"></label>
+10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="textfield87" type="text" id="textfield87" size="10"></td>
+    <td><input name="textfield88" type="text" id="textfield88" size="10"></td>
+    <td><input name="textfield89" type="text" id="textfield89" size="10"></td>
+    <td><input name="textfield90" type="text" id="textfield90" size="10"></td>
+  </tr>
+  <tr id="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure">
+    <td>&nbsp;</td>
+    <td>Non-investment grade </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CorporateBondsNotIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure" id="DRTN" value="DRTN">
+      
+Duration
+<input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure" id="WAT" value="WAT">
+WAT
+<input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure" id="10YR-EQ4" value="10YR-EQ4">
+
+10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="ConvertibleBondsIssuedByFinancialInstitutionsInvestmentGrade">
+    <td>&nbsp;</td>
+    <td><p>Convertible bonds issued by financial institutions </p></td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="ConvertibleBondsIssuedByFinancialInstitutionsInvestmentGrade">
+    <td>&nbsp;</td>
+    <td>Investment grade </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="ConvertibleBondsIssuedByFinancialInstitutionsInvestmentGradeMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="ConvertibleBondsIssuedByFinancialInstitutionsInvestmentGrade" id="DRTN" value="DRTN">
+      
+Duration
+<input type="radio" name="ConvertibleBondsIssuedByFinancialInstitutionsInvestmentGrade" id="WAT" value="WAT">
+WAT
+<input type="radio" name="ConvertibleBondsIssuedByFinancialInstitutionsInvestmentGrade" id="10YR-EQ5" value="10YR-EQ5">
+<label for="checkbox12"></label>
+      10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="ConvertibleBondsIssuedByFinancialInstitutionsNonInvestmentGrade">
+    <td>&nbsp;</td>
+    <td>Non-investment grade </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="onvertibleBondsIssuedByFinancialInstitutionsInvestmentGradeMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="ConvertibleBondsIssuedByFinancialInstitutionsNonInvestmentGrade" id="DRTN" value="DRTN">
+     
+Duration
+<input type="radio" name="ConvertibleBondsIssuedByFinancialInstitutionsNonInvestmentGrade" id="WAT" value="WAT">
+WAT
+<input type="radio" name="ConvertibleBondsIssuedByFinancialInstitutionsNonInvestmentGrade" id="10YR-EQ" value="10YR-EQ">
+
+      10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><p>Convertible bonds not issued by financial institutions </p></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr id="ConvertibleBondsNotIssuedByFinancialInstitutionsInvestmentGrade">
+    <td>&nbsp;</td>
+    <td>Investment grade </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="onvertibleBondsNotIssuedByFinancialInstitutionsInvestmentGradeMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="ConvertibleBondsNotIssuedByFinancialInstitutionsInvestmentGrade" id="DRTN" value="DRTN">
+      
+Duration
+<input type="radio" name="ConvertibleBondsNotIssuedByFinancialInstitutionsInvestmentGrade" id="WAT" value="WAT">
+WAT
+<input type="radio" name="ConvertibleBondsNotIssuedByFinancialInstitutionsInvestmentGrade" id="10YR-EQ" value="10YR-EQ">
+
+      10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="ConvertibleBondsNotIssuedByFinancialInstitutionsNonInvestmentGrade">
+    <td>&nbsp;</td>
+    <td>Non-investment grade </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="ConvertibleBondsNotIssuedByFinancialInstitutionsNonInvestmentGradeMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="ConvertibleBondsNotIssuedByFinancialInstitutionsNonInvestmentGrade" id="DRTN" value="DRTN">
+     
+Duration
+<input type="radio" name="ConvertibleBondsNotIssuedByFinancialInstitutionsNonInvestmentGrade" id="WAT" value="WAT">
+WAT
+<input type="radio" name="ConvertibleBondsNotIssuedByFinancialInstitutionsNonInvestmentGrade" id="10YR-EQ" value="10YR-EQ">
+
+      10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>Sovereign bonds and municipal bonds<br/></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr id="SovereignBondsUSTreasurySecurities">
+    <td>&nbsp;</td>
+    <td>U.S. treasury securities </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="SovereignBondsUSTreasurySecuritiesMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="SovereignBondsUSTreasurySecurities" id="DRTN" value="DRTN">
+     
+Duration
+<input type="radio" name="SovereignBondsUSTreasurySecurities" id="WAT" value="WAT">
+WAT
+<input type="radio" name="SovereignBondsUSTreasurySecurities" id="10YR-EQ" value="10YR-EQ">
+
+      10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="SovereignBondsAgencySecurities">
+    <td>&nbsp;</td>
+    <td>Agency securities </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="SovereignBondsAgencySecuritiesMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="SovereignBondsAgencySecurities" id="DRTN" value="DRTN">
+    
+Duration
+<input type="radio" name="SovereignBondsAgencySecurities" id="WAT" value="WAT">
+WAT
+<input type="radio" name="SovereignBondsAgencySecurities" id="10YR-EQ" value="10YR-EQ">
+<label for="checkbox18"></label>
+10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="SovereignBondsGSEBonds">
+    <td>&nbsp;</td>
+    <td>GSE bonds </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="SovereignBondsGSEBondsMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="SovereignBondsGSEBonds" id="DRTN" value="DRTN">
+  
+Duration
+<input type="radio" name="SovereignBondsGSEBonds" id="WAT" value="radio">
+WAT
+<input type="radio" name="SovereignBondsGSEBonds" id="10YR-EQ" value="10YR-EQ">
+
+10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="SovereignBondsNonUSG10Countries">
+    <td>&nbsp;</td>
+    <td>Sovereign bonds issued by G10 countries other than the U.S.</td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="SovereignBondsNonUSG10CountriesMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="SovereignBondsNonUSG10Countries" id="DRTN" value="DRTN">
+      
+Duration
+<input type="radio" name="SovereignBondsNonUSG10Countries" id="WAT" value="WAT">
+WAT
+<input type="radio" name="SovereignBondsNonUSG10Countries" id="10YR-EQ" value="10YR-EQ">
+10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="SovereignBondsOther">
+    <td>&nbsp;</td>
+    <td><p>Other sovereign bonds (including supranational bonds) </p></td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="SovereignBondsOtherMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="SovereignBondsOther" id="DRTN" value="DRTN">
+      
+Duration
+<input type="radio" name="SovereignBondsOther" id="WAT" value="radio">
+WAT
+<input type="radio" name="SovereignBondsOther" id="10YR-EQ" value="10YR-EQ">
+
+10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="MunicipalBondsUSStateLocal">
+    <td>&nbsp;</td>
+    <td>U.S. state and local bonds </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="MunicipalBondsUSStateLocalMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="MunicipalBondsUSStateLocal" id="DRTN" value="DRTN">
+      
+Duration
+<input type="radio" name="MunicipalBondsUSStateLocal" id="WAT" value="radio" />
+WAT
+<input type="radio" name="MunicipalBondsUSStateLocal" id="10YR-EQ" value="10YR-EQ" />
+
+10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>Loans</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr id="LoansLeveraged">
+    <td>&nbsp;</td>
+    <td>Leveraged loans </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="LoansLeveragedMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="LoansLeveragedMeasure" id="DRTN" value="DRTN">
+      
+Duration
+<input type="radio" name="LoansLeveragedMeasure" id="WAT" value="WAT">
+WAT
+<input type="radio" name="LoansLeveragedMeasure" id="10YR-EQ" value="10YR-EQ">
+<label for="checkbox33"></label>
+10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="LoansOther">
+    <td>&nbsp;</td>
+    <td>Other loans (not including repos) </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="LoansOtherMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="LoansOther" id="DRTN" value="DRTN" />
+      
+Duration
+<input type="radio" name="LoansOther" id="WAT" value="WAT" />
+WAT
+<input type="radio" name="LoansOther" id="10YR-EQ" value="10YR-EQ" />
+
+10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="Repos">
+    <td>&nbsp;</td>
+    <td>Repos </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="ReposMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="Repos" id="DRTN" value="DRTN">
+    
+Duration
+<input type="radio" name="Repos" id="WAT" value="WAT">
+WAT
+<input type="radio" name="Repos" id="10YR-EQ" value="10YR-EQ">
+10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>ABS/structured products</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr id="StructuredProductsMBS">
+    <td>&nbsp;</td>
+    <td>MBS </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="StructuredProductsMBSMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="StructuredProductsMBS" id="DRTN" value="DRTN">
+      
+Duration
+<input type="radio" name="StructuredProductsMBS" id="WAT" value="WAT">
+WAT
+<input type="radio" name="StructuredProductsMBS" id="10YR-EQ" value="10YR-EQ">
+
+10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="StructuredProductsABCP">
+    <td>&nbsp;</td>
+    <td>ABCP </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="StructuredProductsABCPMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="StructuredProductsABCP" id="DRTN" value="DRTN">
+  
+Duration
+<input type="radio" name="StructuredProductsABCP" id="WAT" value="WAT">
+WAT
+<input type="radio" name="StructuredProductsABCP" id="10YR-EQ" value="10YR-EQ">
+
+10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="StructuredProductsCDOCLO">
+    <td>&nbsp;</td>
+    <td>CDO/CLO </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="StructuredProductsCDOCLOMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="StructuredProductsCDOCLO" id="DRTN" value="DRTN">
+      
+Duration
+<input type="radio" name="StructuredProductsCDOCLO" id="WAT" value="WAT">
+WAT
+<input type="radio" name="StructuredProductsCDOCLO" id="10YR-EQ" value="10YR-EQ">
+
+10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="StructuredProductsOtherABS">
+    <td>&nbsp;</td>
+    <td>Other ABS </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="StructuredProductsOtherABSMeasure" >
+    <td>&nbsp;</td>
+    <td><input type="radio" name="StructuredProductsOtherABS" id="DRTN" value="DRTN">
+     
+Duration
+<input type="radio" name="StructuredProductsOtherABS" id="WAT" value="radio">
+WAT
+<input type="radio" name="StructuredProductsOtherABS" id="10YR-EQ" value="10YR-EQ">
+
+10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="StructuredProductsOther">
+    <td>&nbsp;</td>
+    <td>Other structured products </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="StructuredProductsOtherMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="StructuredProductsOther" id="DRTN" value="DRTN">
+      
+Duration
+<input type="radio" name="StructuredProductsOther" id="WAT" value="WAT">
+WAT
+<input type="radio" name="StructuredProductsOther" id="10YR-EQ" value="10YR-EQ">
+
+10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>Credit derivatives</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr id="CreditDerivativesSingleNameCDS">
+    <td>&nbsp;</td>
+    <td>Single name CDS </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CreditDerivativesIndexCDS">
+    <td>&nbsp;</td>
+    <td>Index CDS </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CreditDerivativesExoticCDS">
+    <td>&nbsp;</td>
+    <td>Exotic CDS </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="ForeignExchangeDerivativesInvestment">
+    <td>&nbsp;</td>
+    <td>Foreign exchange derivatives (investment) </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="ForeignExchangeDerivativesHedging">
+    <td>&nbsp;</td>
+    <td>Foreign exchange derivatives (hedging) </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="NonUSCurrencyHoldings">
+    <td>&nbsp;</td>
+    <td>Non-U.S. currency holdings </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="InterestRateDerivatives">
+    <td>&nbsp;</td>
+    <td>Interest rate derivatives </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>Commodities (derivatives)</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr id="CommoditiesDerivativesCrudeOil">
+    <td>&nbsp;</td>
+    <td>Crude oil </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CommoditiesDerivativesNaturalGas">
+    <td>&nbsp;</td>
+    <td>Natural gas </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CommoditiesDerivativesGold">
+    <td>&nbsp;</td>
+    <td>Gold </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CommoditiesDerivativesPower">
+    <td>&nbsp;</td>
+    <td>Power </td>
+
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CommoditiesDerivativesOther">
+    <td>&nbsp;</td>
+    <td>Other commodities </td>
+
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>Commodities (physical)</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr id="CommoditiesPhysicalCrudeOil">
+    <td>&nbsp;</td>
+    <td>Crude oil </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CommoditiesPhysicalNaturalGas">
+    <td>&nbsp;</td>
+    <td>Natural gas </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CommoditiesPhysicalGold">
+    <td>&nbsp;</td>
+    <td>Gold </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CommoditiesPhysicalPower">
+    <td>&nbsp;</td>
+    <td>Power </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CommoditiesPhysicalOther">
+    <td>&nbsp;</td>
+    <td>Other commodities </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="OtherDerivatives">
+    <td>&nbsp;</td>
+    <td>Other derivatives </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="PhysicalRealEstate">
+    <td>&nbsp;</td>
+    <td>Physical real estate </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="InvestmentsInInternalPrivateFunds">
+    <td>&nbsp;</td>
+    <td>Investments in internal private funds </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="InvestmentsInExternalPrivateFunds">
+    <td>&nbsp;</td>
+    <td>Investments in external private funds. </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="InvestmentsInRegisteredInvestmentCompanies">
+    <td>&nbsp;</td>
+    <td><p>Investments in registered investment companies </p></td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>Cash and cash equivalents</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr id="CashEquivalentsCD">
+    <td>&nbsp;</td>
+    <td>Certificates of deposit </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CashEquivalentsCDMeasure">
+    <td>&nbsp;</td>
+    <td><input type="radio" name="CashEquivalentsCD" id="DRTN" value="DRTN">
+
+Duration
+<input type="radio" name="CashEquivalentsCD" id="WAT" value="WAT"/>
+WAT
+<input type="radio" name="CashEquivalentsCD" id="10YR-EQ" value="10YR-EQ">
+
+10-year eq </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CashEquivalentsOtherDeposits">
+    <td>&nbsp;</td>
+    <td>Other deposits </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CashEquivalentsMoneyMarketFunds">
+    <td>&nbsp;</td>
+    <td>Money market funds </td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="CashEquivalentsOther">
+    <td>&nbsp;</td>
+    <td><p>Other cash and cash equivalents (excluding government securities) </p></td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="InvestmentsNonMoneyMarketFunds">
+    <td>&nbsp;</td>
+    <td><p>Investments in funds for cash management purposes (other than money market funds) </p></td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+  <tr id="InvestmentsOtherSubAssets">
+    <td>&nbsp;</td>
+    <td>Investments in other sub-asset classes <br/></td>
+    <td><input name="Month1LV" type="text" id="Month1LV" size="10">
+    </td>
+    <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+    <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+    <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+    <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+    <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+  </tr>
+</table>
+</div>
+		</div><!-- don't close-->
+		
+		<div id="SECTION2B">
+		
+<h1>Section 2b: Information about qualifying hedge funds that you advise.</h1>
+
+<div>You must complete a separate Section 2b for each qualifying hedge fund that you advise. However, with respect to master-feeder arrangements and parallel fund structures that collectively comprise qualifying hedge funds, you may report collectively or separately about the component funds as provided in the General Instructions.</div>
+
+
+<h2>Item A. Reporting fund identifying information</h2>
+<hr />
+
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td>29. </td>
+    <td>(a) Name of the reporting fund </td>
+    <td><label for="textfield"></label>
+      <input type="text" name="textfield" id="textfield"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b) Private fund identification number of the reporting fund</td>
+    <td><input type="text" name="textfield2" id="textfield2"></td>
+  </tr>
+</table>
+</div>
+
+
+<h2>Item B. Reporting fund exposures and trading</h2>
+<hr />
+
+<div>Check this box if you advise only one hedge fund. If you check this box, you may skip Question 30. <input name="" type="checkbox" value=""></div>
+
+
+
+
+
+<div class="q-block">
+  <table width="90%" border="1">
+    <tr>
+      <td width="3%">26. </td>
+      <td colspan="7"><div>
+        <p>Aggregate hedge fund exposures </p>
+        <p>&nbsp;</p>
+        <p>(Give a dollar value for long and short positions as of the last day in each month of the reporting period, by sub-asset class, including all exposure whether held physically, synthetically or through derivatives. Enter &ldquo;NA&rdquo; in each space for which there are no relevant positions.) </p>
+        <p>&nbsp;</p>
+        <p>(Include any closed out and OTC forward positions that have not yet expired/matured. Do not net positions within sub-asset classes. Positions held in side-pockets should be included as positions of the hedge funds. Provide the absolute value of short positions. Each position should only be included in a single sub-asset class.) </p>
+        <p>&nbsp;</p>
+        <p>(Where &ldquo;duration/WAT/10-year eq.&rdquo; is required, provide at least one of the following with respect to the position and indicate which measure is being used: bond duration, weighted average tenor or 10-year bond equivalent. Duration and weighted average tenor should be entered in terms of years to two decimal places.) </p>
+      </div></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td width="36%">&nbsp;</td>
+      <td colspan="2">1st Month </td>
+      <td colspan="2"> 2nd Month </td>
+      <td colspan="2"> 3rd Month </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td width="10%">LV</td>
+      <td width="10%">SV</td>
+      <td width="10%">LV</td>
+      <td width="10%">SV</td>
+      <td width="10%">LV</td>
+      <td width="11%">SV</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Listed equity </td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr id="ListedEquityIssuedByFinancialInstitutions">
+      <td>&nbsp;</td>
+      <td>Issued by financial institutions </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="ListedEquityOtherListedEquity">
+      <td>&nbsp;</td>
+      <td>Other listed equity </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Unlisted equity </td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr id="UnlistedEquityIssuedByFinancialInstitutions">
+      <td>&nbsp;</td>
+      <td>Issued by financial institutions </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="UnlistedEquityOtherUnlistedEquity">
+      <td>&nbsp;</td>
+      <td>Other unlisted equity </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Listed equity derivatives </td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr id="istedEquityDerivativesRelatedToFinancialInstitutions">
+      <td>&nbsp;</td>
+      <td>Related to financial institutions </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="ListedEquityDerivativesOtherListedEquityDerivatives">
+      <td>&nbsp;</td>
+      <td>Other listed equity derivatives </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Derivative exposures to unlisted equities </td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr id="DerivativeExposuresToUnlistedEquitiesRelatedToFinancialInstitutions">
+      <td>&nbsp;</td>
+      <td>Related to financial institutions </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="DerivativeExposuresToUnlistedEquitiesOtherDerivativeExposuresToUnlistedEquities">
+      <td>&nbsp;</td>
+      <td>Other derivative exposures to unlisted equities. </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsInvestmentGrade">
+      <td>&nbsp;</td>
+      <td>Corporate bonds issued by financial 
+        institutions (other than convertible bonds) </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsInvestmentGradeMeasure">
+      <td>&nbsp;</td>
+      <td>Investment grade </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsInvestmentGradeMeasure" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsInvestmentGradeMeasure" id="WAT" value="radio">
+        WAT
+        <input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsInvestmentGradeMeasure" id="10YR-EQ" value="radio">
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="textfield63" type="text" id="textfield63" size="10"></td>
+      <td><input name="textfield64" type="text" id="textfield64" size="10"></td>
+      <td><input name="textfield65" type="text" id="textfield65" size="10"></td>
+      <td><input name="textfield66" type="text" id="textfield66" size="10"></td>
+    </tr>
+    <tr id="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGrade">
+      <td>&nbsp;</td>
+      <td>Non-investment grade </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGrade" id="InvestmentGradeMeasureCodeType" value="DRTN">
+        <label for="checkbox"></label>
+        Duration
+        <input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGrade" id="InvestmentGradeMeasureCodeType" value="radio">
+        WAT
+        <input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGrade" id="InvestmentGradeMeasureCodeType" value="radio">
+        <label for="checkbox9"></label>
+        10-year eq
+        <label for="checkbox8"></label></td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="textfield75" type="text" id="textfield75" size="10"></td>
+      <td><input name="textfield76" type="text" id="textfield76" size="10"></td>
+      <td><input name="textfield77" type="text" id="textfield77" size="10"></td>
+      <td><input name="textfield78" type="text" id="textfield78" size="10"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><p>Corporate bonds not issued by financial institutions (other than convertible bonds) </p></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr id="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure">
+      <td>&nbsp;</td>
+      <td>Investment grade </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CorporateBondsNotIssuedByFinancialInstitutionsOtherThanConvertibleBondsInvestmentGradeMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure" id="DRTN3" value="DRTN">
+        Duration
+        <input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure" id="WAT3" value="WAT3">
+        WAT
+        <input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure" id="10YR-EQ3" value="10YR-EQ3">
+        <label for="checkbox12"></label>
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="textfield87" type="text" id="textfield87" size="10"></td>
+      <td><input name="textfield88" type="text" id="textfield88" size="10"></td>
+      <td><input name="textfield89" type="text" id="textfield89" size="10"></td>
+      <td><input name="textfield90" type="text" id="textfield90" size="10"></td>
+    </tr>
+    <tr id="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure">
+      <td>&nbsp;</td>
+      <td>Non-investment grade </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CorporateBondsNotIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure" id="WAT" value="WAT">
+        WAT
+        <input type="radio" name="CorporateBondsIssuedByFinancialInstitutionsOtherThanConvertibleBondsNonInvestmentGradeMeasure" id="10YR-EQ4" value="10YR-EQ4">
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="ConvertibleBondsIssuedByFinancialInstitutionsInvestmentGrade">
+      <td>&nbsp;</td>
+      <td><p>Convertible bonds issued by financial institutions </p></td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="ConvertibleBondsIssuedByFinancialInstitutionsInvestmentGrade">
+      <td>&nbsp;</td>
+      <td>Investment grade </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="ConvertibleBondsIssuedByFinancialInstitutionsInvestmentGradeMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="ConvertibleBondsIssuedByFinancialInstitutionsInvestmentGrade" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="ConvertibleBondsIssuedByFinancialInstitutionsInvestmentGrade" id="WAT" value="WAT">
+        WAT
+        <input type="radio" name="ConvertibleBondsIssuedByFinancialInstitutionsInvestmentGrade" id="10YR-EQ5" value="10YR-EQ5">
+        <label for="checkbox12"></label>
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="ConvertibleBondsIssuedByFinancialInstitutionsNonInvestmentGrade">
+      <td>&nbsp;</td>
+      <td>Non-investment grade </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="onvertibleBondsIssuedByFinancialInstitutionsInvestmentGradeMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="ConvertibleBondsIssuedByFinancialInstitutionsNonInvestmentGrade" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="ConvertibleBondsIssuedByFinancialInstitutionsNonInvestmentGrade" id="WAT" value="WAT">
+        WAT
+        <input type="radio" name="ConvertibleBondsIssuedByFinancialInstitutionsNonInvestmentGrade" id="10YR-EQ" value="10YR-EQ">
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><p>Convertible bonds not issued by financial institutions </p></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr id="ConvertibleBondsNotIssuedByFinancialInstitutionsInvestmentGrade">
+      <td>&nbsp;</td>
+      <td>Investment grade </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="onvertibleBondsNotIssuedByFinancialInstitutionsInvestmentGradeMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="ConvertibleBondsNotIssuedByFinancialInstitutionsInvestmentGrade" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="ConvertibleBondsNotIssuedByFinancialInstitutionsInvestmentGrade" id="WAT" value="WAT">
+        WAT
+        <input type="radio" name="ConvertibleBondsNotIssuedByFinancialInstitutionsInvestmentGrade" id="10YR-EQ" value="10YR-EQ">
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="ConvertibleBondsNotIssuedByFinancialInstitutionsNonInvestmentGrade">
+      <td>&nbsp;</td>
+      <td>Non-investment grade </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="ConvertibleBondsNotIssuedByFinancialInstitutionsNonInvestmentGradeMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="ConvertibleBondsNotIssuedByFinancialInstitutionsNonInvestmentGrade" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="ConvertibleBondsNotIssuedByFinancialInstitutionsNonInvestmentGrade" id="WAT" value="WAT">
+        WAT
+        <input type="radio" name="ConvertibleBondsNotIssuedByFinancialInstitutionsNonInvestmentGrade" id="10YR-EQ" value="10YR-EQ">
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Sovereign bonds and municipal bonds<br/></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr id="SovereignBondsUSTreasurySecurities">
+      <td>&nbsp;</td>
+      <td>U.S. treasury securities </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="SovereignBondsUSTreasurySecuritiesMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="SovereignBondsUSTreasurySecurities" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="SovereignBondsUSTreasurySecurities" id="WAT" value="WAT">
+        WAT
+        <input type="radio" name="SovereignBondsUSTreasurySecurities" id="10YR-EQ" value="10YR-EQ">
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="SovereignBondsAgencySecurities">
+      <td>&nbsp;</td>
+      <td>Agency securities </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="SovereignBondsAgencySecuritiesMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="SovereignBondsAgencySecurities" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="SovereignBondsAgencySecurities" id="WAT" value="WAT">
+        WAT
+        <input type="radio" name="SovereignBondsAgencySecurities" id="10YR-EQ" value="10YR-EQ">
+        <label for="checkbox18"></label>
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="SovereignBondsGSEBonds">
+      <td>&nbsp;</td>
+      <td>GSE bonds </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="SovereignBondsGSEBondsMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="SovereignBondsGSEBonds" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="SovereignBondsGSEBonds" id="WAT" value="radio">
+        WAT
+        <input type="radio" name="SovereignBondsGSEBonds" id="10YR-EQ" value="10YR-EQ">
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="SovereignBondsNonUSG10Countries">
+      <td>&nbsp;</td>
+      <td>Sovereign bonds issued by G10 countries other than the U.S.</td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="SovereignBondsNonUSG10CountriesMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="SovereignBondsNonUSG10Countries" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="SovereignBondsNonUSG10Countries" id="WAT" value="WAT">
+        WAT
+        <input type="radio" name="SovereignBondsNonUSG10Countries" id="10YR-EQ" value="10YR-EQ">
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="SovereignBondsOther">
+      <td>&nbsp;</td>
+      <td><p>Other sovereign bonds (including supranational bonds) </p></td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="SovereignBondsOtherMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="SovereignBondsOther" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="SovereignBondsOther" id="WAT" value="radio">
+        WAT
+        <input type="radio" name="SovereignBondsOther" id="10YR-EQ" value="10YR-EQ">
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="MunicipalBondsUSStateLocal">
+      <td>&nbsp;</td>
+      <td>U.S. state and local bonds </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="MunicipalBondsUSStateLocalMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="MunicipalBondsUSStateLocal" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="MunicipalBondsUSStateLocal" id="WAT" value="radio" />
+        WAT
+        <input type="radio" name="MunicipalBondsUSStateLocal" id="10YR-EQ" value="10YR-EQ" />
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Loans</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr id="LoansLeveraged">
+      <td>&nbsp;</td>
+      <td>Leveraged loans </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="LoansLeveragedMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="LoansLeveragedMeasure" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="LoansLeveragedMeasure" id="WAT" value="WAT">
+        WAT
+        <input type="radio" name="LoansLeveragedMeasure" id="10YR-EQ" value="10YR-EQ">
+        <label for="checkbox33"></label>
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="LoansOther">
+      <td>&nbsp;</td>
+      <td>Other loans (not including repos) </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="LoansOtherMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="LoansOther" id="DRTN" value="DRTN" />
+        Duration
+        <input type="radio" name="LoansOther" id="WAT" value="WAT" />
+        WAT
+        <input type="radio" name="LoansOther" id="10YR-EQ" value="10YR-EQ" />
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="Repos">
+      <td>&nbsp;</td>
+      <td>Repos </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="ReposMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="Repos" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="Repos" id="WAT" value="WAT">
+        WAT
+        <input type="radio" name="Repos" id="10YR-EQ" value="10YR-EQ">
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>ABS/structured products</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr id="StructuredProductsMBS">
+      <td>&nbsp;</td>
+      <td>MBS </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="StructuredProductsMBSMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="StructuredProductsMBS" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="StructuredProductsMBS" id="WAT" value="WAT">
+        WAT
+        <input type="radio" name="StructuredProductsMBS" id="10YR-EQ" value="10YR-EQ">
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="StructuredProductsABCP">
+      <td>&nbsp;</td>
+      <td>ABCP </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="StructuredProductsABCPMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="StructuredProductsABCP" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="StructuredProductsABCP" id="WAT" value="WAT">
+        WAT
+        <input type="radio" name="StructuredProductsABCP" id="10YR-EQ" value="10YR-EQ">
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="StructuredProductsCDOCLO">
+      <td>&nbsp;</td>
+      <td>CDO/CLO </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="StructuredProductsCDOCLOMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="StructuredProductsCDOCLO" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="StructuredProductsCDOCLO" id="WAT" value="WAT">
+        WAT
+        <input type="radio" name="StructuredProductsCDOCLO" id="10YR-EQ" value="10YR-EQ">
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="StructuredProductsOtherABS">
+      <td>&nbsp;</td>
+      <td>Other ABS </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="StructuredProductsOtherABSMeasure" >
+      <td>&nbsp;</td>
+      <td><input type="radio" name="StructuredProductsOtherABS" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="StructuredProductsOtherABS" id="WAT" value="radio">
+        WAT
+        <input type="radio" name="StructuredProductsOtherABS" id="10YR-EQ" value="10YR-EQ">
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="StructuredProductsOther">
+      <td>&nbsp;</td>
+      <td>Other structured products </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="StructuredProductsOtherMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="StructuredProductsOther" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="StructuredProductsOther" id="WAT" value="WAT">
+        WAT
+        <input type="radio" name="StructuredProductsOther" id="10YR-EQ" value="10YR-EQ">
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Credit derivatives</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr id="CreditDerivativesSingleNameCDS">
+      <td>&nbsp;</td>
+      <td>Single name CDS </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CreditDerivativesIndexCDS">
+      <td>&nbsp;</td>
+      <td>Index CDS </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CreditDerivativesExoticCDS">
+      <td>&nbsp;</td>
+      <td>Exotic CDS </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="ForeignExchangeDerivativesInvestment">
+      <td>&nbsp;</td>
+      <td>Foreign exchange derivatives (investment) </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="ForeignExchangeDerivativesHedging">
+      <td>&nbsp;</td>
+      <td>Foreign exchange derivatives (hedging) </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="NonUSCurrencyHoldings">
+      <td>&nbsp;</td>
+      <td>Non-U.S. currency holdings </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="InterestRateDerivatives">
+      <td>&nbsp;</td>
+      <td>Interest rate derivatives </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Commodities (derivatives)</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr id="CommoditiesDerivativesCrudeOil">
+      <td>&nbsp;</td>
+      <td>Crude oil </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CommoditiesDerivativesNaturalGas">
+      <td>&nbsp;</td>
+      <td>Natural gas </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CommoditiesDerivativesGold">
+      <td>&nbsp;</td>
+      <td>Gold </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CommoditiesDerivativesPower">
+      <td>&nbsp;</td>
+      <td>Power </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CommoditiesDerivativesOther">
+      <td>&nbsp;</td>
+      <td>Other commodities </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Commodities (physical)</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr id="CommoditiesPhysicalCrudeOil">
+      <td>&nbsp;</td>
+      <td>Crude oil </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CommoditiesPhysicalNaturalGas">
+      <td>&nbsp;</td>
+      <td>Natural gas </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CommoditiesPhysicalGold">
+      <td>&nbsp;</td>
+      <td>Gold </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CommoditiesPhysicalPower">
+      <td>&nbsp;</td>
+      <td>Power </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CommoditiesPhysicalOther">
+      <td>&nbsp;</td>
+      <td>Other commodities </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="OtherDerivatives">
+      <td>&nbsp;</td>
+      <td>Other derivatives </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="PhysicalRealEstate">
+      <td>&nbsp;</td>
+      <td>Physical real estate </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="InvestmentsInInternalPrivateFunds">
+      <td>&nbsp;</td>
+      <td>Investments in internal private funds </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="InvestmentsInExternalPrivateFunds">
+      <td>&nbsp;</td>
+      <td>Investments in external private funds. </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="InvestmentsInRegisteredInvestmentCompanies">
+      <td>&nbsp;</td>
+      <td><p>Investments in registered investment companies </p></td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Cash and cash equivalents</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr id="CashEquivalentsCD">
+      <td>&nbsp;</td>
+      <td>Certificates of deposit </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CashEquivalentsCDMeasure">
+      <td>&nbsp;</td>
+      <td><input type="radio" name="CashEquivalentsCD" id="DRTN" value="DRTN">
+        Duration
+        <input type="radio" name="CashEquivalentsCD" id="WAT" value="WAT"/>
+        WAT
+        <input type="radio" name="CashEquivalentsCD" id="10YR-EQ" value="10YR-EQ">
+        10-year eq </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CashEquivalentsOtherDeposits">
+      <td>&nbsp;</td>
+      <td>Other deposits </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CashEquivalentsMoneyMarketFunds">
+      <td>&nbsp;</td>
+      <td>Money market funds </td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="CashEquivalentsOther">
+      <td>&nbsp;</td>
+      <td><p>Other cash and cash equivalents (excluding government securities) </p></td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="InvestmentsNonMoneyMarketFunds">
+      <td>&nbsp;</td>
+      <td><p>Investments in funds for cash management purposes (other than money market funds) </p></td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+    <tr id="InvestmentsOtherSubAssets">
+      <td>&nbsp;</td>
+      <td>Investments in other sub-asset classes <br/></td>
+      <td><input name="Month1LV" type="text" id="Month1LV" size="10"></td>
+      <td><input name="Month1SV" type="text" id="Month1SV" size="10"></td>
+      <td><input name="Month2LV" type="text" id="Month2LV" size="10"></td>
+      <td><input name="Month2SV" type="text" id="Month2SV" size="10"></td>
+      <td><input name="Month3LV" type="text" id="Month3LV" size="10"></td>
+      <td><input name="Month3SV" type="text" id="Month3SV" size="10"></td>
+    </tr>
+  </table>
+</div>	
+			
+			
+		</div><!-- don't close-->
+		
+		
+	</div>	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div><!-- close PF-filing-body -->
+	
+	<div id="PF-filing-menu">
+		
+		<div id="PF-filing-menu-top">
+			<div id="PF-filing-menu-filing-title"> Form PF: September 30, 2012</div>
+			
+		</div>
+		
+		<div id="PF-filing-navtree-holder">
+			<ul id="PF-filing-navtree">
+				<li id="NAV-1A">You & Related Persons</li>
+				<li>Private Funds
+					<ul>
+					<li id="NAV-1B">Fund 1 999901-A</li>
+				    </ul>
+				<li id="NAV-1C">Hedge Funds</li>
+				</li>
+				<li id="NAV-2A">Aggregated Hedge Funds</li>
+				<li id="NAV-2B">Qualifying Hedge Funds</li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="PF-filing-bug-holder">
+		<a href="dash.html"><div id="PF-filing-menu-home-icon"></div></a>
+		<div id="PF-filing-menu-info-icon"> </div>
+		<div id="PF-filing-menu-user-icon"> </div>
+	</div>
+
+	<script>
+	$(function() {
+		$("#grid").kendoGrid();
+		
+		$("#PF-filing-navtree").kendoTreeView();
+		
+		windowWidth = $(document).width();
+		windowHeight = $(document).height();
+		
+		
+		$("#PF-filing-menu").height(windowHeight);
+		
+		$(window).resize(function() {
+		var windowHeight = $(document).height();
+		$("#PF-filing-menu").height(windowHeight);
+	    });
+	
+	///////////////////////// SECTION NAV HERE
+	
+	
+	$("#SECTION1B").hide();
+	$("#SECTION1C").hide();
+	$("#SECTION2A").hide();
+	$("#SECTION2B").hide();
+	
+	
+	$("#NAV-1A").on("click", function(event){
+			$("#SECTION1A").show();
+			$("#SECTION1B").hide();
+			$("#SECTION1C").hide();
+			$("#SECTION2A").hide();
+			$("#SECTION2B").hide();
+		});
+	
+	$("#NAV-1B").on("click", function(event){
+			$("#SECTION1A").hide();
+			$("#SECTION1B").show();
+			$("#SECTION1C").hide();
+			$("#SECTION2A").hide();
+			$("#SECTION2B").hide();
+		});
+	
+	$("#NAV-1C").on("click", function(event){
+			$("#SECTION1A").hide();
+			$("#SECTION1B").hide();
+			$("#SECTION1C").show();
+			$("#SECTION2A").hide();
+			$("#SECTION2B").hide();
+		});
+	
+	$("#NAV-2A").on("click", function(event){
+			$("#SECTION1A").hide();
+			$("#SECTION1B").hide();
+			$("#SECTION1C").hide();
+			$("#SECTION2A").show();
+			$("#SECTION2B").hide();
+		});
+	
+	
+	
+	$("#NAV-2B").on("click", function(event){
+			$("#SECTION1A").hide();
+			$("#SECTION1B").hide();
+			$("#SECTION1C").hide();
+			$("#SECTION2A").hide();
+			$("#SECTION2B").show();
+			
+		});
+	
+	
+	/////////////// bug clix
+	
+	$("#PF-filing-menu-info-icon").on("click", function(event){
+			alert("to glossary page...")
+			
+		});
+	
+	$("#PF-filing-menu-user-icon").on("click", function(event){
+			alert("to admin or user mgmt. screens...")
+			
+		});
+	
+	});//close JQ
+	
+	
+	</script>
+</body>
+</html>

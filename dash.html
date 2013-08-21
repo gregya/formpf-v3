@@ -1,0 +1,272 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form PF</title>
+<script src="kendo/js/jquery.min.js"></script>
+<script src="kendo/js/kendo.web.min.js"></script>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<link href="kendo/styles/kendo.common.min.css" rel="stylesheet" type="text/css">
+<link href="kendo/styles/kendo.default.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<div id="PF-header">
+		<div id="PF-logo-holder"></div>
+		<div id="PF-page-title">Form PF</div>
+	</div>
+	
+	
+	<div id="PF-dash-content">
+		<div id="PF-dash-content-header-holder">
+			<div id="PF-dash-client-header">World Wide Capital</div>
+			<div id="PF-dash-key-dates-holder">
+				<div id="PF-dash-key-dates-label-and-blocks-holder">
+					<div id="key-dates-label">key dates</div>
+	
+						
+						<div class="key-date-block">
+							<div class="key-date-filing-name">2013 Private Equity</div>
+							<div class="key-date-filing-date"> 4/1 </div>
+						</div>
+						
+						<div class="key-date-block">
+							<div class="key-date-filing-name">Liquidity Funds Q1</div>
+							<div class="key-date-filing-date"> 4/15 </div>
+						</div>
+						
+						<div class="key-date-block">
+							<div class="key-date-filing-name">Private Equity</div>
+							<div class="key-date-filing-date"> 4/30 </div>
+						</div>
+						
+						<div class="key-date-block">
+							<div class="key-date-filing-name">Hedge Funds Q1</div>
+							<div class="key-date-filing-date"> 5/30 </div>
+						</div>
+						
+				</div>
+			</div>
+		</div>
+		<div id="PF-dash-content-subhead-holder">
+		<div id="PF-dash-content-subhead">Current Filings</div>
+		<div id="PF-dash-new-button">
+			<div class="btn"><a href="setup1.html">+ New Filing</a></div>
+		</div>
+		</div>
+	
+		<div class="dash-grid-holder">
+			
+			<table border="0" class="grid">
+				<tr>
+				  <th scope="col">Filing Period</th>
+				  <th scope="col">Type</th>
+				  <th scope="col">Number of Funds</th>
+				  <th scope="col">Days Remaining</th>
+				  <th scope="col">Frequency</th>
+				  <th scope="col">Status</th>
+				  <th scope="col">Actions</th>
+				</tr>
+				<tr>
+				  <td>1Q 2013</td>
+				  <td>Hedge</td>
+				  <td>6</td>
+				  <td>40</td>
+				  <td>Quarterly</td>
+				  <td><div class="btn btn-small" id="progress-button" >Progress
+				  
+				  
+				  
+				  
+				  
+				  </div></td>
+				  <td><div class="btn btn-small"><a href="filing.html">Edit</a></div> <div class="btn btn-small">Export</div> <div class="btn btn-small">Review</div> </td>
+				  
+				</tr>
+				<tr>
+				  <td>4Q 2012</td>
+				  <td>Liquidity</td>
+				  <td>3</td>
+				  <td>10</td>
+				  <td>Quarterly</td>
+				  <td>In Review</td>
+				  <td><div class="btn btn-small"><a href="filing.html">Edit</a></div> <div class="btn btn-small">Export</div> <div class="btn btn-small">File</div> </td>
+				  
+				</tr>
+				
+			</table>
+			<div style="position: relative">
+				<div id="progress-modal-window">
+		<div style="text-align: center; margin: 12px 0 12px 0; font-size: 1.2em; font-weight: bold;">Status Sheet - 9/30/2012 Initial Hedge Funds</div>
+		<div style="width: 90%; margin: 34px 0 0 44px;">
+			<table class="table">
+				<tr>
+				  <th scope="col"></th>
+				  <th scope="col">Section</th>
+				  <th scope="col">Name</th>
+				  <th scope="col">Status</th>
+				  <th scope="col">Actions</th>			  
+				</tr>
+				<tr>
+				  <td><div style="text-align: center"><img src="images/check-status.png" /></div></td>
+				  <td>1a</td>
+				  <td>You and Related Persons</td>
+				  <td><div style="text-align: center;">Complete</div><div style="margin-left: 32px; width: 80px; height: 10px; background-color: rgb(102, 149, 45); border: 1px solid #ccc; border-radius: 4px;"></div></td>
+				  <td><div class="btn btn-small"><a href="filing.html">Edit</a></div> <div class="btn btn-small">Export</div>  </td>			  
+				</tr>
+				<tr>
+				  <td><div style="text-align: center"><img src="images/minus-status.png" /></div></td>
+				  <td>1b</td>
+				  <td>Private Funds WWC Fund One 999901-A</td>
+				  <td><div style="text-align: center;">In Progress</div><div style="margin-left: 32px; width: 40px; height: 10px; background-color: rgb(240, 80, 10); border: 1px solid #ccc; border-radius: 4px;"></div></td>
+				  </td>
+				  <td><div class="btn btn-small"><a href="filing.html">Edit</a></div> <div class="btn btn-small">Export</div>  </td>				  
+				</tr>
+				<tr>
+				  <td><div style="text-align: center"><img src="images/minus-status.png" /></div></td>
+				  <td>1c</td>
+				  <td>Hedge Funds WWC Fund One 999901-B</td>
+				  <td><div style="text-align: center;">In Progress</div><div style="margin-left: 32px; width: 20px; height: 10px; background-color: rgb(240, 80, 10); border: 1px solid #ccc; border-radius: 4px;"></div></td>
+				  </td>
+				  <td><div class="btn btn-small"><a href="filing.html">Edit</a></div> <div class="btn btn-small">Export</div>  </td>				  
+				</tr>
+				<tr>
+				  <td><div style="text-align: center"><img src="images/minus-status.png" /><div></td>
+				  <td>2a</td>
+				  <td>Aggregated Hedge Funds</td>
+				  <td><div style="text-align: center;">In Progress</div><div style="margin-left: 32px; width: 40px; height: 10px; background-color: rgb(240, 80, 10); border: 1px solid #ccc; border-radius: 4px;"></div></td>
+				  </td>
+				  <td><div class="btn btn-small"><a href="filing.html">Edit</a></div> <div class="btn btn-small" btn-small>Export</div>  </td>				  
+				</tr>
+				
+				<tr>
+				  <td><div style="text-align: center"><img src="images/minus-status.png" /><div></td>
+				  <td>2b</td>
+				  <td>Qualifying Hedge Funds</td>
+				  <td><div style="text-align: center;">In Progress</div><div style="margin-left: 32px; width: 40px; height: 10px; background-color: rgb(240, 80, 10); border: 1px solid #ccc; border-radius: 4px;"></div></td>
+				  </td>
+				  <td><div class="btn btn-small"><a href="filing.html">Edit</a></div> <div class="btn btn-small">Export</div>  </td>				  
+				</tr>
+				
+			</table>
+			<div style="text-align: center"><div class="btn" style="margin-top: 44px;" id="close-modal-window">Close</div></div>
+		</div>
+	</div><!-- close modal window -->
+				
+			</div>
+			
+			
+			<div id="PF-dash-content-subhead-old">Previous Form PF Filings</div>
+			<table border="0" class="grid">
+				<tr>
+				  <th scope="col">Filing Period</th>
+				  <th scope="col">Type</th>
+				  <th scope="col">Number of Funds</th>
+				  <th scope="col">Days Remaining</th>
+				  <th scope="col">Frequency</th>
+				  <th scope="col">Status</th>
+				  <th scope="col">Actions</th>
+				</tr>
+				
+				<tr>
+				  <td>3Q 2012</td>
+				  <td>Hedge</td>
+				  <td>13</td>
+				  <td>Filed</td>
+				  <td>Annual</td>
+				  <td>Filed</td>
+				  <td><div class="btn btn-small">Review</div> </td>
+				</tr>
+				<tr>
+				  <td>2Q 2012</td>
+				  <td>Hedge</td>
+				  <td>11</td>
+				  <td>Filed</td>
+				  <td>Annual</td>
+				  <td>Filed</td>
+				  <td><div class="btn btn-small">Review</div> </td>
+				</tr>
+				<tr>
+				  <td>2Q 2011</td>
+				  <td>Liquidity</td>
+				  <td>12</td>
+				  <td>Filed</td>
+				  <td>Quarterly</td>
+				  <td>Filed</td>
+				  <td><div class="btn btn-small">Review</div> </td>
+				</tr>
+				<tr>
+				  <td>2Q 2010</td>
+				  <td>Other</td>
+				  <td>10</td>
+				  <td>Filed</td>
+				  <td>Quarterly</td>
+				  <td>Filed</td>
+				  <td><div class="btn btn-small">Review</div> </td>
+				</tr>
+				<tr>
+				  <td>2Q 2009</td>
+				  <td>Other</td>
+				  <td>10</td>
+				  <td>Filed</td>
+				  <td>Annual</td>
+				  <td>Filed</td>
+				  <td><div class="btn btn-small">Review</div> </td>
+				</tr>
+			</table>
+			
+		</div>	
+		
+		
+
+		
+	</div>
+	
+	
+	
+	
+	<div id="PF-filing-bug-holder">
+		<div style="margin: 5px 0 10px 10px;"><img src="images/glossary.png" /></div>
+		<div style="margin: 5px 0 10px 10px;"><img src="images/link.png" /> </div>
+		<div style="margin: 5px 0 10px 10px;"> <img src="images/user.png " /></div>
+	</div>
+	
+	
+	<script>
+	$(function() {
+		$(".grid").kendoGrid();
+		
+		windowWidth = $(document).width();
+		windowHeight = $(document).height();
+		
+		
+		$("#PF-filing-menu").height(windowHeight);
+		
+		$(window).resize(function() {
+		var bodyheight = $(document).height();
+		$("#PF-filing-menu").height(bodyheight);
+	    });
+		
+		
+	
+		
+	$("#progress-modal-window").hide();
+	
+	$("#close-modal-window").click(function(){
+		$("#progress-modal-window").hide();
+		
+		});
+	
+	$("#progress-button").click(function(){
+		$("#progress-modal-window").show();
+		});
+	
+	
+	
+	});//close JQ
+	
+	
+	</script>
+</body>
+</html>

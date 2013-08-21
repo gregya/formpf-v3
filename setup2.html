@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form PF</title>
+<script src="kendo/js/jquery.min.js"></script>
+<script src="kendo/js/kendo.web.min.js"></script>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<link href="kendo/styles/kendo.common.min.css" rel="stylesheet" type="text/css">
+<link href="kendo/styles/kendo.default.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<div id="PF-header">
+		<div id="PF-logo-holder"></div>
+		<div id="PF-page-title">Form PF</div>
+	</div>
+	
+	
+	<div id="PF-dash-content">
+		<div id="PF-dash-content-header-holder">
+			<div id="PF-dash-client-header">Form PF New Filing Initiation  - December 31, 2012</div>
+			
+		</div>
+		<div id="PF-dash-content-subhead-holder-setup">
+			<div id="PF-dash-content-subhead">Worldwide Capital</div>
+			<div>Please provide a reliable estimate of each Private Fund's "Regulatory Assets Under Management" as that term is defined in Form ADV as of December 31, 2012</div>
+		</div>
+	
+				
+			<div class="setup-block">  
+				<h1>Hedge Funds</h1>
+			    
+			    <table width="100%" border="0" class="setup-grid">
+			  <tr>
+			    <th scope="col">Fund Name</th>
+			    <th scope="col">SEC 801#</th>
+			    <th scope="col"> RAUM</th>
+			    <th scope="col">PREVIOUS RAUM</th>
+			  </tr>
+			  <tr>
+			    <td><input name="" type="checkbox" value="" checked="checked"> Fund One </td>
+			    <td>999999 </td>
+			    <td><input name="FirmRAUM" type="text" class="k-textbox" /></td>
+			    <td></td>
+			  </tr>
+			  <tr>
+			    <td><input name="" type="checkbox" value="" checked="checked"> Fund Two</td>
+			    <td>11111</td>
+			    <td><input name="FirmRAUM" type="text" class="k-textbox" /></td>
+			    <td></td>
+			  </tr>
+			</table>
+			</div>
+			<div class="setup-block">
+					<h1>Liquidity Funds</h1>
+			    
+			    <table width="100%" border="0" class="setup-grid">
+			  <tr>
+			    <th scope="col">Fund Name</th>
+			    <th scope="col">SEC 801#</th>
+			    <th scope="col"> RAUM</th>
+			    <th scope="col">PREVIOUS RAUM</th>
+			  </tr>
+			  <tr>
+			    <td><input name="" type="checkbox" value="" checked="checked"> Fund One</td>
+			    <td>999999 </td>
+			    <td><input name="FirmRAUM" type="text" class="k-textbox" /></td>
+			    <td></td>
+			  </tr>
+			  <tr>
+			    <td><input name="" type="checkbox" value="" checked="checked"> Fund Two</td>
+			    <td>11111 </td>
+			    <td><input name="FirmRAUM" type="text" class="k-textbox" /></td>
+			    <td></td>
+			  </tr>
+			</table>
+			</div>
+				
+				
+				
+				
+				
+		
+		
+		<div style="text-align: center"><div class="btn"><a href="dash.html">Complete Form</a></div></div>			
+			
+	</div>
+	
+	
+	
+	
+	<script>
+	$(function() {
+		$(".setup-grid").kendoGrid();
+		
+		windowWidth = $(document).width();
+		windowHeight = $(document).height();
+		
+		
+		$("#PF-filing-menu").height(windowHeight);
+		
+		$(window).resize(function() {
+		var bodyheight = $(document).height();
+		$("#PF-filing-menu").height(bodyheight);
+	    });
+		
+		
+	
+		$("#FilingDate").kendoDatePicker();
+	
+	
+	
+	
+	});//close JQ
+	
+	
+	</script>
+</body>
+</html>

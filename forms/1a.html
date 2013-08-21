@@ -1,0 +1,419 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>1a</title>
+
+<script src="kendo/js/jquery.min.js"></script>
+<script src="kendo/js/web.min.js"></script>
+
+<style type="text/css">
+
+</style>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="kendo/styles/kendo.default.min.css" />
+<link href="kendo/styles/kendo.common.min.css" rel="stylesheet" type="text/css">
+<link href="kendo/styles/kendo.default.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="PFsection">
+
+<h1>Section 1a: Information about you and your related persons</h1>
+
+<div>Check the box that indicates what you would like to do:</div>
+<div class="q-block">
+<table width="90%" border="0">
+  <tr>
+    <td width="0%">&nbsp;</td>
+    <td width="2%">A.</td>
+    <td>&nbsp;</td>
+    <td>If you are not a large hedge fund adviser or large liquidity fund adviser:</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><label for="radio"></label></td>
+    <td width="3%"><input type="radio" name="radio" id="ReportingPeriodType2" value="radio"></td>
+    <td width="43%">Submit your first filing on Form PF for the period ended:
+      <label for="textfield2"></label></td>
+    <td width="52%"><input type="text" name="textfield2" id="textfield2"></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td><input type="radio" name="radio" id="ReportingPeriodType3" value="radio"></td>
+    <td>Submit an annual update for the period ended:</td>
+    <td><input type="text" name="textfield4" id="textfield4"></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td><input type="radio" name="radio" id="ReportingPeriodType4" value="radio"></td>
+    <td>Amend a previously submitted filing for the period ended:</td>
+    <td><input type="text" name="textfield5" id="textfield5"></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td><input type="radio" name="radio" id="ReportingPeriodType5" value="radio"></td>
+    <td>Submit a final filing</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td><input type="radio" name="radio" id="ReportingPeriodType" value="radio"></td>
+    <td>Request a temporary hardship exemption</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+<table width="90%" border="0">
+  <tr>
+    <td width="0%">&nbsp;</td>
+    <td width="2%">B. </td>
+    <td>&nbsp;</td>
+    <td>If you are a large hedge fund adviser or large liquidity fund adviser:</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td width="3%"><input type="radio" name="radio" id="radio6" value="radio"></td>
+    <td width="43%">Submit your first filing on Form PF for the [1st, 2nd, 3rd, 4th] quarter, which ended: </td>
+    <td width="52%"><input type="text" name="textfield6" id="textfield6"></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td><input type="radio" name="radio" id="radio7" value="radio"></td>
+    <td>Submit a quarterly update (including fourth quarter updates) for the [1st, 2nd, 3rd, 4th] quarter, which ended:</td>
+    <td><input type="text" name="textfield7" id="textfield7"></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td><input type="radio" name="radio" id="radio8" value="radio"></td>
+    <td>Amend a previously submitted filing
+      for the [1st, 2nd, 3rd, 4th] quarter, which ended:</td>
+    <td><input type="text" name="textfield8" id="textfield8"></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td><input type="radio" name="radio" id="radio9" value="radio"></td>
+    <td>Transition to annual reporting</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td><input type="radio" name="radio" id="radio10" value="radio"></td>
+    <td>Submit a final filing</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+    <td><input type="radio" name="radio" id="radio11" value="radio"></td>
+    <td>Request a temporary hardship exemption</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</div>
+
+  <div>
+  <h2>Item A. Information about you</h2>
+  <hr />
+  <div class="q-block">
+    <table width="90%">
+      <tr>
+        <td width="2%" valign="top">1. </td>
+        <td width="3%" valign="top">(a) </td>
+        <td width="95%"><p>Provide your name and the other identifying information requested below.</p>
+        <p>(This should be your full legal name. If you are a sole proprietor, this will be your last, first, and middle names. If you are a SID, enter the full legal name of your bank. Please use the same name that you use in your Form ADV.)</p></td>
+      </tr>
+    </table>
+    <table width="90%" border="0">
+      <tr>
+    <th scope="col">&nbsp;</th>
+    <th align="center" valign="middle" scope="col">Legal name </th>
+    <th align="center" valign="middle" scope="col">SEC 801-Number </th>
+    <th align="center" valign="middle" scope="col">NFA ID Number, if any  	</th>
+    <th align="center" valign="middle" scope="col">Large trader ID, if any  	</th>
+    <th align="center" valign="middle" scope="col">Large trader ID suffix, if any  	</th>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td align="center" valign="middle"><label for="textfield"></label>
+      <input type="text" name="LegalName" id="LegalName"></td>
+    <td align="center" valign="middle"><label for="textfield"></label>
+      <input type="text" name="SECNumber" id="SECNumber"></td>
+    <td align="center" valign="middle"><label for="textfield"></label>
+      <input type="text" name="NFANumber" id="NFANumber"></td>
+    <td align="center" valign="middle"><label for="textfield"></label>
+      <input type="text" name="LargeTraderID" id="LargeTraderID"></td>
+    <td align="center" valign="middle"><label for="textfield"></label>
+      <input type="text" name="LargeTraderIDSuffix" id="LargeTraderIDSuffix"></td>
+  </tr>
+</table>
+</div>
+
+  </div>
+  <div class="q-block">
+  <table width="92%" border="0">
+  <tr>
+  	<td width="2%"> </td>
+    <td width="3%">(b)</td>
+    <td width="95%">Provide the following information for each of the related persons, if any, with respect to which you are reporting information on this Form PF:</td>
+  </tr>
+</table>
+  </div>
+  <table width="90%" border="0">
+  <tr>
+    <th scope="col">&nbsp;</th>
+    <th scope="col">Legal name </th>
+    <th scope="col">SEC 801-Number </th>
+    <th scope="col">NFA ID Number, if any  	</th>
+    <th scope="col">Large trader ID, if any  	</th>
+    <th scope="col">Large trader ID suffix, if any  	</th>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="IndividualName" id="IndividualName"></td>
+    <td align="center"><label for="textfield"></label>
+      <input name="SECNumber" type="text" id="SECNumber"></td>
+    <td align="center"><label for="textfield"></label>
+      <input name="NFANumber" type="text" id="NFANumber"></td>
+    <td align="center"><label for="textfield"></label>
+      <input name="LargeTraderID" type="text" id="LargeTraderID"></td>
+    <td align="center"><label for="textfield"></label>
+      <input name="LargeTraderIDSuffix" type="text" id="LargeTraderIDSuffix"></td>
+  </tr>
+  <tr>
+    <td height="20">&nbsp;</td>
+    <td align="center"><label for="textfield">
+      <input type="text" name="IndividualName" id="IndividualName">
+    </label></td>
+    <td align="center"><label for="textfield"></label>
+      <input name="SECNumber" type="text" id="SECNumber"></td>
+    <td align="center"><label for="textfield"></label>
+      <input name="NFANumber" type="text" id="NFANumber"></td>
+    <td align="center"><label for="textfield"></label>
+      <input name="LargeTraderID" type="text" id="LargeTraderID"></td>
+    <td align="center"><label for="textfield"></label>
+      <input name="LargeTraderIDSuffix" type="text" id="LargeTraderIDSuffix"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="IndividualName" id="IndividualName"></td>
+    <td align="center"><label for="textfield"></label>
+      <input name="SECNumber" type="text" id="SECNumber"></td>
+    <td align="center"><label for="textfield"></label>
+      <input name="NFANumber" type="text" id="NFANumber"></td>
+    <td align="center"><label for="textfield"></label>
+      <input name="LargeTraderID" type="text" id="LargeTraderID"></td>
+    <td align="center"><label for="textfield"></label>
+      <input name="LargeTraderIDSuffix" type="text" id="LargeTraderIDSuffix"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="IndividualName" id="IndividualName"></td>
+    <td align="center"><label for="textfield"></label>
+      <input name="SECNumber" type="text" id="SECNumber"></td>
+    <td align="center"><label for="textfield"></label>
+      <input name="NFANumber" type="text" id="NFANumber"></td>
+    <td align="center"><label for="textfield"></label>
+      <input name="LargeTraderID" type="text" id="LargeTraderID"></td>
+    <td align="center"><label for="textfield"></label>
+      <input name="LargeTraderIDSuffix" type="text" id="LargeTraderIDSuffix"></td>
+  </tr>
+</table>
+  <div></div>
+  
+    <div class="q-block">
+   	  <table width="90%" border="0">
+  <tr>
+    <td colspan="4">&nbsp;</td>
+    </tr>
+  <tr>
+    <td width="3%">2. </td>
+    <td colspan="3"><p>Signatures of sole proprietor or authorized representative (see Instruction 11 to Form PF). </p>
+      <p>&nbsp;</p>
+      <p>Signature on behalf of related persons:
+        I, the undersigned, sign this Form PF on behalf of, and with the authority of, the related person(s) identified below.
+        To the extent that Section 1 or 2 of this Form PF is filed in accordance with a regulatory obligation imposed by CEA rule 4.27, each related person identified below and I all accept that any false or misleading statement of a material fact therein or material omission therefrom shall constitute a violation of section 6(c)(2) of the CEA. </p></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="2%">&nbsp;</td>
+    <td colspan="2">Name of each related person on behalf of which this individual is signing: 
+      <label for="textfield"></label></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td width="60%">Name of individual:</td>
+    <td width="35%"><label for="textfield"></label>
+      <input type="text" name="IndividualName" id="IndividualName"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Signature: </td>
+    <td><label for="textfield"></label>
+      <input type="text" name="Signature" id="Signature"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Title: </td>
+    <td><label for="textfield"></label>
+      <input type="text" name="Title" id="Title"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Email address: </td>
+    <td><label for="textfield"></label>
+      <input type="text" name="EmailAddress" id="EmailAddress"></td>
+  </tr>
+  <tr>
+    <td><p>&nbsp;</p></td>
+    <td>&nbsp;</td>
+    <td>Telephone contact number (include area code and, if outside the United States, country code): </td>
+    <td><label for="textfield"></label>
+      <input type="text" name="TelephoneNumber" id="TelephoneNumber"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Date: </td>
+    <td><label for="textfield"></label>
+      <input type="text" name="SignatureDate" id="SignatureDate"></td>
+  </tr>
+</table>
+     	
+    </div>
+    
+    <div>
+      <h2>Item B. Information about assets of private funds that you advise  	</h2>
+  <hr />
+  
+  <div class="q-block">
+    <table width="90%" border="0">
+      <tr>
+        <td width="3%" valign="top">3.</td>
+        <td width="97%">Provide a breakdown of your regulatory assets under management and your net assets under management as follows: (If you are filing a quarterly update for your first, second or third fiscal quarter, you are only required to update row (a), in the case of a large hedge fund adviser, or row (b), in the case of a large liquidity fund adviser.) </td>
+      </tr>
+    </table>
+  </div>
+  <div>
+  <table width="90%" border="0">
+  <tr>
+    <th width="3%" scope="col">&nbsp;</th>
+    <th width="54%" scope="col">&nbsp;</th>
+    <th width="23%" scope="col">Regulatory assets under management</th>
+    <th width="20%" scope="col">Net assets under management</th>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(a) Hedge funds </td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="RegulatoryAssetsFunds" id="RegulatoryAssetsFunds"></td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="NetAssetsFunds" id="NetAssetsFunds"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b) Liquidity funds </td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="RegulatoryAssetsFunds" id="RegulatoryAssetsFunds"></td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="NetAssetsFunds" id="NetAssetsFunds"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(c) Private equity funds </td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="RegulatoryAssetsFunds" id="RegulatoryAssetsFunds"></td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="NetAssetsFunds" id="NetAssetsFunds"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(d) Real estate funds </td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="RegulatoryAssetsFunds" id="RegulatoryAssetsFunds"></td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="NetAssetsFunds" id="NetAssetsFunds"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(e) Securitized asset funds </td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="RegulatoryAssetsFunds" id="RegulatoryAssetsFunds"></td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="NetAssetsFunds" id="NetAssetsFunds"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(f) Venture capital funds </td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="RegulatoryAssetsFunds" id="RegulatoryAssetsFunds"></td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="NetAssetsFunds" id="NetAssetsFunds"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(g) Other private funds </td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="RegulatoryAssetsFunds" id="RegulatoryAssetsFunds"></td>
+    <td align="center"><label for="textfield"></label>
+      <input type="text" name="NetAssetsFunds" id="NetAssetsFunds"></td>
+  </tr>
+   <tr>
+     <td>&nbsp;</td>
+    <td>(h) Funds and accounts other than private funds (i.e., the remainder of your assets under management)        </td>
+<td align="center">
+      <input type="text" name="RegulatoryAssetsFunds" id="RegulatoryAssetsFunds"></td>
+  <td align="center">      <input type="text" name="NetAssetsFunds" id="NetAssetsFunds">
+   </td>
+  </tr>
+</table>
+  </div>
+  
+  <div>
+  <h2>Item C. Miscellaneous 	</h2>
+  <hr /> 
+  </div>
+  
+  <div class="q-block">
+    <table width="90%" border="0">
+      <tr>
+        <td>4.</td>
+        <td colspan="3">You may use the space below to explain any assumptions that you made in responding to any question in this Form PF. Assumptions must be in addition to, or reasonably follow from, any instructions or other guidance relating to Form PF. If you are aware of any instructions or other guidance that may require a different assumption, provide a citation and explain why that assumption is not appropriate for this purpose. </td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>Question
+number</td>
+        <td>Description</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td valign="middle">&nbsp;</td>
+        <td valign="top"><input type="text" name="QuestionNumber2" id="QuestionNumber2"> </td>
+        <td><textarea name="Description2" cols="40" rows="2" id="Description2"></textarea></td>
+      </tr>
+      <tr>
+        <td width="2%">&nbsp;</td>
+        <td width="4%">&nbsp;</td>
+        <td width="33%" valign="top"><input type="text" name="QuestionNumber3" id="QuestionNumber3"> </td>
+        <td width="61%"><textarea name="Description3" cols="40" rows="2" id="Description3"></textarea></td>
+      </tr>
+      </table>
+  </div>
+  
+  <div></div>
+  
+  
+    </div>
+  </div>
+</div>
+</body>
+</html>

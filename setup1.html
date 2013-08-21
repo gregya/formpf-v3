@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form PF</title>
+<script src="kendo/js/jquery.min.js"></script>
+<script src="kendo/js/kendo.web.min.js"></script>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<link href="kendo/styles/kendo.common.min.css" rel="stylesheet" type="text/css">
+<link href="kendo/styles/kendo.default.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<div id="PF-header">
+		<div id="PF-logo-holder"></div>
+		<div id="PF-page-title">Form PF</div>
+	</div>
+	
+	
+	<div id="PF-dash-content">
+		<div id="PF-dash-content-header-holder">
+			<div id="PF-dash-client-header">Form PF New Filing Initiation</div>
+			
+		</div>
+		<div id="PF-dash-content-subhead-holder-setup">
+			<div id="PF-dash-content-subhead">Worldwide Capital</div>
+		</div>
+	
+				<div class="setup-block"> <h2>Please select the date period for which you want to file Form PF:</h2></div>
+		  <div><input id="FilingDate" name="FilingDate"/></div>
+		
+		
+			<hr class="setup-block"/>
+		    
+		    <div class="setup-block"><h2>Please provide a reliable estimate of your firm's total private fund "Regulatory Assets Under Management" as that term is defined in Form ADV:</h2></div>
+		    
+		    <div>Firm RAUM: <input name="FirmRAUM" type="text" class="k-textbox" /></div>
+		    <div class="setup-block">Regulatory	Assets Under Management (Part 1A, Instruction 5.b of Form ADV which is on p. 7 of the linked pdf): <a href="http://www.sec.gov/rules/final/2011/ia-3221-appb.pdf" target="new">http://www.sec.gov/rules/final/2011/ia-3221-appb.pdf</a>
+		    <hr class="setup-block"/>
+		    <div class="setup-block"><h2>Please select the Fund Types you will be filing for DATE</h2></div>
+		    
+		    <div>
+			<table width="100%" border="0">
+		
+		  <tr>
+    <td><input name="HedgeFunds" type="checkbox" value="" checked="checked"> Hedge Funds</td>
+    <td>p.4 of Form PF Glossary which is on p. 57</td>
+  </tr>
+  <tr>
+    <td><input name="LiquidityFunds" type="checkbox" value="" checked="checked"> Liquidity Funds</td>
+    <td>p.5 of Form PF Glossary which is on p. 58</td>
+  </tr>
+  <tr>
+    <td><input name="PrivateEquityFunds" type="checkbox" value=""> Private Equity Funds</td>
+    <td>p.7 of Form PF Glossary which is on p. 60</td>
+  </tr>
+  <tr>
+    <td><input name="OtherPrivateFunds" type="checkbox" value=""> Other Private Funds</td>
+    <td>p.7 of Form PF Glossary which is on p. 60</td>
+  </tr>
+		</table>
+		    </div>
+		    
+		    <div class="setup-block">SEC link to definitions: <a href="http://www.sec.gov/fules/final/2011/ia-3308-formpf.pdf">http://www.sec.gov/fules/final/2011/ia-3308-formpf.pdf</a></div>
+		
+		<div style="text-align: center"><div class="btn"><a href="setup2.html">Next</a></div></div>	
+			
+			
+			
+			
+		
+		
+	</div>
+	
+	
+	
+	
+	<script>
+	$(function() {
+		$(".grid").kendoGrid();
+		
+		windowWidth = $(document).width();
+		windowHeight = $(document).height();
+		
+		
+		$("#PF-filing-menu").height(windowHeight);
+		
+		$(window).resize(function() {
+		var bodyheight = $(document).height();
+		$("#PF-filing-menu").height(bodyheight);
+	    });
+		
+		
+	
+		$("#FilingDate").kendoDatePicker();
+		
+		
+		
+		
+		$("#setup-glossary-pop1").hide();
+		$("#setup-glossary-pop2").hide();
+		$("#setup-glossary-pop3").hide();
+		$("#setup-glossary-pop4").hide();
+		
+		
+		
+		$("#def1").click(function(){
+		$("#setup-glossary-pop1").show();
+		$("#setup-glossary-pop2").hide();
+		$("#setup-glossary-pop3").hide();
+		$("#setup-glossary-pop4").hide();
+		});
+		
+		$("#def2").click(function(){
+		$("#setup-glossary-pop1").hide();
+		$("#setup-glossary-pop2").show();
+		$("#setup-glossary-pop3").hide();
+		$("#setup-glossary-pop4").hide();
+		});
+		
+		$("#def3").click(function(){
+		$("#setup-glossary-pop1").hide();
+		$("#setup-glossary-pop2").hide();
+		$("#setup-glossary-pop3").show();
+		$("#setup-glossary-pop4").hide();
+		});
+		
+		$("#def4").click(function(){
+		$("#setup-glossary-pop1").hide();
+		$("#setup-glossary-pop2").hide();
+		$("#setup-glossary-pop3").hide();
+		$("#setup-glossary-pop4").show();
+		});
+		
+		$("#close1").click(function(){
+		$(this).parent().hide();
+		});
+		
+		$("#close2").click(function(){
+		$("#setup-glossary-pop2").hide();
+		});
+		
+		$("#close3").click(function(){
+		$("#setup-glossary-pop3").hide();
+		});
+		
+		$("#close4").click(function(){
+		$("#setup-glossary-pop4").hide();
+		});
+	
+	
+	
+	});//close JQ
+	
+	
+	</script>
+</body>
+</html>

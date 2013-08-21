@@ -1,0 +1,2498 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>3</title>
+
+
+<script src="kendo/js/jquery.min.js"></script>
+<script src="kendo/js/web.min.js"></script>
+
+
+<link href="kendo/styles/kendo.common.min.css" />
+<link href="kendo/styles/kendo.default.min.css" />
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="PFsection">
+
+<h1>Section 3: Information about liquidity funds that you advise.</h1>
+
+<div>You must complete a separate Section 3 for each liquidity fund that you advise. However, with respect to master-feeder arrangements and parallel fund structures, you may report collectively or separately about the component funds as provided in the General Instructions.</div>
+
+
+<h2>Item A. Reporting fund identifying and operational information</h2>
+<hr />
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td>51. </td>
+    <td>(a)</td>
+    <td>Name of the reporting fund </td>
+    <td><label for="textfield"></label>
+      <input type="text" name="textfield" id="textfield"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b)</td>
+    <td>Private fund identification number of the reporting fund </td>
+    <td><input type="text" name="textfield2" id="textfield2"></td>
+  </tr>
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td>52. </td>
+    <td colspan="2">Does the reporting fund use the amortized cost method of valuation in computing its net asset value? </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>
+      <input type="radio" name="UseAmortizedCostMethod" id="UseAmortizedCostMethod" value="true">
+      Yes</td>
+    <td><input type="radio" name="UseAmortizedCostMethod" id="UseAmortizedCostMethod" value="false">
+      No</td>
+  </tr>
+</table>
+</div>
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td>53. </td>
+    <td colspan="2">Does the reporting fund use the penny rounding method of pricing in computing its net asset value?</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" name="UsePennyRoundingMethod" id="UsePennyRoundingMethod" value="true">
+      <label for="checkbox"></label>
+      Yes</td>
+    <td><input type="radio" name="UsePennyRoundingMethod" id="UsePennyRoundingMethod" value="false">
+      <label for="checkbox2"></label>
+      No</td>
+  </tr>
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td width="5%">54. </td>
+    <td width="4%">(a)</td>
+    <td colspan="4"><p>Does the reporting fund have a policy of complying with the risk limiting conditions of rule 2a-7? </p>      <label for="textfield"></label></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td width="44%" colspan="2"><input type="radio" name="ComplyRule2a7RiskCondition" id="ComplyRule2a7RiskCondition" value="true">
+      <label for="checkbox"></label>
+      Yes</td>
+    <td width="47%" colspan="2"><input type="radio" name="ComplyRule2a7RiskCondition" id="ComplyRule2a7RiskCondition" value="false">
+      <label for="checkbox2"></label>
+      No</td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b)</td>
+    <td colspan="4">If you responded “no” to Question 54(a) above, does the reporting fund have a policy of complying with the following provisions of rule 2a-7:</td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(i)</td>
+    <td>the diversification conditions?<br/></td>
+    <td><input type="radio" name="ComplyRule2a7DiversificationCondition" id="ComplyRule2a7DiversificationCondition" value="true">
+      <label for="checkbox3"></label>
+Yes</td>
+    <td><input type="radio" name="ComplyRule2a7DiversificationCondition" id="ComplyRule2a7DiversificationCondition" value="false">
+      <label for="checkbox4"></label>
+No</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(ii)</td>
+    <td>the credit quality conditions?<br/></td>
+    <td><input type="radio" name="ComplyRule2a7CreditQualityCondition" id="ComplyRule2a7CreditQualityCondition" value="true">
+      <label for="checkbox3"></label>
+      Yes</td>
+    <td><input type="radio" name="ComplyRule2a7CreditQualityCondition" id="ComplyRule2a7CreditQualityCondition" value="false">
+      <label for="checkbox4"></label>
+      No</td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(iii)</td>
+    <td>the liquidity conditions? </td>
+    <td><input type="radio" name="ComplyRule2a7LiquidityCondition" id="ComplyRule2a7LiquidityCondition" value="true">
+      <label for="checkbox3"></label>
+      Yes</td>
+    <td><input type="radio" name="ComplyRule2a7LiquidityCondition" id="ComplyRule2a7LiquidityCondition" value="false">
+      <label for="checkbox4"></label>
+      No</td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(iv)</td>
+    <td>the maturity conditions?  	</td>
+    <td><input type="radio" name="ComplyRule2a7MaturityCondition" id="ComplyRule2a7MaturityCondition" value="true">
+      <label for="checkbox3"></label>
+      Yes</td>
+    <td><input type="radio" name="ComplyRule2a7MaturityCondition" id="ComplyRule2a7MaturityCondition" value="false">
+      <label for="checkbox4"></label>
+      No</td>
+    </tr>
+  </table>
+</div>
+
+<h2>Item B. Reporting fund assets</h2>
+<hr />
+
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td>55. </td>
+    <td colspan="5">Provide the following information for each month of the reporting period.</td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>1st Month</td>
+    <td>2nd Month</td>
+    <td>3rd Month</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(a)</td>
+    <td>Net asset value of reporting fund as reported to current and prospective investors</td>
+    <td><input name="NAVMonth1Amount" type="text" id="NAVMonth1Amount" size="10"></td>
+    <td><input name="NAVMonth2Amount" type="text" id="NAVMonth2Amount" size="10"></td>
+    <td><input name="NAVMonth3Amount" type="text" id="NAVMonth3Amount" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b)</td>
+    <td>Net asset value per share of reporting fund as reported to current and prospective investors (to the nearest hundredth of a cent)</td>
+    <td><input name="NAVPerShareMonth1Amount" type="text" id="NAVPerShareMonth1Amount" size="10"></td>
+    <td><input name="NAVPerShareMonth2Amount" type="text" id="NAVPerShareMonth2Amount" size="10"></td>
+    <td><input name="NAVPerShareMonth3Amount" type="text" id="NAVPerShareMonth3Amount" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(c)</td>
+    <td>Net asset value per share of reporting fund (to the nearest hundredth of a cent; exclude the value of any capital support agreement or similar arrangement)</td>
+    <td><input name="NAVPerShareMarketBasedMonth1Amount" type="text" id="NAVPerShareMarketBasedMonth1Amount" size="10"></td>
+    <td><input name="NAVPerShareMarketBasedMonth2Amount" type="text" id="NAVPerShareMarketBasedMonth2Amount" size="10"></td>
+    <td><input name="NAVPerShareMarketBasedMonth3Amount" type="text" id="NAVPerShareMarketBasedMonth3Amount" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(d)</td>
+    <td>WAM of reporting fund (in days) </td>
+    <td><input name="WAMMonth1Amount" type="text" id="WAMMonth1Amount" size="10"></td>
+    <td><input name="WAMMonth2Amount" type="text" id="WAMMonth2Amount" size="10"></td>
+    <td><input name="WAMMonth3Amount" type="text" id="WAMMonth3Amount" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(e)</td>
+    <td>WAL of reporting fund (in days) </td>
+    <td><input name="WALMonth1Amount" type="text" id="WALMonth1Amount" size="10"></td>
+    <td><input name="WALMonth2Amount" type="text" id="WALMonth2Amount" size="10"></td>
+    <td><input name="WALMonth3Amount" type="text" id="WALMonth3Amount" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(f)</td>
+    <td><p>7-day gross yield of reporting fund (to the nearest hundredth of one percent) </p></td>
+    <td><input name="SevenDayGrossYieldMonth1Amount" type="text" id="SevenDayGrossYieldMonth1Amount" size="10"></td>
+    <td><input name="SevenDayGrossYieldMonth2Amount" type="text" id="SevenDayGrossYieldMonth2Amount" size="10"></td>
+    <td><input name="SevenDayGrossYieldMonth3Amount" type="text" id="SevenDayGrossYieldMonth3Amount" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(g)</td>
+    <td><p>Dollar amount of the reporting fund&rsquo;s assets that are daily liquid assets </p></td>
+    <td><input name="AssetsDailyLiquidMonth1Amount" type="text" id="AssetsDailyLiquidMonth1Amount" size="10"></td>
+    <td><input name="AssetsDailyLiquidMonth2Amount" type="text" id="AssetsDailyLiquidMonth2Amount" size="10"></td>
+    <td><input name="AssetsDailyLiquidMonth3Amount" type="text" id="AssetsDailyLiquidMonth3Amount" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(h)</td>
+    <td><p>Dollar amount of the reporting fund&rsquo;s assets that are weekly liquid assets </p></td>
+    <td><input name="AssetsWeeklyLiquidMonth1Amount" type="text" id="AssetsWeeklyLiquidMonth1Amount" size="10"></td>
+    <td><input name="AssetsWeeklyLiquidMonth2Amount" type="text" id="AssetsWeeklyLiquidMonth2Amount" size="10"></td>
+    <td><input name="AssetsWeeklyLiquidMonth3Amount" type="text" id="AssetsWeeklyLiquidMonth3Amount" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(i)</td>
+    <td><p>Dollar amount of the reporting fund&rsquo;s assets that have a maturity greater than 397 days </p></td>
+    <td><input name="AssetsMaturityGreater397DaysMonth1Amount" type="text" id="AssetsMaturityGreater397DaysMonth1Amount" size="10"></td>
+    <td><input name="AssetsMaturityGreater397DaysMonth2Amount" type="text" id="AssetsMaturityGreater397DaysMonth2Amount" size="10"></td>
+    <td><input name="AssetsMaturityGreater397DaysMonth3Amount" type="text" id="AssetsMaturityGreater397DaysMonth3Amount" size="10"></td>
+  </tr>
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%" id="LiquidityExposureProductCodeType">
+  <tr>
+    <td>56. </td>
+    <td colspan="7"><p>Selected product exposures by maturity for liquidity fund assets under management. </p>
+      <p>(Give the value of the reporting fund’s positions as of the data reporting date in each of the following asset classes, divided by maturity.) (Include all exposure whether held physically, synthetically or through derivatives.</p>
+      <p> Include any closed out and OTC forward positions that have not yet expired/matured. Do not net positions within asset classes. Assets held in side-pockets should be included as assets of the reporting fund. Each asset should only be included in a single asset class.)</p></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td colspan="5" align="center">Maturity</td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td align="center"><p>1 day or less </p></td>
+    <td align="center"><p>2 days to 7 days </p></td>
+    <td align="center"><p>8 days to 30 days </p></td>
+    <td align="center"><p>31 days to 397 days </p></td>
+    <td align="center"><p>Greater than 397 days </p></td>
+  </tr>
+  <tr id="001">
+    <td>&nbsp;</td>
+    <td colspan="2">Sovereign bonds and municipal bonds </td>
+    <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="002">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>U.S. treasury securities   <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="003">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Agency securities </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>GSE bonds </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="004">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><p>Sovereign bonds issued by G10 countries other than the U.S </p></td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="005">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><p>Other sovereign bonds (including supranational bonds) </p></td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="006">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>U.S. state and local bonds </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="7">Instruments issued by U.S. financial institutions </td>
+    </tr>
+  <tr id="007">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Unsecured commercial paper </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="008">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>ABCP </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="009">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>ABS and structured products other than ABCP </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="010">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Certificates of deposit </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="011">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Floating rate notes </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td colspan="6">Repos </td>
+    </tr>
+  <tr id="012">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><p>Where assets purchased are U.S. treasury securities or agency securities </p></td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="013">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><p>Where assets purchased are corporate bonds that are investment grade </p></td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="014">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Where other assets are purchased </td>
+     <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="7"><p>Instruments issued by companies organized in the U.S. (other than U.S. financial institutions) </p></td>
+    </tr>
+  <tr id="015">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Unsecured commercial paper </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="016">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><p>Corporate bonds (other than unsecured commercial paper), loans, ABS, structured products and repos, combined </p></td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="7"><p>Instruments issued by non-U.S. financial institutions </p></td>
+    </tr>
+  <tr id="017">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Unsecured commercial paper </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr>
+    <td id="018">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>ABCP </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="019">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>ABS and structured products other than ABCP </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="020">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Certificates of deposit </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="021">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Floating rate notes </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td colspan="6">Repos</td>
+    </tr>
+  <tr id="022">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><p>Where assets purchased are U.S. treasury securities or agency securities </p></td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="023">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><p>Where assets purchased are corporate bonds that are investment grade </p></td>
+     <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="024">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Where other assets are purchased </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="7"><p>Instruments issued by companies organized outside the U.S. (other than non-U.S. financial institutions) </p></td>
+    </tr>
+  <tr id="025">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Unsecured commercial paper </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="026">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><p>Corporate bonds (other than unsecured commercial paper), loans, ABS, structured products and repos, combined </p></td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="7">Other instruments </td>
+    </tr>
+  <tr  id="027">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><p>Investments in money market funds </p></td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="028">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Investments in liquidity funds </td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+  <tr id="029">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><p>Cash and cash equivalents (other than instruments covered by another category above) </p></td>
+      <td><input name="LiquidityExposureInDays0To1" type="text" id="LiquidityExposureInDays0To1" size="10"></td>
+    <td><input name="LiquidityExposureInDays2To7" type="text" id="LiquidityExposureInDays2To7" size="10"></td>
+    <td><input name="LiquidityExposureInDays8To30" type="text" id="LiquidityExposureInDays8To30" size="10"></td>
+    <td><input name="LiquidityExposureInDays31To397" type="text" id="LiquidityExposureInDays31To397" size="10"></td>
+    <td><input name="LiquidityExposureInDays397Plus" type="text" id="LiquidityExposureInDays397Plus" size="10"></td>
+  </tr>
+</table>
+</div>
+
+
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td>57. </td>
+    <td colspan="4"><p>For each open position of the reporting fund that represents 5% or more of the reporting fund&rsquo;s net asset value, provide the information requested below. </p></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>% of net asset value </td>
+    <td>Sub-asset class </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(a)</td>
+    <td>First month of the reporting period </td>
+    <td><input name="NAVPercent" type="text" id="NAVPercent" size="10"></td>
+    <td><select name="LiquidityAssetClassCDType" id="LiquidityAssetClassCDType">
+    <option value="ABS_STRUCT_PRD_ABCP"/>ABS/structured products - ABCP</option> <option value="ABS_STRUCT_PRD_CDO"/>ABS/structured products - CDO/CLO</option> <option value="ABS_STRUCT_PRD_MBS"/>ABS/structured products - MBS</option> <option value="ABS_STRUCT_PRD_OABS"/>ABS/structured products - Other ABS</option> <option value="ABS_STRUCT_PRD_OSPRD"/>ABS/structured products - Other structured products</option> <option value="CNV_BND_FIN_INV_GD"/>Convertible bonds issued by financial institutions - Investment grade</option> <option value="CNV_BND_FIN_NINV_GD"/>Convertible bonds issued by financial institutions - Non-investment grade</option> <option value="CNV_BND_NFIN_INV_GD"/>Convertible bonds not issued by financial institutions - Investment grade</option> <option value="CNV_BND_NFIN_NINV_GD"/>Convertible bonds not issued by financial institutions - Non-investment grade</option> <option value="COMM_DER_CRUD_OIL"/>Commodities (derivatives) - Crude oil</option> <option value="COMM_DER_GOLD"/>Commodities (derivatives) - Gold</option> <option value="COMM_DER_NG"/>Commodities (derivatives) - Natural gas</option> <option value="COMM_DER_POW"/>Commodities (derivatives) - Power</option> <option value="COMM_DER_OTH_COMM"/>Commodities (derivatives) - Other commodities</option> <option value="COMM_PHY_CRUD_OIL"/>Commodities (physical) - Crude oil</option> <option value="COMM_PHY_GOLD"/>Commodities (physical) - Gold</option> <option value="COMM_PHY_NG"/>Commodities (physical) - Natural gas</option> <option value="COMM_PHY_OTH_COMM"/>Commodities (physical) - Other commodities</option> <option value="COMM_PHY_POW"/>Commodities (physical) - Power</option> <option value="CRD_DER_EXO_CDS"/>Credit derivatives - Exotic CDS</option> <option value="CRD_DER_IDX_CDS"/>Credit derivatives - Index CDS</option> <option value="CRD_DER_SNM_CDS"/>Credit derivatives - Single name CDS</option> <option value="CRP_BND_FIN_INV_GD"/>Corporate bonds issued by financial institutions (other than convertible bonds) -
+Investment grade</option> <option value="CRP_BND_FIN_NINV_GD"/>Corporate bonds issued by financial institutions (other than convertible bonds) -
+Non-investment grade</option> <option value="CRP_BND_NFIN_INV_GD"/>Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Investment grade</option> <option value="CRP_BND_NFIN_NINV_GD"/>Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Non-investment grade</option> <option value="CSH_EQ_CD"/>Cash and cash equivalents - Certificates of deposit</option> <option value="CSH_EQ_CD_OTH_DEP"/>Cash and cash equivalents - Other deposits</option> <option value="CSH_EQ_MM_FNDS"/>Cash and cash equivalents - Money market funds</option> <option value="CSH_EQ_OTH_EXCL_GSEC"/>Cash and cash equivalents - Other cash and cash equivalents (excluding
+government securities)</option> <option value="DER_EXP_ULST_SEC_FIN"/>Derivative exposures to unlisted equities - Related to financial institutions</option> <option value="DER_EXP_ULST_SEC_OTH"/>Derivative exposures to unlisted equities - Other derivative exposures to
+unlisted equities</option> <option value="FX_DER_HDGE"/>Foreign exchange derivatives (hedging)</option> <option value="FX_DER_INV"/>Foreign exchange derivatives (investment)</option> <option value="INT_DER"/>Interest rate derivatives</option> <option value="INV_EXT_PVT_FNDS"/>INV_EXT_PVT_FNDS</option> <option value="INV_FND_CSHMG_OTH_MM"/>Investments in funds for cash management purposes (other than money
+market funds)</option> <option value="INV_INT_PVT_FNDS"/>Investments in internal private funds</option> <option value="INV_OTH_SUB_ASST_CLS"/>Investments in other sub-asset classes</option> <option value="INV_REG_INV_COM"/>Investments in registered investment companies</option> <option value="LOAN_LVRG_LN"/>Loans - Leveraged loans</option> <option value="LOAN_OTH_LN_NO_REPO"/>Loans - Other loans (not including repos)</option> <option value="LST_EQT_DER_FIN"/>Listed equity derivatives - Related to financial institutions</option> <option value="LST_EQT_DER_OTH_DER"/>Listed equity derivatives - Other listed equity derivatives</option> <option value="LST_EQT_FIN"/>Listed equity - Issued by financial institutions</option> <option value="LST_EQT_OTH_LST_EQT"/>Listed equity - Other listed equity</option> <option value="NON_US_CURR_HLDNG"/>Non-U.S. currency holdings</option> <option value="OTHER"/>Other</option> <option value="OTH_DER"/>Other derivatives</option> <option value="PHYS_REAL_EST"/>Physical real estate</option> <option value="REPOS"/>Repos</option> <option value="SVRN_BMB_AS"/>Sovereign bonds and municipal bonds - Agency securities</option> <option value="SVRN_BMB_G10_NO_US"/>Sovereign bonds and municipal bonds - Sovereign bonds issued by G10
+countries other than the U.S.</option> <option value="SVRN_BMB_GSE_BND"/>Sovereign bonds and municipal bonds - GSE bonds</option> <option value="SVRN_BMB_OTH_SUP_BND"/>Sovereign bonds and municipal bonds - Other sovereign bonds (including
+supranational bonds)</option> <option value="SVRN_BMB_US_ST_LCL"/>Sovereign bonds and municipal bonds - U.S. state and local bonds</option> <option value="SVRN_BMB_US_TRS"/>Sovereign bonds and municipal bonds - U.S. treasury securities</option> <option value="UNLST_EQT_FIN"/>Unlisted equity - Issued by financial institutions</option> <option value="UNLST_EQT_OTH_UNLST"/>Unlisted equity - Other unlisted equity</option>
+    </select></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(i) &nbsp;Position </td>
+    <td><input name="NAVPercent" type="text" id="NAVPercent" size="10"></td>
+    <td><select name="LiquidityAssetClassCDType" id="LiquidityAssetClassCDType">
+      <option value="ABS_STRUCT_PRD_ABCP"/>    
+      ABS/structured products - ABCP
+      </option>
+      <option value="ABS_STRUCT_PRD_CDO"/>    
+      ABS/structured products - CDO/CLO
+      </option>
+      <option value="ABS_STRUCT_PRD_MBS"/>    
+      ABS/structured products - MBS
+      </option>
+      <option value="ABS_STRUCT_PRD_OABS"/>    
+      ABS/structured products - Other ABS
+      </option>
+      <option value="ABS_STRUCT_PRD_OSPRD"/>    
+      ABS/structured products - Other structured products
+      </option>
+      <option value="CNV_BND_FIN_INV_GD"/>    
+      Convertible bonds issued by financial institutions - Investment grade
+      </option>
+      <option value="CNV_BND_FIN_NINV_GD"/>    
+      Convertible bonds issued by financial institutions - Non-investment grade
+      </option>
+      <option value="CNV_BND_NFIN_INV_GD"/>    
+      Convertible bonds not issued by financial institutions - Investment grade
+      </option>
+      <option value="CNV_BND_NFIN_NINV_GD"/>    
+      Convertible bonds not issued by financial institutions - Non-investment grade
+      </option>
+      <option value="COMM_DER_CRUD_OIL"/>    
+      Commodities (derivatives) - Crude oil
+      </option>
+      <option value="COMM_DER_GOLD"/>    
+      Commodities (derivatives) - Gold
+      </option>
+      <option value="COMM_DER_NG"/>    
+      Commodities (derivatives) - Natural gas
+      </option>
+      <option value="COMM_DER_POW"/>    
+      Commodities (derivatives) - Power
+      </option>
+      <option value="COMM_DER_OTH_COMM"/>    
+      Commodities (derivatives) - Other commodities
+      </option>
+      <option value="COMM_PHY_CRUD_OIL"/>    
+      Commodities (physical) - Crude oil
+      </option>
+      <option value="COMM_PHY_GOLD"/>    
+      Commodities (physical) - Gold
+      </option>
+      <option value="COMM_PHY_NG"/>    
+      Commodities (physical) - Natural gas
+      </option>
+      <option value="COMM_PHY_OTH_COMM"/>    
+      Commodities (physical) - Other commodities
+      </option>
+      <option value="COMM_PHY_POW"/>    
+      Commodities (physical) - Power
+      </option>
+      <option value="CRD_DER_EXO_CDS"/>    
+      Credit derivatives - Exotic CDS
+      </option>
+      <option value="CRD_DER_IDX_CDS"/>    
+      Credit derivatives - Index CDS
+      </option>
+      <option value="CRD_DER_SNM_CDS"/>    
+      Credit derivatives - Single name CDS
+      </option>
+      <option value="CRP_BND_FIN_INV_GD"/>    
+      Corporate bonds issued by financial institutions (other than convertible bonds) -
+Investment grade
+      </option>
+      <option value="CRP_BND_FIN_NINV_GD"/>    
+      Corporate bonds issued by financial institutions (other than convertible bonds) -
+Non-investment grade
+      </option>
+      <option value="CRP_BND_NFIN_INV_GD"/>    
+      Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Investment grade
+      </option>
+      <option value="CRP_BND_NFIN_NINV_GD"/>    
+      Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Non-investment grade
+      </option>
+      <option value="CSH_EQ_CD"/>    
+      Cash and cash equivalents - Certificates of deposit
+      </option>
+      <option value="CSH_EQ_CD_OTH_DEP"/>    
+      Cash and cash equivalents - Other deposits
+      </option>
+      <option value="CSH_EQ_MM_FNDS"/>    
+      Cash and cash equivalents - Money market funds
+      </option>
+      <option value="CSH_EQ_OTH_EXCL_GSEC"/>    
+      Cash and cash equivalents - Other cash and cash equivalents (excluding
+government securities)
+      </option>
+      <option value="DER_EXP_ULST_SEC_FIN"/>    
+      Derivative exposures to unlisted equities - Related to financial institutions
+      </option>
+      <option value="DER_EXP_ULST_SEC_OTH"/>    
+      Derivative exposures to unlisted equities - Other derivative exposures to
+unlisted equities
+      </option>
+      <option value="FX_DER_HDGE"/>    
+      Foreign exchange derivatives (hedging)
+      </option>
+      <option value="FX_DER_INV"/>    
+      Foreign exchange derivatives (investment)
+      </option>
+      <option value="INT_DER"/>    
+      Interest rate derivatives
+      </option>
+      <option value="INV_EXT_PVT_FNDS"/>    
+      INV_EXT_PVT_FNDS
+      </option>
+      <option value="INV_FND_CSHMG_OTH_MM"/>    
+      Investments in funds for cash management purposes (other than money
+market funds)
+      </option>
+      <option value="INV_INT_PVT_FNDS"/>    
+      Investments in internal private funds
+      </option>
+      <option value="INV_OTH_SUB_ASST_CLS"/>    
+      Investments in other sub-asset classes
+      </option>
+      <option value="INV_REG_INV_COM"/>    
+      Investments in registered investment companies
+      </option>
+      <option value="LOAN_LVRG_LN"/>    
+      Loans - Leveraged loans
+      </option>
+      <option value="LOAN_OTH_LN_NO_REPO"/>    
+      Loans - Other loans (not including repos)
+      </option>
+      <option value="LST_EQT_DER_FIN"/>    
+      Listed equity derivatives - Related to financial institutions
+      </option>
+      <option value="LST_EQT_DER_OTH_DER"/>    
+      Listed equity derivatives - Other listed equity derivatives
+      </option>
+      <option value="LST_EQT_FIN"/>    
+      Listed equity - Issued by financial institutions
+      </option>
+      <option value="LST_EQT_OTH_LST_EQT"/>    
+      Listed equity - Other listed equity
+      </option>
+      <option value="NON_US_CURR_HLDNG"/>    
+      Non-U.S. currency holdings
+      </option>
+      <option value="OTHER"/>    
+      Other
+      </option>
+      <option value="OTH_DER"/>    
+      Other derivatives
+      </option>
+      <option value="PHYS_REAL_EST"/>    
+      Physical real estate
+      </option>
+      <option value="REPOS"/>    
+      Repos
+      </option>
+      <option value="SVRN_BMB_AS"/>    
+      Sovereign bonds and municipal bonds - Agency securities
+      </option>
+      <option value="SVRN_BMB_G10_NO_US"/>    
+      Sovereign bonds and municipal bonds - Sovereign bonds issued by G10
+countries other than the U.S.
+      </option>
+      <option value="SVRN_BMB_GSE_BND"/>    
+      Sovereign bonds and municipal bonds - GSE bonds
+      </option>
+      <option value="SVRN_BMB_OTH_SUP_BND"/>    
+      Sovereign bonds and municipal bonds - Other sovereign bonds (including
+supranational bonds)
+      </option>
+      <option value="SVRN_BMB_US_ST_LCL"/>    
+      Sovereign bonds and municipal bonds - U.S. state and local bonds
+      </option>
+      <option value="SVRN_BMB_US_TRS"/>    
+      Sovereign bonds and municipal bonds - U.S. treasury securities
+      </option>
+      <option value="UNLST_EQT_FIN"/>    
+      Unlisted equity - Issued by financial institutions
+      </option>
+      <option value="UNLST_EQT_OTH_UNLST"/>    
+      Unlisted equity - Other unlisted equity
+      </option>
+    </select></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(ii) &nbsp;Position </td>
+    <td><input name="NAVPercent" type="text" id="NAVPercent" size="10"></td>
+    <td><select name="LiquidityAssetClassCDType" id="LiquidityAssetClassCDType">
+      <option value="ABS_STRUCT_PRD_ABCP"/>    
+      ABS/structured products - ABCP
+      </option>
+      <option value="ABS_STRUCT_PRD_CDO"/>    
+      ABS/structured products - CDO/CLO
+      </option>
+      <option value="ABS_STRUCT_PRD_MBS"/>    
+      ABS/structured products - MBS
+      </option>
+      <option value="ABS_STRUCT_PRD_OABS"/>    
+      ABS/structured products - Other ABS
+      </option>
+      <option value="ABS_STRUCT_PRD_OSPRD"/>    
+      ABS/structured products - Other structured products
+      </option>
+      <option value="CNV_BND_FIN_INV_GD"/>    
+      Convertible bonds issued by financial institutions - Investment grade
+      </option>
+      <option value="CNV_BND_FIN_NINV_GD"/>    
+      Convertible bonds issued by financial institutions - Non-investment grade
+      </option>
+      <option value="CNV_BND_NFIN_INV_GD"/>    
+      Convertible bonds not issued by financial institutions - Investment grade
+      </option>
+      <option value="CNV_BND_NFIN_NINV_GD"/>    
+      Convertible bonds not issued by financial institutions - Non-investment grade
+      </option>
+      <option value="COMM_DER_CRUD_OIL"/>    
+      Commodities (derivatives) - Crude oil
+      </option>
+      <option value="COMM_DER_GOLD"/>    
+      Commodities (derivatives) - Gold
+      </option>
+      <option value="COMM_DER_NG"/>    
+      Commodities (derivatives) - Natural gas
+      </option>
+      <option value="COMM_DER_POW"/>    
+      Commodities (derivatives) - Power
+      </option>
+      <option value="COMM_DER_OTH_COMM"/>    
+      Commodities (derivatives) - Other commodities
+      </option>
+      <option value="COMM_PHY_CRUD_OIL"/>    
+      Commodities (physical) - Crude oil
+      </option>
+      <option value="COMM_PHY_GOLD"/>    
+      Commodities (physical) - Gold
+      </option>
+      <option value="COMM_PHY_NG"/>    
+      Commodities (physical) - Natural gas
+      </option>
+      <option value="COMM_PHY_OTH_COMM"/>    
+      Commodities (physical) - Other commodities
+      </option>
+      <option value="COMM_PHY_POW"/>    
+      Commodities (physical) - Power
+      </option>
+      <option value="CRD_DER_EXO_CDS"/>    
+      Credit derivatives - Exotic CDS
+      </option>
+      <option value="CRD_DER_IDX_CDS"/>    
+      Credit derivatives - Index CDS
+      </option>
+      <option value="CRD_DER_SNM_CDS"/>    
+      Credit derivatives - Single name CDS
+      </option>
+      <option value="CRP_BND_FIN_INV_GD"/>    
+      Corporate bonds issued by financial institutions (other than convertible bonds) -
+Investment grade
+      </option>
+      <option value="CRP_BND_FIN_NINV_GD"/>    
+      Corporate bonds issued by financial institutions (other than convertible bonds) -
+Non-investment grade
+      </option>
+      <option value="CRP_BND_NFIN_INV_GD"/>    
+      Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Investment grade
+      </option>
+      <option value="CRP_BND_NFIN_NINV_GD"/>    
+      Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Non-investment grade
+      </option>
+      <option value="CSH_EQ_CD"/>    
+      Cash and cash equivalents - Certificates of deposit
+      </option>
+      <option value="CSH_EQ_CD_OTH_DEP"/>    
+      Cash and cash equivalents - Other deposits
+      </option>
+      <option value="CSH_EQ_MM_FNDS"/>    
+      Cash and cash equivalents - Money market funds
+      </option>
+      <option value="CSH_EQ_OTH_EXCL_GSEC"/>    
+      Cash and cash equivalents - Other cash and cash equivalents (excluding
+government securities)
+      </option>
+      <option value="DER_EXP_ULST_SEC_FIN"/>    
+      Derivative exposures to unlisted equities - Related to financial institutions
+      </option>
+      <option value="DER_EXP_ULST_SEC_OTH"/>    
+      Derivative exposures to unlisted equities - Other derivative exposures to
+unlisted equities
+      </option>
+      <option value="FX_DER_HDGE"/>    
+      Foreign exchange derivatives (hedging)
+      </option>
+      <option value="FX_DER_INV"/>    
+      Foreign exchange derivatives (investment)
+      </option>
+      <option value="INT_DER"/>    
+      Interest rate derivatives
+      </option>
+      <option value="INV_EXT_PVT_FNDS"/>    
+      INV_EXT_PVT_FNDS
+      </option>
+      <option value="INV_FND_CSHMG_OTH_MM"/>    
+      Investments in funds for cash management purposes (other than money
+market funds)
+      </option>
+      <option value="INV_INT_PVT_FNDS"/>    
+      Investments in internal private funds
+      </option>
+      <option value="INV_OTH_SUB_ASST_CLS"/>    
+      Investments in other sub-asset classes
+      </option>
+      <option value="INV_REG_INV_COM"/>    
+      Investments in registered investment companies
+      </option>
+      <option value="LOAN_LVRG_LN"/>    
+      Loans - Leveraged loans
+      </option>
+      <option value="LOAN_OTH_LN_NO_REPO"/>    
+      Loans - Other loans (not including repos)
+      </option>
+      <option value="LST_EQT_DER_FIN"/>    
+      Listed equity derivatives - Related to financial institutions
+      </option>
+      <option value="LST_EQT_DER_OTH_DER"/>    
+      Listed equity derivatives - Other listed equity derivatives
+      </option>
+      <option value="LST_EQT_FIN"/>    
+      Listed equity - Issued by financial institutions
+      </option>
+      <option value="LST_EQT_OTH_LST_EQT"/>    
+      Listed equity - Other listed equity
+      </option>
+      <option value="NON_US_CURR_HLDNG"/>    
+      Non-U.S. currency holdings
+      </option>
+      <option value="OTHER"/>    
+      Other
+      </option>
+      <option value="OTH_DER"/>    
+      Other derivatives
+      </option>
+      <option value="PHYS_REAL_EST"/>    
+      Physical real estate
+      </option>
+      <option value="REPOS"/>    
+      Repos
+      </option>
+      <option value="SVRN_BMB_AS"/>    
+      Sovereign bonds and municipal bonds - Agency securities
+      </option>
+      <option value="SVRN_BMB_G10_NO_US"/>    
+      Sovereign bonds and municipal bonds - Sovereign bonds issued by G10
+countries other than the U.S.
+      </option>
+      <option value="SVRN_BMB_GSE_BND"/>    
+      Sovereign bonds and municipal bonds - GSE bonds
+      </option>
+      <option value="SVRN_BMB_OTH_SUP_BND"/>    
+      Sovereign bonds and municipal bonds - Other sovereign bonds (including
+supranational bonds)
+      </option>
+      <option value="SVRN_BMB_US_ST_LCL"/>    
+      Sovereign bonds and municipal bonds - U.S. state and local bonds
+      </option>
+      <option value="SVRN_BMB_US_TRS"/>    
+      Sovereign bonds and municipal bonds - U.S. treasury securities
+      </option>
+      <option value="UNLST_EQT_FIN"/>    
+      Unlisted equity - Issued by financial institutions
+      </option>
+      <option value="UNLST_EQT_OTH_UNLST"/>    
+      Unlisted equity - Other unlisted equity
+      </option>
+    </select></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b)</td>
+    <td>Second month of the reporting period </td>
+    <td><input name="NAVPercent" type="text" id="NAVPercent" size="10"></td>
+    <td><select name="LiquidityAssetClassCDType" id="LiquidityAssetClassCDType">
+      <option value="ABS_STRUCT_PRD_ABCP"/>    
+      ABS/structured products - ABCP
+      </option>
+      <option value="ABS_STRUCT_PRD_CDO"/>    
+      ABS/structured products - CDO/CLO
+      </option>
+      <option value="ABS_STRUCT_PRD_MBS"/>    
+      ABS/structured products - MBS
+      </option>
+      <option value="ABS_STRUCT_PRD_OABS"/>    
+      ABS/structured products - Other ABS
+      </option>
+      <option value="ABS_STRUCT_PRD_OSPRD"/>    
+      ABS/structured products - Other structured products
+      </option>
+      <option value="CNV_BND_FIN_INV_GD"/>    
+      Convertible bonds issued by financial institutions - Investment grade
+      </option>
+      <option value="CNV_BND_FIN_NINV_GD"/>    
+      Convertible bonds issued by financial institutions - Non-investment grade
+      </option>
+      <option value="CNV_BND_NFIN_INV_GD"/>    
+      Convertible bonds not issued by financial institutions - Investment grade
+      </option>
+      <option value="CNV_BND_NFIN_NINV_GD"/>    
+      Convertible bonds not issued by financial institutions - Non-investment grade
+      </option>
+      <option value="COMM_DER_CRUD_OIL"/>    
+      Commodities (derivatives) - Crude oil
+      </option>
+      <option value="COMM_DER_GOLD"/>    
+      Commodities (derivatives) - Gold
+      </option>
+      <option value="COMM_DER_NG"/>    
+      Commodities (derivatives) - Natural gas
+      </option>
+      <option value="COMM_DER_POW"/>    
+      Commodities (derivatives) - Power
+      </option>
+      <option value="COMM_DER_OTH_COMM"/>    
+      Commodities (derivatives) - Other commodities
+      </option>
+      <option value="COMM_PHY_CRUD_OIL"/>    
+      Commodities (physical) - Crude oil
+      </option>
+      <option value="COMM_PHY_GOLD"/>    
+      Commodities (physical) - Gold
+      </option>
+      <option value="COMM_PHY_NG"/>    
+      Commodities (physical) - Natural gas
+      </option>
+      <option value="COMM_PHY_OTH_COMM"/>    
+      Commodities (physical) - Other commodities
+      </option>
+      <option value="COMM_PHY_POW"/>    
+      Commodities (physical) - Power
+      </option>
+      <option value="CRD_DER_EXO_CDS"/>    
+      Credit derivatives - Exotic CDS
+      </option>
+      <option value="CRD_DER_IDX_CDS"/>    
+      Credit derivatives - Index CDS
+      </option>
+      <option value="CRD_DER_SNM_CDS"/>    
+      Credit derivatives - Single name CDS
+      </option>
+      <option value="CRP_BND_FIN_INV_GD"/>    
+      Corporate bonds issued by financial institutions (other than convertible bonds) -
+Investment grade
+      </option>
+      <option value="CRP_BND_FIN_NINV_GD"/>    
+      Corporate bonds issued by financial institutions (other than convertible bonds) -
+Non-investment grade
+      </option>
+      <option value="CRP_BND_NFIN_INV_GD"/>    
+      Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Investment grade
+      </option>
+      <option value="CRP_BND_NFIN_NINV_GD"/>    
+      Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Non-investment grade
+      </option>
+      <option value="CSH_EQ_CD"/>    
+      Cash and cash equivalents - Certificates of deposit
+      </option>
+      <option value="CSH_EQ_CD_OTH_DEP"/>    
+      Cash and cash equivalents - Other deposits
+      </option>
+      <option value="CSH_EQ_MM_FNDS"/>    
+      Cash and cash equivalents - Money market funds
+      </option>
+      <option value="CSH_EQ_OTH_EXCL_GSEC"/>    
+      Cash and cash equivalents - Other cash and cash equivalents (excluding
+government securities)
+      </option>
+      <option value="DER_EXP_ULST_SEC_FIN"/>    
+      Derivative exposures to unlisted equities - Related to financial institutions
+      </option>
+      <option value="DER_EXP_ULST_SEC_OTH"/>    
+      Derivative exposures to unlisted equities - Other derivative exposures to
+unlisted equities
+      </option>
+      <option value="FX_DER_HDGE"/>    
+      Foreign exchange derivatives (hedging)
+      </option>
+      <option value="FX_DER_INV"/>    
+      Foreign exchange derivatives (investment)
+      </option>
+      <option value="INT_DER"/>    
+      Interest rate derivatives
+      </option>
+      <option value="INV_EXT_PVT_FNDS"/>    
+      INV_EXT_PVT_FNDS
+      </option>
+      <option value="INV_FND_CSHMG_OTH_MM"/>    
+      Investments in funds for cash management purposes (other than money
+market funds)
+      </option>
+      <option value="INV_INT_PVT_FNDS"/>    
+      Investments in internal private funds
+      </option>
+      <option value="INV_OTH_SUB_ASST_CLS"/>    
+      Investments in other sub-asset classes
+      </option>
+      <option value="INV_REG_INV_COM"/>    
+      Investments in registered investment companies
+      </option>
+      <option value="LOAN_LVRG_LN"/>    
+      Loans - Leveraged loans
+      </option>
+      <option value="LOAN_OTH_LN_NO_REPO"/>    
+      Loans - Other loans (not including repos)
+      </option>
+      <option value="LST_EQT_DER_FIN"/>    
+      Listed equity derivatives - Related to financial institutions
+      </option>
+      <option value="LST_EQT_DER_OTH_DER"/>    
+      Listed equity derivatives - Other listed equity derivatives
+      </option>
+      <option value="LST_EQT_FIN"/>    
+      Listed equity - Issued by financial institutions
+      </option>
+      <option value="LST_EQT_OTH_LST_EQT"/>    
+      Listed equity - Other listed equity
+      </option>
+      <option value="NON_US_CURR_HLDNG"/>    
+      Non-U.S. currency holdings
+      </option>
+      <option value="OTHER"/>    
+      Other
+      </option>
+      <option value="OTH_DER"/>    
+      Other derivatives
+      </option>
+      <option value="PHYS_REAL_EST"/>    
+      Physical real estate
+      </option>
+      <option value="REPOS"/>    
+      Repos
+      </option>
+      <option value="SVRN_BMB_AS"/>    
+      Sovereign bonds and municipal bonds - Agency securities
+      </option>
+      <option value="SVRN_BMB_G10_NO_US"/>    
+      Sovereign bonds and municipal bonds - Sovereign bonds issued by G10
+countries other than the U.S.
+      </option>
+      <option value="SVRN_BMB_GSE_BND"/>    
+      Sovereign bonds and municipal bonds - GSE bonds
+      </option>
+      <option value="SVRN_BMB_OTH_SUP_BND"/>    
+      Sovereign bonds and municipal bonds - Other sovereign bonds (including
+supranational bonds)
+      </option>
+      <option value="SVRN_BMB_US_ST_LCL"/>    
+      Sovereign bonds and municipal bonds - U.S. state and local bonds
+      </option>
+      <option value="SVRN_BMB_US_TRS"/>    
+      Sovereign bonds and municipal bonds - U.S. treasury securities
+      </option>
+      <option value="UNLST_EQT_FIN"/>    
+      Unlisted equity - Issued by financial institutions
+      </option>
+      <option value="UNLST_EQT_OTH_UNLST"/>    
+      Unlisted equity - Other unlisted equity
+      </option>
+    </select> </td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(i) &nbsp;Position </td>
+    <td><input name="NAVPercent" type="text" id="NAVPercent" size="10"></td>
+    <td><select name="LiquidityAssetClassCDType" id="LiquidityAssetClassCDType">
+      <option value="ABS_STRUCT_PRD_ABCP"/>    
+      ABS/structured products - ABCP
+      </option>
+      <option value="ABS_STRUCT_PRD_CDO"/>    
+      ABS/structured products - CDO/CLO
+      </option>
+      <option value="ABS_STRUCT_PRD_MBS"/>    
+      ABS/structured products - MBS
+      </option>
+      <option value="ABS_STRUCT_PRD_OABS"/>    
+      ABS/structured products - Other ABS
+      </option>
+      <option value="ABS_STRUCT_PRD_OSPRD"/>    
+      ABS/structured products - Other structured products
+      </option>
+      <option value="CNV_BND_FIN_INV_GD"/>    
+      Convertible bonds issued by financial institutions - Investment grade
+      </option>
+      <option value="CNV_BND_FIN_NINV_GD"/>    
+      Convertible bonds issued by financial institutions - Non-investment grade
+      </option>
+      <option value="CNV_BND_NFIN_INV_GD"/>    
+      Convertible bonds not issued by financial institutions - Investment grade
+      </option>
+      <option value="CNV_BND_NFIN_NINV_GD"/>    
+      Convertible bonds not issued by financial institutions - Non-investment grade
+      </option>
+      <option value="COMM_DER_CRUD_OIL"/>    
+      Commodities (derivatives) - Crude oil
+      </option>
+      <option value="COMM_DER_GOLD"/>    
+      Commodities (derivatives) - Gold
+      </option>
+      <option value="COMM_DER_NG"/>    
+      Commodities (derivatives) - Natural gas
+      </option>
+      <option value="COMM_DER_POW"/>    
+      Commodities (derivatives) - Power
+      </option>
+      <option value="COMM_DER_OTH_COMM"/>    
+      Commodities (derivatives) - Other commodities
+      </option>
+      <option value="COMM_PHY_CRUD_OIL"/>    
+      Commodities (physical) - Crude oil
+      </option>
+      <option value="COMM_PHY_GOLD"/>    
+      Commodities (physical) - Gold
+      </option>
+      <option value="COMM_PHY_NG"/>    
+      Commodities (physical) - Natural gas
+      </option>
+      <option value="COMM_PHY_OTH_COMM"/>    
+      Commodities (physical) - Other commodities
+      </option>
+      <option value="COMM_PHY_POW"/>    
+      Commodities (physical) - Power
+      </option>
+      <option value="CRD_DER_EXO_CDS"/>    
+      Credit derivatives - Exotic CDS
+      </option>
+      <option value="CRD_DER_IDX_CDS"/>    
+      Credit derivatives - Index CDS
+      </option>
+      <option value="CRD_DER_SNM_CDS"/>    
+      Credit derivatives - Single name CDS
+      </option>
+      <option value="CRP_BND_FIN_INV_GD"/>    
+      Corporate bonds issued by financial institutions (other than convertible bonds) -
+Investment grade
+      </option>
+      <option value="CRP_BND_FIN_NINV_GD"/>    
+      Corporate bonds issued by financial institutions (other than convertible bonds) -
+Non-investment grade
+      </option>
+      <option value="CRP_BND_NFIN_INV_GD"/>    
+      Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Investment grade
+      </option>
+      <option value="CRP_BND_NFIN_NINV_GD"/>    
+      Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Non-investment grade
+      </option>
+      <option value="CSH_EQ_CD"/>    
+      Cash and cash equivalents - Certificates of deposit
+      </option>
+      <option value="CSH_EQ_CD_OTH_DEP"/>    
+      Cash and cash equivalents - Other deposits
+      </option>
+      <option value="CSH_EQ_MM_FNDS"/>    
+      Cash and cash equivalents - Money market funds
+      </option>
+      <option value="CSH_EQ_OTH_EXCL_GSEC"/>    
+      Cash and cash equivalents - Other cash and cash equivalents (excluding
+government securities)
+      </option>
+      <option value="DER_EXP_ULST_SEC_FIN"/>    
+      Derivative exposures to unlisted equities - Related to financial institutions
+      </option>
+      <option value="DER_EXP_ULST_SEC_OTH"/>    
+      Derivative exposures to unlisted equities - Other derivative exposures to
+unlisted equities
+      </option>
+      <option value="FX_DER_HDGE"/>    
+      Foreign exchange derivatives (hedging)
+      </option>
+      <option value="FX_DER_INV"/>    
+      Foreign exchange derivatives (investment)
+      </option>
+      <option value="INT_DER"/>    
+      Interest rate derivatives
+      </option>
+      <option value="INV_EXT_PVT_FNDS"/>    
+      INV_EXT_PVT_FNDS
+      </option>
+      <option value="INV_FND_CSHMG_OTH_MM"/>    
+      Investments in funds for cash management purposes (other than money
+market funds)
+      </option>
+      <option value="INV_INT_PVT_FNDS"/>    
+      Investments in internal private funds
+      </option>
+      <option value="INV_OTH_SUB_ASST_CLS"/>    
+      Investments in other sub-asset classes
+      </option>
+      <option value="INV_REG_INV_COM"/>    
+      Investments in registered investment companies
+      </option>
+      <option value="LOAN_LVRG_LN"/>    
+      Loans - Leveraged loans
+      </option>
+      <option value="LOAN_OTH_LN_NO_REPO"/>    
+      Loans - Other loans (not including repos)
+      </option>
+      <option value="LST_EQT_DER_FIN"/>    
+      Listed equity derivatives - Related to financial institutions
+      </option>
+      <option value="LST_EQT_DER_OTH_DER"/>    
+      Listed equity derivatives - Other listed equity derivatives
+      </option>
+      <option value="LST_EQT_FIN"/>    
+      Listed equity - Issued by financial institutions
+      </option>
+      <option value="LST_EQT_OTH_LST_EQT"/>    
+      Listed equity - Other listed equity
+      </option>
+      <option value="NON_US_CURR_HLDNG"/>    
+      Non-U.S. currency holdings
+      </option>
+      <option value="OTHER"/>    
+      Other
+      </option>
+      <option value="OTH_DER"/>    
+      Other derivatives
+      </option>
+      <option value="PHYS_REAL_EST"/>    
+      Physical real estate
+      </option>
+      <option value="REPOS"/>    
+      Repos
+      </option>
+      <option value="SVRN_BMB_AS"/>    
+      Sovereign bonds and municipal bonds - Agency securities
+      </option>
+      <option value="SVRN_BMB_G10_NO_US"/>    
+      Sovereign bonds and municipal bonds - Sovereign bonds issued by G10
+countries other than the U.S.
+      </option>
+      <option value="SVRN_BMB_GSE_BND"/>    
+      Sovereign bonds and municipal bonds - GSE bonds
+      </option>
+      <option value="SVRN_BMB_OTH_SUP_BND"/>    
+      Sovereign bonds and municipal bonds - Other sovereign bonds (including
+supranational bonds)
+      </option>
+      <option value="SVRN_BMB_US_ST_LCL"/>    
+      Sovereign bonds and municipal bonds - U.S. state and local bonds
+      </option>
+      <option value="SVRN_BMB_US_TRS"/>    
+      Sovereign bonds and municipal bonds - U.S. treasury securities
+      </option>
+      <option value="UNLST_EQT_FIN"/>    
+      Unlisted equity - Issued by financial institutions
+      </option>
+      <option value="UNLST_EQT_OTH_UNLST"/>    
+      Unlisted equity - Other unlisted equity
+      </option>
+    </select></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(ii) &nbsp;Position </td>
+    <td><input name="NAVPercent" type="text" id="NAVPercent" size="10"></td>
+    <td><select name="LiquidityAssetClassCDType" id="LiquidityAssetClassCDType">
+      <option value="ABS_STRUCT_PRD_ABCP"/>    
+      ABS/structured products - ABCP
+      </option>
+      <option value="ABS_STRUCT_PRD_CDO"/>    
+      ABS/structured products - CDO/CLO
+      </option>
+      <option value="ABS_STRUCT_PRD_MBS"/>    
+      ABS/structured products - MBS
+      </option>
+      <option value="ABS_STRUCT_PRD_OABS"/>    
+      ABS/structured products - Other ABS
+      </option>
+      <option value="ABS_STRUCT_PRD_OSPRD"/>    
+      ABS/structured products - Other structured products
+      </option>
+      <option value="CNV_BND_FIN_INV_GD"/>    
+      Convertible bonds issued by financial institutions - Investment grade
+      </option>
+      <option value="CNV_BND_FIN_NINV_GD"/>    
+      Convertible bonds issued by financial institutions - Non-investment grade
+      </option>
+      <option value="CNV_BND_NFIN_INV_GD"/>    
+      Convertible bonds not issued by financial institutions - Investment grade
+      </option>
+      <option value="CNV_BND_NFIN_NINV_GD"/>    
+      Convertible bonds not issued by financial institutions - Non-investment grade
+      </option>
+      <option value="COMM_DER_CRUD_OIL"/>    
+      Commodities (derivatives) - Crude oil
+      </option>
+      <option value="COMM_DER_GOLD"/>    
+      Commodities (derivatives) - Gold
+      </option>
+      <option value="COMM_DER_NG"/>    
+      Commodities (derivatives) - Natural gas
+      </option>
+      <option value="COMM_DER_POW"/>    
+      Commodities (derivatives) - Power
+      </option>
+      <option value="COMM_DER_OTH_COMM"/>    
+      Commodities (derivatives) - Other commodities
+      </option>
+      <option value="COMM_PHY_CRUD_OIL"/>    
+      Commodities (physical) - Crude oil
+      </option>
+      <option value="COMM_PHY_GOLD"/>    
+      Commodities (physical) - Gold
+      </option>
+      <option value="COMM_PHY_NG"/>    
+      Commodities (physical) - Natural gas
+      </option>
+      <option value="COMM_PHY_OTH_COMM"/>    
+      Commodities (physical) - Other commodities
+      </option>
+      <option value="COMM_PHY_POW"/>    
+      Commodities (physical) - Power
+      </option>
+      <option value="CRD_DER_EXO_CDS"/>    
+      Credit derivatives - Exotic CDS
+      </option>
+      <option value="CRD_DER_IDX_CDS"/>    
+      Credit derivatives - Index CDS
+      </option>
+      <option value="CRD_DER_SNM_CDS"/>    
+      Credit derivatives - Single name CDS
+      </option>
+      <option value="CRP_BND_FIN_INV_GD"/>    
+      Corporate bonds issued by financial institutions (other than convertible bonds) -
+Investment grade
+      </option>
+      <option value="CRP_BND_FIN_NINV_GD"/>    
+      Corporate bonds issued by financial institutions (other than convertible bonds) -
+Non-investment grade
+      </option>
+      <option value="CRP_BND_NFIN_INV_GD"/>    
+      Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Investment grade
+      </option>
+      <option value="CRP_BND_NFIN_NINV_GD"/>    
+      Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Non-investment grade
+      </option>
+      <option value="CSH_EQ_CD"/>    
+      Cash and cash equivalents - Certificates of deposit
+      </option>
+      <option value="CSH_EQ_CD_OTH_DEP"/>    
+      Cash and cash equivalents - Other deposits
+      </option>
+      <option value="CSH_EQ_MM_FNDS"/>    
+      Cash and cash equivalents - Money market funds
+      </option>
+      <option value="CSH_EQ_OTH_EXCL_GSEC"/>    
+      Cash and cash equivalents - Other cash and cash equivalents (excluding
+government securities)
+      </option>
+      <option value="DER_EXP_ULST_SEC_FIN"/>    
+      Derivative exposures to unlisted equities - Related to financial institutions
+      </option>
+      <option value="DER_EXP_ULST_SEC_OTH"/>    
+      Derivative exposures to unlisted equities - Other derivative exposures to
+unlisted equities
+      </option>
+      <option value="FX_DER_HDGE"/>    
+      Foreign exchange derivatives (hedging)
+      </option>
+      <option value="FX_DER_INV"/>    
+      Foreign exchange derivatives (investment)
+      </option>
+      <option value="INT_DER"/>    
+      Interest rate derivatives
+      </option>
+      <option value="INV_EXT_PVT_FNDS"/>    
+      INV_EXT_PVT_FNDS
+      </option>
+      <option value="INV_FND_CSHMG_OTH_MM"/>    
+      Investments in funds for cash management purposes (other than money
+market funds)
+      </option>
+      <option value="INV_INT_PVT_FNDS"/>    
+      Investments in internal private funds
+      </option>
+      <option value="INV_OTH_SUB_ASST_CLS"/>    
+      Investments in other sub-asset classes
+      </option>
+      <option value="INV_REG_INV_COM"/>    
+      Investments in registered investment companies
+      </option>
+      <option value="LOAN_LVRG_LN"/>    
+      Loans - Leveraged loans
+      </option>
+      <option value="LOAN_OTH_LN_NO_REPO"/>    
+      Loans - Other loans (not including repos)
+      </option>
+      <option value="LST_EQT_DER_FIN"/>    
+      Listed equity derivatives - Related to financial institutions
+      </option>
+      <option value="LST_EQT_DER_OTH_DER"/>    
+      Listed equity derivatives - Other listed equity derivatives
+      </option>
+      <option value="LST_EQT_FIN"/>    
+      Listed equity - Issued by financial institutions
+      </option>
+      <option value="LST_EQT_OTH_LST_EQT"/>    
+      Listed equity - Other listed equity
+      </option>
+      <option value="NON_US_CURR_HLDNG"/>    
+      Non-U.S. currency holdings
+      </option>
+      <option value="OTHER"/>    
+      Other
+      </option>
+      <option value="OTH_DER"/>    
+      Other derivatives
+      </option>
+      <option value="PHYS_REAL_EST"/>    
+      Physical real estate
+      </option>
+      <option value="REPOS"/>    
+      Repos
+      </option>
+      <option value="SVRN_BMB_AS"/>    
+      Sovereign bonds and municipal bonds - Agency securities
+      </option>
+      <option value="SVRN_BMB_G10_NO_US"/>    
+      Sovereign bonds and municipal bonds - Sovereign bonds issued by G10
+countries other than the U.S.
+      </option>
+      <option value="SVRN_BMB_GSE_BND"/>    
+      Sovereign bonds and municipal bonds - GSE bonds
+      </option>
+      <option value="SVRN_BMB_OTH_SUP_BND"/>    
+      Sovereign bonds and municipal bonds - Other sovereign bonds (including
+supranational bonds)
+      </option>
+      <option value="SVRN_BMB_US_ST_LCL"/>    
+      Sovereign bonds and municipal bonds - U.S. state and local bonds
+      </option>
+      <option value="SVRN_BMB_US_TRS"/>    
+      Sovereign bonds and municipal bonds - U.S. treasury securities
+      </option>
+      <option value="UNLST_EQT_FIN"/>    
+      Unlisted equity - Issued by financial institutions
+      </option>
+      <option value="UNLST_EQT_OTH_UNLST"/>    
+      Unlisted equity - Other unlisted equity
+      </option>
+    </select></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(c)</td>
+    <td>Third month of the reporting period </td>
+    <td><input name="NAVPercent" type="text" id="NAVPercent" size="10"></td>
+    <td><select name="LiquidityAssetClassCDType" id="LiquidityAssetClassCDType">
+      <option value="ABS_STRUCT_PRD_ABCP"/>    
+      ABS/structured products - ABCP
+      </option>
+      <option value="ABS_STRUCT_PRD_CDO"/>    
+      ABS/structured products - CDO/CLO
+      </option>
+      <option value="ABS_STRUCT_PRD_MBS"/>    
+      ABS/structured products - MBS
+      </option>
+      <option value="ABS_STRUCT_PRD_OABS"/>    
+      ABS/structured products - Other ABS
+      </option>
+      <option value="ABS_STRUCT_PRD_OSPRD"/>    
+      ABS/structured products - Other structured products
+      </option>
+      <option value="CNV_BND_FIN_INV_GD"/>    
+      Convertible bonds issued by financial institutions - Investment grade
+      </option>
+      <option value="CNV_BND_FIN_NINV_GD"/>    
+      Convertible bonds issued by financial institutions - Non-investment grade
+      </option>
+      <option value="CNV_BND_NFIN_INV_GD"/>    
+      Convertible bonds not issued by financial institutions - Investment grade
+      </option>
+      <option value="CNV_BND_NFIN_NINV_GD"/>    
+      Convertible bonds not issued by financial institutions - Non-investment grade
+      </option>
+      <option value="COMM_DER_CRUD_OIL"/>    
+      Commodities (derivatives) - Crude oil
+      </option>
+      <option value="COMM_DER_GOLD"/>    
+      Commodities (derivatives) - Gold
+      </option>
+      <option value="COMM_DER_NG"/>    
+      Commodities (derivatives) - Natural gas
+      </option>
+      <option value="COMM_DER_POW"/>    
+      Commodities (derivatives) - Power
+      </option>
+      <option value="COMM_DER_OTH_COMM"/>    
+      Commodities (derivatives) - Other commodities
+      </option>
+      <option value="COMM_PHY_CRUD_OIL"/>    
+      Commodities (physical) - Crude oil
+      </option>
+      <option value="COMM_PHY_GOLD"/>    
+      Commodities (physical) - Gold
+      </option>
+      <option value="COMM_PHY_NG"/>    
+      Commodities (physical) - Natural gas
+      </option>
+      <option value="COMM_PHY_OTH_COMM"/>    
+      Commodities (physical) - Other commodities
+      </option>
+      <option value="COMM_PHY_POW"/>    
+      Commodities (physical) - Power
+      </option>
+      <option value="CRD_DER_EXO_CDS"/>    
+      Credit derivatives - Exotic CDS
+      </option>
+      <option value="CRD_DER_IDX_CDS"/>    
+      Credit derivatives - Index CDS
+      </option>
+      <option value="CRD_DER_SNM_CDS"/>    
+      Credit derivatives - Single name CDS
+      </option>
+      <option value="CRP_BND_FIN_INV_GD"/>    
+      Corporate bonds issued by financial institutions (other than convertible bonds) -
+Investment grade
+      </option>
+      <option value="CRP_BND_FIN_NINV_GD"/>    
+      Corporate bonds issued by financial institutions (other than convertible bonds) -
+Non-investment grade
+      </option>
+      <option value="CRP_BND_NFIN_INV_GD"/>    
+      Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Investment grade
+      </option>
+      <option value="CRP_BND_NFIN_NINV_GD"/>    
+      Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Non-investment grade
+      </option>
+      <option value="CSH_EQ_CD"/>    
+      Cash and cash equivalents - Certificates of deposit
+      </option>
+      <option value="CSH_EQ_CD_OTH_DEP"/>    
+      Cash and cash equivalents - Other deposits
+      </option>
+      <option value="CSH_EQ_MM_FNDS"/>    
+      Cash and cash equivalents - Money market funds
+      </option>
+      <option value="CSH_EQ_OTH_EXCL_GSEC"/>    
+      Cash and cash equivalents - Other cash and cash equivalents (excluding
+government securities)
+      </option>
+      <option value="DER_EXP_ULST_SEC_FIN"/>    
+      Derivative exposures to unlisted equities - Related to financial institutions
+      </option>
+      <option value="DER_EXP_ULST_SEC_OTH"/>    
+      Derivative exposures to unlisted equities - Other derivative exposures to
+unlisted equities
+      </option>
+      <option value="FX_DER_HDGE"/>    
+      Foreign exchange derivatives (hedging)
+      </option>
+      <option value="FX_DER_INV"/>    
+      Foreign exchange derivatives (investment)
+      </option>
+      <option value="INT_DER"/>    
+      Interest rate derivatives
+      </option>
+      <option value="INV_EXT_PVT_FNDS"/>    
+      INV_EXT_PVT_FNDS
+      </option>
+      <option value="INV_FND_CSHMG_OTH_MM"/>    
+      Investments in funds for cash management purposes (other than money
+market funds)
+      </option>
+      <option value="INV_INT_PVT_FNDS"/>    
+      Investments in internal private funds
+      </option>
+      <option value="INV_OTH_SUB_ASST_CLS"/>    
+      Investments in other sub-asset classes
+      </option>
+      <option value="INV_REG_INV_COM"/>    
+      Investments in registered investment companies
+      </option>
+      <option value="LOAN_LVRG_LN"/>    
+      Loans - Leveraged loans
+      </option>
+      <option value="LOAN_OTH_LN_NO_REPO"/>    
+      Loans - Other loans (not including repos)
+      </option>
+      <option value="LST_EQT_DER_FIN"/>    
+      Listed equity derivatives - Related to financial institutions
+      </option>
+      <option value="LST_EQT_DER_OTH_DER"/>    
+      Listed equity derivatives - Other listed equity derivatives
+      </option>
+      <option value="LST_EQT_FIN"/>    
+      Listed equity - Issued by financial institutions
+      </option>
+      <option value="LST_EQT_OTH_LST_EQT"/>    
+      Listed equity - Other listed equity
+      </option>
+      <option value="NON_US_CURR_HLDNG"/>    
+      Non-U.S. currency holdings
+      </option>
+      <option value="OTHER"/>    
+      Other
+      </option>
+      <option value="OTH_DER"/>    
+      Other derivatives
+      </option>
+      <option value="PHYS_REAL_EST"/>    
+      Physical real estate
+      </option>
+      <option value="REPOS"/>    
+      Repos
+      </option>
+      <option value="SVRN_BMB_AS"/>    
+      Sovereign bonds and municipal bonds - Agency securities
+      </option>
+      <option value="SVRN_BMB_G10_NO_US"/>    
+      Sovereign bonds and municipal bonds - Sovereign bonds issued by G10
+countries other than the U.S.
+      </option>
+      <option value="SVRN_BMB_GSE_BND"/>    
+      Sovereign bonds and municipal bonds - GSE bonds
+      </option>
+      <option value="SVRN_BMB_OTH_SUP_BND"/>    
+      Sovereign bonds and municipal bonds - Other sovereign bonds (including
+supranational bonds)
+      </option>
+      <option value="SVRN_BMB_US_ST_LCL"/>    
+      Sovereign bonds and municipal bonds - U.S. state and local bonds
+      </option>
+      <option value="SVRN_BMB_US_TRS"/>    
+      Sovereign bonds and municipal bonds - U.S. treasury securities
+      </option>
+      <option value="UNLST_EQT_FIN"/>    
+      Unlisted equity - Issued by financial institutions
+      </option>
+      <option value="UNLST_EQT_OTH_UNLST"/>    
+      Unlisted equity - Other unlisted equity
+      </option>
+    </select></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(i) &nbsp;Position </td>
+    <td><input name="NAVPercent" type="text" id="NAVPercent" size="10"></td>
+    <td><select name="LiquidityAssetClassCDType" id="LiquidityAssetClassCDType">
+      <option value="ABS_STRUCT_PRD_ABCP"/>    
+      ABS/structured products - ABCP
+      </option>
+      <option value="ABS_STRUCT_PRD_CDO"/>    
+      ABS/structured products - CDO/CLO
+      </option>
+      <option value="ABS_STRUCT_PRD_MBS"/>    
+      ABS/structured products - MBS
+      </option>
+      <option value="ABS_STRUCT_PRD_OABS"/>    
+      ABS/structured products - Other ABS
+      </option>
+      <option value="ABS_STRUCT_PRD_OSPRD"/>    
+      ABS/structured products - Other structured products
+      </option>
+      <option value="CNV_BND_FIN_INV_GD"/>    
+      Convertible bonds issued by financial institutions - Investment grade
+      </option>
+      <option value="CNV_BND_FIN_NINV_GD"/>    
+      Convertible bonds issued by financial institutions - Non-investment grade
+      </option>
+      <option value="CNV_BND_NFIN_INV_GD"/>    
+      Convertible bonds not issued by financial institutions - Investment grade
+      </option>
+      <option value="CNV_BND_NFIN_NINV_GD"/>    
+      Convertible bonds not issued by financial institutions - Non-investment grade
+      </option>
+      <option value="COMM_DER_CRUD_OIL"/>    
+      Commodities (derivatives) - Crude oil
+      </option>
+      <option value="COMM_DER_GOLD"/>    
+      Commodities (derivatives) - Gold
+      </option>
+      <option value="COMM_DER_NG"/>    
+      Commodities (derivatives) - Natural gas
+      </option>
+      <option value="COMM_DER_POW"/>    
+      Commodities (derivatives) - Power
+      </option>
+      <option value="COMM_DER_OTH_COMM"/>    
+      Commodities (derivatives) - Other commodities
+      </option>
+      <option value="COMM_PHY_CRUD_OIL"/>    
+      Commodities (physical) - Crude oil
+      </option>
+      <option value="COMM_PHY_GOLD"/>    
+      Commodities (physical) - Gold
+      </option>
+      <option value="COMM_PHY_NG"/>    
+      Commodities (physical) - Natural gas
+      </option>
+      <option value="COMM_PHY_OTH_COMM"/>    
+      Commodities (physical) - Other commodities
+      </option>
+      <option value="COMM_PHY_POW"/>    
+      Commodities (physical) - Power
+      </option>
+      <option value="CRD_DER_EXO_CDS"/>    
+      Credit derivatives - Exotic CDS
+      </option>
+      <option value="CRD_DER_IDX_CDS"/>    
+      Credit derivatives - Index CDS
+      </option>
+      <option value="CRD_DER_SNM_CDS"/>    
+      Credit derivatives - Single name CDS
+      </option>
+      <option value="CRP_BND_FIN_INV_GD"/>    
+      Corporate bonds issued by financial institutions (other than convertible bonds) -
+Investment grade
+      </option>
+      <option value="CRP_BND_FIN_NINV_GD"/>    
+      Corporate bonds issued by financial institutions (other than convertible bonds) -
+Non-investment grade
+      </option>
+      <option value="CRP_BND_NFIN_INV_GD"/>    
+      Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Investment grade
+      </option>
+      <option value="CRP_BND_NFIN_NINV_GD"/>    
+      Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Non-investment grade
+      </option>
+      <option value="CSH_EQ_CD"/>    
+      Cash and cash equivalents - Certificates of deposit
+      </option>
+      <option value="CSH_EQ_CD_OTH_DEP"/>    
+      Cash and cash equivalents - Other deposits
+      </option>
+      <option value="CSH_EQ_MM_FNDS"/>    
+      Cash and cash equivalents - Money market funds
+      </option>
+      <option value="CSH_EQ_OTH_EXCL_GSEC"/>    
+      Cash and cash equivalents - Other cash and cash equivalents (excluding
+government securities)
+      </option>
+      <option value="DER_EXP_ULST_SEC_FIN"/>    
+      Derivative exposures to unlisted equities - Related to financial institutions
+      </option>
+      <option value="DER_EXP_ULST_SEC_OTH"/>    
+      Derivative exposures to unlisted equities - Other derivative exposures to
+unlisted equities
+      </option>
+      <option value="FX_DER_HDGE"/>    
+      Foreign exchange derivatives (hedging)
+      </option>
+      <option value="FX_DER_INV"/>    
+      Foreign exchange derivatives (investment)
+      </option>
+      <option value="INT_DER"/>    
+      Interest rate derivatives
+      </option>
+      <option value="INV_EXT_PVT_FNDS"/>    
+      INV_EXT_PVT_FNDS
+      </option>
+      <option value="INV_FND_CSHMG_OTH_MM"/>    
+      Investments in funds for cash management purposes (other than money
+market funds)
+      </option>
+      <option value="INV_INT_PVT_FNDS"/>    
+      Investments in internal private funds
+      </option>
+      <option value="INV_OTH_SUB_ASST_CLS"/>    
+      Investments in other sub-asset classes
+      </option>
+      <option value="INV_REG_INV_COM"/>    
+      Investments in registered investment companies
+      </option>
+      <option value="LOAN_LVRG_LN"/>    
+      Loans - Leveraged loans
+      </option>
+      <option value="LOAN_OTH_LN_NO_REPO"/>    
+      Loans - Other loans (not including repos)
+      </option>
+      <option value="LST_EQT_DER_FIN"/>    
+      Listed equity derivatives - Related to financial institutions
+      </option>
+      <option value="LST_EQT_DER_OTH_DER"/>    
+      Listed equity derivatives - Other listed equity derivatives
+      </option>
+      <option value="LST_EQT_FIN"/>    
+      Listed equity - Issued by financial institutions
+      </option>
+      <option value="LST_EQT_OTH_LST_EQT"/>    
+      Listed equity - Other listed equity
+      </option>
+      <option value="NON_US_CURR_HLDNG"/>    
+      Non-U.S. currency holdings
+      </option>
+      <option value="OTHER"/>    
+      Other
+      </option>
+      <option value="OTH_DER"/>    
+      Other derivatives
+      </option>
+      <option value="PHYS_REAL_EST"/>    
+      Physical real estate
+      </option>
+      <option value="REPOS"/>    
+      Repos
+      </option>
+      <option value="SVRN_BMB_AS"/>    
+      Sovereign bonds and municipal bonds - Agency securities
+      </option>
+      <option value="SVRN_BMB_G10_NO_US"/>    
+      Sovereign bonds and municipal bonds - Sovereign bonds issued by G10
+countries other than the U.S.
+      </option>
+      <option value="SVRN_BMB_GSE_BND"/>    
+      Sovereign bonds and municipal bonds - GSE bonds
+      </option>
+      <option value="SVRN_BMB_OTH_SUP_BND"/>    
+      Sovereign bonds and municipal bonds - Other sovereign bonds (including
+supranational bonds)
+      </option>
+      <option value="SVRN_BMB_US_ST_LCL"/>    
+      Sovereign bonds and municipal bonds - U.S. state and local bonds
+      </option>
+      <option value="SVRN_BMB_US_TRS"/>    
+      Sovereign bonds and municipal bonds - U.S. treasury securities
+      </option>
+      <option value="UNLST_EQT_FIN"/>    
+      Unlisted equity - Issued by financial institutions
+      </option>
+      <option value="UNLST_EQT_OTH_UNLST"/>    
+      Unlisted equity - Other unlisted equity
+      </option>
+    </select></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(ii) &nbsp;Position </td>
+    <td><input name="NAVPercent" type="text" id="NAVPercent" size="10"></td>
+    <td><select name="LiquidityAssetClassCDType" id="LiquidityAssetClassCDType">
+      <option value="ABS_STRUCT_PRD_ABCP"/>    
+      ABS/structured products - ABCP
+      </option>
+      <option value="ABS_STRUCT_PRD_CDO"/>    
+      ABS/structured products - CDO/CLO
+      </option>
+      <option value="ABS_STRUCT_PRD_MBS"/>    
+      ABS/structured products - MBS
+      </option>
+      <option value="ABS_STRUCT_PRD_OABS"/>    
+      ABS/structured products - Other ABS
+      </option>
+      <option value="ABS_STRUCT_PRD_OSPRD"/>    
+      ABS/structured products - Other structured products
+      </option>
+      <option value="CNV_BND_FIN_INV_GD"/>    
+      Convertible bonds issued by financial institutions - Investment grade
+      </option>
+      <option value="CNV_BND_FIN_NINV_GD"/>    
+      Convertible bonds issued by financial institutions - Non-investment grade
+      </option>
+      <option value="CNV_BND_NFIN_INV_GD"/>    
+      Convertible bonds not issued by financial institutions - Investment grade
+      </option>
+      <option value="CNV_BND_NFIN_NINV_GD"/>    
+      Convertible bonds not issued by financial institutions - Non-investment grade
+      </option>
+      <option value="COMM_DER_CRUD_OIL"/>    
+      Commodities (derivatives) - Crude oil
+      </option>
+      <option value="COMM_DER_GOLD"/>    
+      Commodities (derivatives) - Gold
+      </option>
+      <option value="COMM_DER_NG"/>    
+      Commodities (derivatives) - Natural gas
+      </option>
+      <option value="COMM_DER_POW"/>    
+      Commodities (derivatives) - Power
+      </option>
+      <option value="COMM_DER_OTH_COMM"/>    
+      Commodities (derivatives) - Other commodities
+      </option>
+      <option value="COMM_PHY_CRUD_OIL"/>    
+      Commodities (physical) - Crude oil
+      </option>
+      <option value="COMM_PHY_GOLD"/>    
+      Commodities (physical) - Gold
+      </option>
+      <option value="COMM_PHY_NG"/>    
+      Commodities (physical) - Natural gas
+      </option>
+      <option value="COMM_PHY_OTH_COMM"/>    
+      Commodities (physical) - Other commodities
+      </option>
+      <option value="COMM_PHY_POW"/>    
+      Commodities (physical) - Power
+      </option>
+      <option value="CRD_DER_EXO_CDS"/>    
+      Credit derivatives - Exotic CDS
+      </option>
+      <option value="CRD_DER_IDX_CDS"/>    
+      Credit derivatives - Index CDS
+      </option>
+      <option value="CRD_DER_SNM_CDS"/>    
+      Credit derivatives - Single name CDS
+      </option>
+      <option value="CRP_BND_FIN_INV_GD"/>    
+      Corporate bonds issued by financial institutions (other than convertible bonds) -
+Investment grade
+      </option>
+      <option value="CRP_BND_FIN_NINV_GD"/>    
+      Corporate bonds issued by financial institutions (other than convertible bonds) -
+Non-investment grade
+      </option>
+      <option value="CRP_BND_NFIN_INV_GD"/>    
+      Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Investment grade
+      </option>
+      <option value="CRP_BND_NFIN_NINV_GD"/>    
+      Corporate bonds not issued by financial institutions (other than convertible
+bonds) - Non-investment grade
+      </option>
+      <option value="CSH_EQ_CD"/>    
+      Cash and cash equivalents - Certificates of deposit
+      </option>
+      <option value="CSH_EQ_CD_OTH_DEP"/>    
+      Cash and cash equivalents - Other deposits
+      </option>
+      <option value="CSH_EQ_MM_FNDS"/>    
+      Cash and cash equivalents - Money market funds
+      </option>
+      <option value="CSH_EQ_OTH_EXCL_GSEC"/>    
+      Cash and cash equivalents - Other cash and cash equivalents (excluding
+government securities)
+      </option>
+      <option value="DER_EXP_ULST_SEC_FIN"/>    
+      Derivative exposures to unlisted equities - Related to financial institutions
+      </option>
+      <option value="DER_EXP_ULST_SEC_OTH"/>    
+      Derivative exposures to unlisted equities - Other derivative exposures to
+unlisted equities
+      </option>
+      <option value="FX_DER_HDGE"/>    
+      Foreign exchange derivatives (hedging)
+      </option>
+      <option value="FX_DER_INV"/>    
+      Foreign exchange derivatives (investment)
+      </option>
+      <option value="INT_DER"/>    
+      Interest rate derivatives
+      </option>
+      <option value="INV_EXT_PVT_FNDS"/>    
+      INV_EXT_PVT_FNDS
+      </option>
+      <option value="INV_FND_CSHMG_OTH_MM"/>    
+      Investments in funds for cash management purposes (other than money
+market funds)
+      </option>
+      <option value="INV_INT_PVT_FNDS"/>    
+      Investments in internal private funds
+      </option>
+      <option value="INV_OTH_SUB_ASST_CLS"/>    
+      Investments in other sub-asset classes
+      </option>
+      <option value="INV_REG_INV_COM"/>    
+      Investments in registered investment companies
+      </option>
+      <option value="LOAN_LVRG_LN"/>    
+      Loans - Leveraged loans
+      </option>
+      <option value="LOAN_OTH_LN_NO_REPO"/>    
+      Loans - Other loans (not including repos)
+      </option>
+      <option value="LST_EQT_DER_FIN"/>    
+      Listed equity derivatives - Related to financial institutions
+      </option>
+      <option value="LST_EQT_DER_OTH_DER"/>    
+      Listed equity derivatives - Other listed equity derivatives
+      </option>
+      <option value="LST_EQT_FIN"/>    
+      Listed equity - Issued by financial institutions
+      </option>
+      <option value="LST_EQT_OTH_LST_EQT"/>    
+      Listed equity - Other listed equity
+      </option>
+      <option value="NON_US_CURR_HLDNG"/>    
+      Non-U.S. currency holdings
+      </option>
+      <option value="OTHER"/>    
+      Other
+      </option>
+      <option value="OTH_DER"/>    
+      Other derivatives
+      </option>
+      <option value="PHYS_REAL_EST"/>    
+      Physical real estate
+      </option>
+      <option value="REPOS"/>    
+      Repos
+      </option>
+      <option value="SVRN_BMB_AS"/>    
+      Sovereign bonds and municipal bonds - Agency securities
+      </option>
+      <option value="SVRN_BMB_G10_NO_US"/>    
+      Sovereign bonds and municipal bonds - Sovereign bonds issued by G10
+countries other than the U.S.
+      </option>
+      <option value="SVRN_BMB_GSE_BND"/>    
+      Sovereign bonds and municipal bonds - GSE bonds
+      </option>
+      <option value="SVRN_BMB_OTH_SUP_BND"/>    
+      Sovereign bonds and municipal bonds - Other sovereign bonds (including
+supranational bonds)
+      </option>
+      <option value="SVRN_BMB_US_ST_LCL"/>    
+      Sovereign bonds and municipal bonds - U.S. state and local bonds
+      </option>
+      <option value="SVRN_BMB_US_TRS"/>    
+      Sovereign bonds and municipal bonds - U.S. treasury securities
+      </option>
+      <option value="UNLST_EQT_FIN"/>    
+      Unlisted equity - Issued by financial institutions
+      </option>
+      <option value="UNLST_EQT_OTH_UNLST"/>    
+      Unlisted equity - Other unlisted equity
+      </option>
+    </select></td>
+  </tr>
+ 
+</table>
+</div>
+
+
+<h2>Item C. Financing information</h2>
+<hr />
+
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td>58. </td>
+    <td>(a)</td>
+    <td colspan="6"><p>Is the amount of total borrowing reported in response to Question 12 equal to or greater than 5% of the reporting fund&rsquo;s net asset value? </p></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td colspan="3"><input name="BorrowedTotalAmountGreater5Percent" id="BorrowedTotalAmountGreater5Percent" type="radio" value="true">
+      Yes</td>
+    <td colspan="3"><input name="BorrowedTotalAmountGreater5Percent" id="BorrowedTotalAmountGreater5Percent" type="radio" value="false"> 
+      No
+</td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b)</td>
+    <td colspan="6"><p>If you responded &ldquo;yes&rdquo; to Question 58(a) above, divide the dollar amount of total borrowing reported in response to Question 12 among the periods specified below depending on the type of borrowing, the type of creditor and the latest date on which the reporting fund may repay the principal amount of the borrowing without defaulting or incurring penalties or additional fees. </p>
+      <p>(If a creditor (or syndicate or administrative/collateral agent) is permitted to vary unilaterally the economic terms of the financing or to revalue posted collateral in its own discretion and demand additional collateral, then the borrowing should be deemed to have a maturity of 1 day or less for purposes of this question. For amortizing loans, each amortization payment should be treated separately and grouped with other borrowings based on its payment date.) (The total amount of borrowings reported below should equal approximately the total amount of borrowing reported in response to Question 12.)</p></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><p>1 day or less </p></td>
+    <td><p>2 days to 7 days </p></td>
+    <td><p>8 days to 30 days </p></td>
+    <td><p>31 days to 397 days </p></td>
+    <td><p>Greater than 397 days </p></td>
+  </tr>
+  <tr >
+    <td>&nbsp;</td>
+    <td>(i)</td>
+    <td>Unsecured borrowing </td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr id="UNSCD_US_INSTN">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(A) &nbsp;U.S. financial institutions</td>
+    <td><input name="BorrowedAmountMaturityInDays0To1Amount" type="text" id="BorrowedAmountMaturityInDays0To1Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays2To7Amount" type="text" id="BorrowedAmountMaturityInDays2To7Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays8To30Amount" type="text" id="BorrowedAmountMaturityInDays8To30Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays31To397Amount" type="text" id="BorrowedAmountMaturityInDays31To397Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays397MoreAmount" type="text" id="BorrowedAmountMaturityInDays397MoreAmount" size="10"></td>
+  </tr>
+  <tr id="UNSCD_NON_US_INSTN">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(B) &nbsp;Non-U.S. financial institutions </td>
+    <td><input name="BorrowedAmountMaturityInDays0To1Amount" type="text" id="BorrowedAmountMaturityInDays0To1Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays2To7Amount" type="text" id="BorrowedAmountMaturityInDays2To7Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays8To30Amount" type="text" id="BorrowedAmountMaturityInDays8To30Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays31To397Amount" type="text" id="BorrowedAmountMaturityInDays31To397Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays397MoreAmount" type="text" id="BorrowedAmountMaturityInDays397MoreAmount" size="10"></td>
+  </tr>
+  <tr id="UNSCD_US_CRDTR">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(C) &nbsp;Other U.S. creditors </td>
+    <td><input name="BorrowedAmountMaturityInDays0To1Amount" type="text" id="BorrowedAmountMaturityInDays0To1Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays2To7Amount" type="text" id="BorrowedAmountMaturityInDays2To7Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays8To30Amount" type="text" id="BorrowedAmountMaturityInDays8To30Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays31To397Amount" type="text" id="BorrowedAmountMaturityInDays31To397Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays397MoreAmount" type="text" id="BorrowedAmountMaturityInDays397MoreAmount" size="10"></td>
+  </tr>
+  <tr id="UNSCD_NON_US_CRDTR">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(D) &nbsp;Other non-U.S. creditors </td>
+    <td><input name="BorrowedAmountMaturityInDays0To1Amount" type="text" id="BorrowedAmountMaturityInDays0To1Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays2To7Amount" type="text" id="BorrowedAmountMaturityInDays2To7Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays8To30Amount" type="text" id="BorrowedAmountMaturityInDays8To30Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays31To397Amount" type="text" id="BorrowedAmountMaturityInDays31To397Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays397MoreAmount" type="text" id="BorrowedAmountMaturityInDays397MoreAmount" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(ii)</td>
+    <td>Secured borrowing </td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr  id="SECRD_US_INSTN">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(A) &nbsp;U.S. financial institutions</td>
+    <td><input name="BorrowedAmountMaturityInDays0To1Amount" type="text" id="BorrowedAmountMaturityInDays0To1Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays2To7Amount" type="text" id="BorrowedAmountMaturityInDays2To7Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays8To30Amount" type="text" id="BorrowedAmountMaturityInDays8To30Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays31To397Amount" type="text" id="BorrowedAmountMaturityInDays31To397Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays397MoreAmount" type="text" id="BorrowedAmountMaturityInDays397MoreAmount" size="10"></td>
+  </tr>
+  <tr id="SECRD_NON_US_INSTN">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(B) &nbsp;Non-U.S. financial institutions </td>
+    <td><input name="BorrowedAmountMaturityInDays0To1Amount" type="text" id="BorrowedAmountMaturityInDays0To1Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays2To7Amount" type="text" id="BorrowedAmountMaturityInDays2To7Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays8To30Amount" type="text" id="BorrowedAmountMaturityInDays8To30Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays31To397Amount" type="text" id="BorrowedAmountMaturityInDays31To397Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays397MoreAmount" type="text" id="BorrowedAmountMaturityInDays397MoreAmount" size="10"></td>
+  </tr>
+  <tr id="SECRD_US_CRDTR">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(C) &nbsp;Other U.S. creditors </td>
+    <td><input name="BorrowedAmountMaturityInDays0To1Amount" type="text" id="BorrowedAmountMaturityInDays0To1Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays2To7Amount" type="text" id="BorrowedAmountMaturityInDays2To7Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays8To30Amount" type="text" id="BorrowedAmountMaturityInDays8To30Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays31To397Amount" type="text" id="BorrowedAmountMaturityInDays31To397Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays397MoreAmount" type="text" id="BorrowedAmountMaturityInDays397MoreAmount" size="10"></td>
+  </tr>
+  <tr id="SECRD_NON_US_CRDTR">
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>(D) &nbsp;Other non-U.S. creditors </td>
+    <td><input name="BorrowedAmountMaturityInDays0To1Amount" type="text" id="BorrowedAmountMaturityInDays0To1Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays2To7Amount" type="text" id="BorrowedAmountMaturityInDays2To7Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays8To30Amount" type="text" id="BorrowedAmountMaturityInDays8To30Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays31To397Amount" type="text" id="BorrowedAmountMaturityInDays31To397Amount" size="10"></td>
+    <td><input name="BorrowedAmountMaturityInDays397MoreAmount" type="text" id="BorrowedAmountMaturityInDays397MoreAmount" size="10"></td>
+  </tr>
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td width="5%">59. 	</td>
+    <td width="4%">(a)</td>
+    <td colspan="2">Does the reporting fund have in place one or more committed liquidity facilities? </td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td width="47%"><input name="BorrowedTotalAmountGreater5Percent" id="BorrowedTotalAmountGreater5Percent" type="radio" value="true">
+      Yes</td>
+    <td width="44%"><input name="BorrowedTotalAmountGreater5Percent" id="BorrowedTotalAmountGreater5Percent" type="radio" value="false">
+      No</td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b)</td>
+    <td><p>If you responded &ldquo;yes&rdquo; to Question 59(a), provide the aggregate dollar amount of commitments under the liquidity facilities </p></td>
+    <td><input name="CommittedLiquidityFacilitiesAmount" type="text" id="CommittedLiquidityFacilitiesAmount" size="20"></td>
+  </tr>
+
+</table>
+</div>
+
+
+<h2>Item D. Investor information</h2>
+<hr />
+
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td>60. </td>
+    <td>Specify the number of outstanding shares or units of the reporting fund’s stock or similar securities </td>
+    <td><input name="NumberOfOutstandingShares" type="text" id="NumberOfOutstandingShares" size="20"></td>
+  </tr>
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td>61. </td>
+    <td colspan="3"><p>Provide the following information regarding investor concentration. </p>
+      <p>(For purposes of this question, if you know that two or more beneficial owners of the reporting fund are affiliated with each other, you should treat them as a single beneficial owner.) </p></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(a)</td>
+    <td>Specify the percentage of the reporting fund’s equity that is beneficially owned by the beneficial owner having the largest equity interest in the reporting fund</td>
+    <td><input name="TopBeneficiallyOwnedEquityPercent" type="text" id="textfield266" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b)</td>
+    <td>How many investors beneficially own 5% or more of the reporting fund&rsquo;s equity? </td>
+    <td><input name="NumberOfInvestorsBeneficiallyOwnMore5Percent" type="text" id="NumberOfInvestorsBeneficiallyOwnMore5Percent" size="10"></td>
+  </tr>
+  </table>
+</div>
+
+
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td>62. </td>
+    <td>Provide a good faith estimate, as of the data reporting date, of the percentage of the reporting fund’s outstanding equity that was purchased using securities lending collateral  </td>
+    <td><input name="PercentEquityPurchasedUsingSecuritiesLendingCollateral" type="text" id="PercentEquityPurchasedUsingSecuritiesLendingCollateral" size="20"></td>
+  </tr>
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td>63. </td>
+    <td colspan="3"><p>Provide the following information regarding the restrictions on withdrawals and redemptions by investors in the reporting fund. </p>
+      <p>(For Questions 63 and 64, please note that the standards for imposing suspensions and restrictions on withdrawals/redemptions may vary among funds. </p>
+      <p>Make a good faith determination of the provisions that would likely be triggered during conditions that you view as significant market stress.) As of the data reporting date, what percentage of the reporting fund’s net asset value, if any:</p></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(a)</td>
+    <td>May be subjected to a suspension of investor withdrawals/redemptions by an adviser or fund governing body (this question relates to an adviser’s or governing body’s right to suspend and not just whether a suspension is currently effective)</td>
+    <td><input name="WithdrawalSuspensionMaybeSubjectedPercent" type="text" id="WithdrawalSuspensionMaybeSubjectedPercent" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b)</td>
+    <td>May be subjected to material restrictions on investor withdrawals/ redemptions (e.g., “gates”) by an adviser or fund governing body (this question relates to an adviser’s or governing body’s right to impose a restriction and not just whether a restriction has been imposed)</td>
+    <td><input name="WithdrawalMaterialRestrictionMaybeSubjectedPercent" type="text" id="WithdrawalMaterialRestrictionMaybeSubjectedPercent" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(c)</td>
+    <td>Is subject to a suspension of investor withdrawals/redemptions (this question relates to whether a suspension is currently effective and not just an adviser’s or governing body’s right to suspend)</td>
+    <td><input name="WithdrawalSuspensionIsSubjectedPercent" type="text" id="WithdrawalSuspensionIsSubjectedPercent" size="10"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(d)</td>
+    <td>Is subject to a material restriction on investor withdrawals/redemptions (e.g., a “gate”) (this question relates to whether a restriction has been imposed and not just an adviser’s or governing body’s right to impose a restriction)</td>
+    <td><input name="WithdrawalMaterialRestrictionIsSubjectedPercent" type="text" id="WithdrawalMaterialRestrictionIsSubjectedPercent" size="10"></td>
+  </tr>
+</table>
+</div>
+
+<div class="q-block"><table width="90%">
+  <tr>
+    <td>64. </td>
+    <td colspan="2">Investor liquidity (as a % of net asset value): (Divide the reporting fund’s net asset value among the periods specified below depending on the shortest period within which investors are entitled, under the fund documents, to withdraw invested funds or receive redemption payments, as applicable. Assume that you would impose gates where applicable but that you would not completely suspend withdrawals/redemptions and that there are no redemption fees. Please base on the notice period before the valuation date rather than the date proceeds would be paid to investors. The total should add up to 100%.)</td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>% of NAV locked for </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>1 day or less </td>
+    <td><input name="InvestorLiquidityInDays0To1Percent" type="text" id="InvestorLiquidityInDays0To1Percent" size="20"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>2 days – 7 days </td>
+    <td><input name="InvestorLiquidityInDays2To7Percent" type="text" id="InvestorLiquidityInDays2To7Percent" size="20"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>8 days – 30 days </td>
+    <td><input name="InvestorLiquidityInDays8To30Percent" type="text" id="InvestorLiquidityInDays8To30Percent" size="20"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>31 days – 90 days </td>
+    <td><input name="InvestorLiquidityInDays31To90Percent" type="text" id="InvestorLiquidityInDays31To90Percent" size="20"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>91 days – 180 days </td>
+    <td><input name="InvestorLiquidityInDays91To180Percent" type="text" id="InvestorLiquidityInDays91To180Percent" size="20"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>181 days – 365 days </td>
+    <td><input name="InvestorLiquidityInDays181To365Percent" type="text" id="InvestorLiquidityInDays181To365Percent" size="20"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>Longer than 365 days</td>
+    <td><input name="InvestorLiquidityInDays365MorePercent" type="text" id="InvestorLiquidityInDays365MorePercent" size="20"></td>
+  </tr>
+  </table>
+</div>
+
+
+
+</div>
+</body>
+</html>

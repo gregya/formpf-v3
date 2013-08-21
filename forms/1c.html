@@ -1,0 +1,910 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>1c</title>
+
+
+<script src="kendo/js/jquery.min.js"></script>
+<script src="kendo/js/web.min.js"></script>
+
+<link href="kendo/styles/kendo.common.min.css" />
+<link href="kendo/styles/kendo.default.min.css" />
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="PFsection">
+
+<h1>Section 1c: Information about the hedge funds you advise</h1>
+
+
+<div>Subject to Instruction 5, you must complete a separate Section 1c for each hedge fund that you advise.</div>
+
+<h2>Item A. Reporting fund identifying information</h2>
+<hr />
+
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td>18. </td>
+    <td>(a) Name of the reporting fund</td>
+    <td><label for="textfield"></label>
+      <input type="text" name="textfield" id="textfield"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b) Private fund identification number of the reporting fund </td>
+    <td><input type="text" name="textfield2" id="textfield2"></td>
+  </tr>
+</table>
+</div>
+
+<h2>Item B. Certain information regarding the reporting fund</h2>
+<hr />
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td width="5%">19. </td>
+    <td width="95%" colspan="2">Does the reporting fund have a single primary investment strategy or multiple strategies? </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" name="StrategyTypeSM" id="StrategyTypeSM" value="S">
+      <label for="radio"></label>      <label for="checkbox">Single primary strategy </label></td>
+    <td><input type="radio" name="StrategyTypeSM" id="StrategyTypeSM" value="M">      
+      Multi-strategy </td>
+  </tr>
+</table>
+</div>
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td width="5%">20. </td>
+    <td colspan="3"><p>Indicate which of the investment strategies below best describe the reporting fund&rsquo;s strategies. For each strategy that you have selected, provide a good faith estimate of the percentage of the reporting fund&rsquo;s net asset value represented by that strategy. If, in your view, the reporting fund&rsquo;s allocation among strategies is appropriately represented by the percentage of deployed capital, you may also provide that information.</p> 
+          
+          <p>
+          (Select the investment strategies that best describe the reporting fund&rsquo;s strategies, even if the descriptions below do not precisely match your characterization of those strategies; select &ldquo;other&rdquo; only if a strategy that the reporting fund uses is significantly different from any of the strategies identified below. You may refer to the reporting fund&rsquo;s use of these strategies as of the data reporting date or throughout the reporting period, but you must report using the same basis in future filings.) </p>
+          
+          <p>(The strategies listed below are mutually exclusive (i.e., do not report the same assets under multiple strategies). If providing percentages of capital, the total should add up to approximately 100%.) </p>
+        </td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="45%">Strategy</td>
+    <td width="30%"><p>% of NAV (required) </p></td>
+    <td width="20%">% of capital (optional) 	</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="1" type="checkbox" id="checkbox" value="StrategyChecked">
+      <label for="checkbox"></label>      
+      <label for="checkbox3">Equity, Market Neutral </label></td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="2" type="checkbox" id="checkbox2" value="StrategyChecked">      
+      Equity, Long/Short </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="3" type="checkbox" id="checkbox3" value="StrategyChecked">      
+      Equity, Short Bias </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="4" type="checkbox" id="checkbox4" value="StrategyChecked">      
+      Equity, Long Bias </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="5" type="checkbox" id="checkbox5" value="StrategyChecked">      
+      Macro, Active Trading </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="6" type="checkbox" id="checkbox6" value="StrategyChecked">      
+      Macro, Commodity </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="textfield14" id="textfield14"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="checkbox" name="7" id="checkbox7">      
+      Macro, Currency </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="8" type="checkbox" id="checkbox8" value="StrategyChecked">      
+      Macro, Global Macro </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="checkbox" name="9" id="checkbox9">      
+      Relative Value, Fixed Income Asset Backed </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="10" type="checkbox" id="10" value="StrategyChecked">
+      Relative Value, Fixed Income Convertible Arbitrage </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="11" type="checkbox" id="11" value="StrategyChecked">
+      Relative Value, Fixed Income Corporate<br/></td>
+    <td><input type="text" name="textfield23" id="textfield23"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="12" type="checkbox" id="12" value="StrategyChecked">
+      Relative Value, Fixed Income Sovereign<br/></td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="13" type="checkbox" id="13" value="StrategyChecked">
+      Relative Value, Volatility Arbitrage </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="textfield28" id="textfield28"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="14" type="checkbox" id="14" value="StrategyChecked">
+      Event Driven, Distressed/Restructuring<br/></td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="15" type="checkbox" id="15" value="StrategyChecked">
+      Event Driven, Risk Arbitrage/Merger Arbitrage </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="16" type="checkbox" id="16" value="StrategyChecked">
+      Event Driven, Equity Special Situations </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="17" type="checkbox" id="17" value="StrategyChecked">
+      Credit, Long/Short<br/></td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="18" type="checkbox" id="18" value="StrategyChecked">
+      Credit, Asset Based Lending </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="19" type="checkbox" id="19" value="StrategyChecked">
+      Managed Futures/CTA, Fundamental </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="20" type="checkbox" id="20" value="StrategyChecked">
+      Managed Futures/CTA, Quantitative </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="21" type="checkbox" id="21" value="StrategyChecked">
+      Investment in other funds </td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input name="checkbox22" type="checkbox" id="checkbox22" value="StrategyChecked">
+      Other: 
+        <label for="textfield67"></label>
+        <input name="StrategyOtherDescription" type="text" id="StrategyOtherDescription" size="30"></td>
+    <td><input type="text" name="StrategyNAVPercent" id="StrategyNAVPercent"></td>
+    <td><input type="text" name="StrategyCapitalPercent" id="StrategyCapitalPercent"></td>
+  </tr>
+  </table>
+</div>
+
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td width="4%">21. </td>
+    <td colspan="4"><div>
+      <p>During the reporting period, approximately what percentage of the reporting fund&rsquo;s net asset value was managed using high-frequency trading strategies? </p>
+      <p>(In your response, please do not include strategies using algorithms solely for trade execution. This question concerns strategies that are substantially computer-driven, where decisions to place bids or offers, and to buy or sell, are primarily based on algorithmic responses to intraday price action in equities, futures and options, and where the total number of shares or contracts traded throughout the day is generally significantly larger than the net change in position from one day to the next.) </p>
+    </div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="19%"><input type="radio" name="StrategyHighFrequencyTradingPercent" id="radio25" value="0">      
+      0% </td>
+    <td width="20%"><input type="radio" name="StrategyHighFrequencyTradingPercent" id="radio27" value="1">
+      less than 10% </td>
+    <td width="24%"><input type="radio" name="StrategyHighFrequencyTradingPercent" id="radio29" value="2">
+      10-25% </td>
+    <td width="33%"><input type="radio" name="StrategyHighFrequencyTradingPercent" id="radio31" value="3">
+      26-50% </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="radio" name="StrategyHighFrequencyTradingPercent" id="radio28" value="4">
+      51-75% </td>
+    <td><input type="radio" name="StrategyHighFrequencyTradingPercent" id="radio30" value="5">
+      76-99% </td>
+    <td><input type="radio" name="StrategyHighFrequencyTradingPercent" id="radio32" value="6">
+      100% or more </td>
+    <td>&nbsp;</td>
+  </tr>
+  </table>
+</div>
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td width="4%">22. </td>
+    <td colspan="4"><div>
+      <p>Identify the five counterparties to which the reporting fund has the greatest mark-to- market net counterparty credit exposure, measured as a percentage of the reporting fund&rsquo;s net asset value. </p>
+      <p>(For purposes of this question, you should treat affiliated entities as a single group to the extent exposures may be contractually or legally set-off or netted across those entities and/or one affiliate guarantees or may otherwise be obligated to satisfy the obligations of another. CCPs should not be regarded as counterparties for purposes of this question.) </p>
+      <p>(In your response, you should take into account: (i) mark-to-market gains and losses on derivatives; and (ii) any loans or loan commitments.) </p>
+      <p>(However, you should not take into account: (i) margin posted by the counterparty; or (ii) holdings of debt or equity securities issued by the counterparty.) </p>
+    </div></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="30%"><p>Legal name of the counterparty (or, if multiple affiliated entities, counterparties) </p></td>
+    <td width="35%"><p>Indicate below if the counterparty is affiliated with a major financial institution </p></td>
+    <td width="25%"><div>
+      <p>Exposure (% of reporting fund&rsquo;s net asset value) </p>
+    </div></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(a) </td>
+    <td><input type="text" name="CounterpartyLegalName" id="CounterpartyLegalName"></td>
+    <td><p>
+      <select name="CounterpartyAffiliatedInstitutionCode6" id="CounterpartyAffiliatedInstitutionCode6">
+        <option value="1">SwissRe</option>
+        <option value="2">WellsFargo</option>
+        <option value="3">PIMCO</option>
+        <option value="4">BlackRock</option>
+        <option value="5">Natixsis</option>
+        <option value="6">Barclays</option>
+        <option value="7">BankofAmerica/MerrillLynch</option>
+        <option value="8">BankofNewYork</option>
+        <option value="9">BNPParibas</option>
+        <option value="10">Calyon</option>
+        <option value="11">CargillFinancialMarkets</option>
+        <option value="12">Citigroup</option>
+        <option value="13">CréditAgricole</option>
+        <option value="14">CreditSuisse</option>
+        <option value="15">DeutscheBank</option>
+        <option value="16">Dresdner/Commerz</option>
+        <option value="17">Fidelity</option>
+        <option value="18">GoldmanSachs</option>
+        <option value="19">HSBC</option>
+        <option value="20">JPMorgan</option>
+        <option value="21">MitsubishiUFJFinancialGroup</option>
+        <option value="22">MorganStanley</option>
+        <option value="23">NewEdge</option>
+        <option value="24">Nomura</option>
+        <option value="25">Prudential</option>
+        <option value="26">RoyalBankofCanada</option>
+        <option value="27">RoyalBankofScotland</option>
+        <option value="28">SociétéGénérale</option>
+        <option value="29">StateStreet</option>
+        <option value="30">UBS</option>
+        <option value="31">NA</option>
+        <option value="32">Other</option>
+      </select>
+    </p>
+      <p>
+        <label for="CounterpartyAffiliatedInstitutionOtherName"></label>
+        Other:
+  <input type="text" name="CounterpartyAffiliatedInstitutionOtherName6" id="CounterpartyAffiliatedInstitutionOtherName">
+      </p></td>
+    <td><input type="text" name="CounterpartyExposure" id="CounterpartyExposure"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b)</td>
+    <td><input type="text" name="CounterpartyLegalName" id="CounterpartyLegalName"></td>
+    <td><p>
+      <select name="CounterpartyAffiliatedInstitutionCode7" id="CounterpartyAffiliatedInstitutionCode7">
+        <option value="1">SwissRe</option>
+        <option value="2">WellsFargo</option>
+        <option value="3">PIMCO</option>
+        <option value="4">BlackRock</option>
+        <option value="5">Natixsis</option>
+        <option value="6">Barclays</option>
+        <option value="7">BankofAmerica/MerrillLynch</option>
+        <option value="8">BankofNewYork</option>
+        <option value="9">BNPParibas</option>
+        <option value="10">Calyon</option>
+        <option value="11">CargillFinancialMarkets</option>
+        <option value="12">Citigroup</option>
+        <option value="13">CréditAgricole</option>
+        <option value="14">CreditSuisse</option>
+        <option value="15">DeutscheBank</option>
+        <option value="16">Dresdner/Commerz</option>
+        <option value="17">Fidelity</option>
+        <option value="18">GoldmanSachs</option>
+        <option value="19">HSBC</option>
+        <option value="20">JPMorgan</option>
+        <option value="21">MitsubishiUFJFinancialGroup</option>
+        <option value="22">MorganStanley</option>
+        <option value="23">NewEdge</option>
+        <option value="24">Nomura</option>
+        <option value="25">Prudential</option>
+        <option value="26">RoyalBankofCanada</option>
+        <option value="27">RoyalBankofScotland</option>
+        <option value="28">SociétéGénérale</option>
+        <option value="29">StateStreet</option>
+        <option value="30">UBS</option>
+        <option value="31">NA</option>
+        <option value="32">Other</option>
+      </select>
+    </p>
+      <p>
+        <label for="CounterpartyAffiliatedInstitutionOtherName"></label>
+        Other:
+  <input type="text" name="CounterpartyAffiliatedInstitutionOtherName7" id="CounterpartyAffiliatedInstitutionOtherName">
+      </p></td>
+    <td><input type="text" name="CounterpartyExposure" id="CounterpartyExposure"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(c)</td>
+    <td><input type="text" name="CounterpartyLegalName" id="CounterpartyLegalName"></td>
+    <td><p>
+      <select name="CounterpartyAffiliatedInstitutionCode8" id="CounterpartyAffiliatedInstitutionCode8">
+        <option value="1">SwissRe</option>
+        <option value="2">WellsFargo</option>
+        <option value="3">PIMCO</option>
+        <option value="4">BlackRock</option>
+        <option value="5">Natixsis</option>
+        <option value="6">Barclays</option>
+        <option value="7">BankofAmerica/MerrillLynch</option>
+        <option value="8">BankofNewYork</option>
+        <option value="9">BNPParibas</option>
+        <option value="10">Calyon</option>
+        <option value="11">CargillFinancialMarkets</option>
+        <option value="12">Citigroup</option>
+        <option value="13">CréditAgricole</option>
+        <option value="14">CreditSuisse</option>
+        <option value="15">DeutscheBank</option>
+        <option value="16">Dresdner/Commerz</option>
+        <option value="17">Fidelity</option>
+        <option value="18">GoldmanSachs</option>
+        <option value="19">HSBC</option>
+        <option value="20">JPMorgan</option>
+        <option value="21">MitsubishiUFJFinancialGroup</option>
+        <option value="22">MorganStanley</option>
+        <option value="23">NewEdge</option>
+        <option value="24">Nomura</option>
+        <option value="25">Prudential</option>
+        <option value="26">RoyalBankofCanada</option>
+        <option value="27">RoyalBankofScotland</option>
+        <option value="28">SociétéGénérale</option>
+        <option value="29">StateStreet</option>
+        <option value="30">UBS</option>
+        <option value="31">NA</option>
+        <option value="32">Other</option>
+      </select>
+    </p>
+      <p>
+        <label for="CounterpartyAffiliatedInstitutionOtherName"></label>
+        Other:
+  <input type="text" name="CounterpartyAffiliatedInstitutionOtherName8" id="CounterpartyAffiliatedInstitutionOtherName">
+      </p></td>
+    <td><input type="text" name="CounterpartyExposure" id="CounterpartyExposure"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(d)</td>
+    <td><input type="text" name="CounterpartyLegalName" id="CounterpartyLegalName"></td>
+    <td><p>
+      <select name="CounterpartyAffiliatedInstitutionCode9" id="CounterpartyAffiliatedInstitutionCode9">
+        <option value="1">SwissRe</option>
+        <option value="2">WellsFargo</option>
+        <option value="3">PIMCO</option>
+        <option value="4">BlackRock</option>
+        <option value="5">Natixsis</option>
+        <option value="6">Barclays</option>
+        <option value="7">BankofAmerica/MerrillLynch</option>
+        <option value="8">BankofNewYork</option>
+        <option value="9">BNPParibas</option>
+        <option value="10">Calyon</option>
+        <option value="11">CargillFinancialMarkets</option>
+        <option value="12">Citigroup</option>
+        <option value="13">CréditAgricole</option>
+        <option value="14">CreditSuisse</option>
+        <option value="15">DeutscheBank</option>
+        <option value="16">Dresdner/Commerz</option>
+        <option value="17">Fidelity</option>
+        <option value="18">GoldmanSachs</option>
+        <option value="19">HSBC</option>
+        <option value="20">JPMorgan</option>
+        <option value="21">MitsubishiUFJFinancialGroup</option>
+        <option value="22">MorganStanley</option>
+        <option value="23">NewEdge</option>
+        <option value="24">Nomura</option>
+        <option value="25">Prudential</option>
+        <option value="26">RoyalBankofCanada</option>
+        <option value="27">RoyalBankofScotland</option>
+        <option value="28">SociétéGénérale</option>
+        <option value="29">StateStreet</option>
+        <option value="30">UBS</option>
+        <option value="31">NA</option>
+        <option value="32">Other</option>
+      </select>
+    </p>
+      <p>
+        <label for="CounterpartyAffiliatedInstitutionOtherName"></label>
+        Other:
+  <input type="text" name="CounterpartyAffiliatedInstitutionOtherName9" id="CounterpartyAffiliatedInstitutionOtherName">
+      </p></td>
+    <td><input type="text" name="CounterpartyExposure" id="CounterpartyExposure"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(e)</td>
+    <td><input type="text" name="CounterpartyLegalName" id="CounterpartyLegalName"></td>
+    <td><p>
+      <select name="CounterpartyAffiliatedInstitutionCode10" id="CounterpartyAffiliatedInstitutionCode10">
+        <option value="1">SwissRe</option>
+        <option value="2">WellsFargo</option>
+        <option value="3">PIMCO</option>
+        <option value="4">BlackRock</option>
+        <option value="5">Natixsis</option>
+        <option value="6">Barclays</option>
+        <option value="7">BankofAmerica/MerrillLynch</option>
+        <option value="8">BankofNewYork</option>
+        <option value="9">BNPParibas</option>
+        <option value="10">Calyon</option>
+        <option value="11">CargillFinancialMarkets</option>
+        <option value="12">Citigroup</option>
+        <option value="13">CréditAgricole</option>
+        <option value="14">CreditSuisse</option>
+        <option value="15">DeutscheBank</option>
+        <option value="16">Dresdner/Commerz</option>
+        <option value="17">Fidelity</option>
+        <option value="18">GoldmanSachs</option>
+        <option value="19">HSBC</option>
+        <option value="20">JPMorgan</option>
+        <option value="21">MitsubishiUFJFinancialGroup</option>
+        <option value="22">MorganStanley</option>
+        <option value="23">NewEdge</option>
+        <option value="24">Nomura</option>
+        <option value="25">Prudential</option>
+        <option value="26">RoyalBankofCanada</option>
+        <option value="27">RoyalBankofScotland</option>
+        <option value="28">SociétéGénérale</option>
+        <option value="29">StateStreet</option>
+        <option value="30">UBS</option>
+        <option value="31">NA</option>
+        <option value="32">Other</option>
+      </select>
+    </p>
+      <p>
+        <label for="CounterpartyAffiliatedInstitutionOtherName"></label>
+        Other:
+  <input type="text" name="CounterpartyAffiliatedInstitutionOtherName10" id="CounterpartyAffiliatedInstitutionOtherName">
+      </p></td>
+    <td><input type="text" name="CounterpartyExposure" id="CounterpartyExposure"></td>
+  </tr>
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td width="4%">23. </td>
+    <td colspan="4"><div>
+      <div>
+        <p>Identify the five counterparties that have the greatest mark-to-market net counterparty credit exposure to the reporting fund, measured in U.S. dollars. </p>
+        <p>(For purposes of this question, you should treat affiliated entities as a single group to the extent exposures may be contractually or legally set-off or netted across those entities and/or one affiliate guarantees or may otherwise be obligated to satisfy the obligations of another. CCPs should not be regarded as counterparties for purposes of this question.) </p>
+        <p>(In your response, you should take into account: (i) mark-to-market gains and losses on derivatives; and (ii) any loans or loan commitments.) </p>
+        <p>(However, you should not take into account: (i) margin posted to the counterparty; or (ii) holdings of debt or equity securities issued by the counterparty.) </p>
+      </div>
+    </div></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="6%">&nbsp;</td>
+    <td width="30%"><p>Legal name of the counterparty (or, if multiple affiliated entities, counterparties) </p></td>
+    <td width="35%"><p>Indicate below if the counterparty is affiliated with a major financial institution </p></td>
+    <td width="25%">
+      Exposure (in U.S. dollars) 
+</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(a) </td>
+    <td><input type="text" name="CounterpartyLegalName" id="CounterpartyLegalName"></td>
+    <td><p>
+      <label for="CounterpartyAffiliatedInstitutionCode"></label>
+      <select name="CounterpartyAffiliatedInstitutionCode" id="CounterpartyAffiliatedInstitutionCode">
+      <option value="1">SwissRe</option>
+      <option value="2">WellsFargo</option>
+      <option value="3">PIMCO</option>
+      <option value="4">BlackRock</option>
+      <option value="5">Natixsis</option>
+      <option value="6">Barclays</option>
+      <option value="7">BankofAmerica/MerrillLynch</option>
+      <option value="8">BankofNewYork</option>
+      <option value="9">BNPParibas</option>
+      <option value="10">Calyon</option>
+      <option value="11">CargillFinancialMarkets</option>
+      <option value="12">Citigroup</option>
+      <option value="13">CréditAgricole</option>
+      <option value="14">CreditSuisse</option>
+      <option value="15">DeutscheBank</option>
+      <option value="16">Dresdner/Commerz</option>
+       <option value="17">Fidelity</option>
+      <option value="18">GoldmanSachs</option>
+      <option value="19">HSBC</option>
+      <option value="20">JPMorgan</option>
+      <option value="21">MitsubishiUFJFinancialGroup</option>
+      <option value="22">MorganStanley</option>
+      <option value="23">NewEdge</option>
+      <option value="24">Nomura</option>
+      <option value="25">Prudential</option>
+      <option value="26">RoyalBankofCanada</option>
+      <option value="27">RoyalBankofScotland</option>
+      
+      <option value="28">SociétéGénérale</option>
+      <option value="29">StateStreet</option>
+      <option value="30">UBS</option>
+      <option value="31">NA</option>
+      <option value="32">Other</option>
+      </select>
+    </p>
+      <p>
+        <label for="CounterpartyAffiliatedInstitutionOtherName"></label>
+        Other: <input type="text" name="CounterpartyAffiliatedInstitutionOtherName" id="CounterpartyAffiliatedInstitutionOtherName">
+      </p></td>
+    <td><input type="text" name="CounterpartyExposure" id="CounterpartyExposure"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b)</td>
+    <td><input type="text" name="CounterpartyLegalName" id="CounterpartyLegalName"></td>
+    <td><p>
+      <select name="CounterpartyAffiliatedInstitutionCode2" id="CounterpartyAffiliatedInstitutionCode2">
+        <option value="1">SwissRe</option>
+        <option value="2">WellsFargo</option>
+        <option value="3">PIMCO</option>
+        <option value="4">BlackRock</option>
+        <option value="5">Natixsis</option>
+        <option value="6">Barclays</option>
+        <option value="7">BankofAmerica/MerrillLynch</option>
+        <option value="8">BankofNewYork</option>
+        <option value="9">BNPParibas</option>
+        <option value="10">Calyon</option>
+        <option value="11">CargillFinancialMarkets</option>
+        <option value="12">Citigroup</option>
+        <option value="13">CréditAgricole</option>
+        <option value="14">CreditSuisse</option>
+        <option value="15">DeutscheBank</option>
+        <option value="16">Dresdner/Commerz</option>
+        <option value="17">Fidelity</option>
+        <option value="18">GoldmanSachs</option>
+        <option value="19">HSBC</option>
+        <option value="20">JPMorgan</option>
+        <option value="21">MitsubishiUFJFinancialGroup</option>
+        <option value="22">MorganStanley</option>
+        <option value="23">NewEdge</option>
+        <option value="24">Nomura</option>
+        <option value="25">Prudential</option>
+        <option value="26">RoyalBankofCanada</option>
+        <option value="27">RoyalBankofScotland</option>
+        <option value="28">SociétéGénérale</option>
+        <option value="29">StateStreet</option>
+        <option value="30">UBS</option>
+        <option value="31">NA</option>
+        <option value="32">Other</option>
+      </select>
+    </p>
+      <p>
+        <label for="CounterpartyAffiliatedInstitutionOtherName"></label>
+        Other:
+  <input type="text" name="CounterpartyAffiliatedInstitutionOtherName2" id="CounterpartyAffiliatedInstitutionOtherName">
+      </p></td>
+    <td><input type="text" name="CounterpartyExposure" id="CounterpartyExposure"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(c)</td>
+    <td><input type="text" name="CounterpartyLegalName" id="CounterpartyLegalName"></td>
+    <td><p>
+      <select name="CounterpartyAffiliatedInstitutionCode3" id="CounterpartyAffiliatedInstitutionCode3">
+        <option value="1">SwissRe</option>
+        <option value="2">WellsFargo</option>
+        <option value="3">PIMCO</option>
+        <option value="4">BlackRock</option>
+        <option value="5">Natixsis</option>
+        <option value="6">Barclays</option>
+        <option value="7">BankofAmerica/MerrillLynch</option>
+        <option value="8">BankofNewYork</option>
+        <option value="9">BNPParibas</option>
+        <option value="10">Calyon</option>
+        <option value="11">CargillFinancialMarkets</option>
+        <option value="12">Citigroup</option>
+        <option value="13">CréditAgricole</option>
+        <option value="14">CreditSuisse</option>
+        <option value="15">DeutscheBank</option>
+        <option value="16">Dresdner/Commerz</option>
+        <option value="17">Fidelity</option>
+        <option value="18">GoldmanSachs</option>
+        <option value="19">HSBC</option>
+        <option value="20">JPMorgan</option>
+        <option value="21">MitsubishiUFJFinancialGroup</option>
+        <option value="22">MorganStanley</option>
+        <option value="23">NewEdge</option>
+        <option value="24">Nomura</option>
+        <option value="25">Prudential</option>
+        <option value="26">RoyalBankofCanada</option>
+        <option value="27">RoyalBankofScotland</option>
+        <option value="28">SociétéGénérale</option>
+        <option value="29">StateStreet</option>
+        <option value="30">UBS</option>
+        <option value="31">NA</option>
+        <option value="32">Other</option>
+      </select>
+    </p>
+      <p>
+        <label for="CounterpartyAffiliatedInstitutionOtherName"></label>
+        Other:
+  <input type="text" name="CounterpartyAffiliatedInstitutionOtherName3" id="CounterpartyAffiliatedInstitutionOtherName">
+      </p></td>
+    <td><input type="text" name="CounterpartyExposure" id="CounterpartyExposure"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(d)</td>
+    <td><input type="text" name="CounterpartyLegalName" id="CounterpartyLegalName"></td>
+    <td><p>
+      <select name="CounterpartyAffiliatedInstitutionCode4" id="CounterpartyAffiliatedInstitutionCode4">
+        <option value="1">SwissRe</option>
+        <option value="2">WellsFargo</option>
+        <option value="3">PIMCO</option>
+        <option value="4">BlackRock</option>
+        <option value="5">Natixsis</option>
+        <option value="6">Barclays</option>
+        <option value="7">BankofAmerica/MerrillLynch</option>
+        <option value="8">BankofNewYork</option>
+        <option value="9">BNPParibas</option>
+        <option value="10">Calyon</option>
+        <option value="11">CargillFinancialMarkets</option>
+        <option value="12">Citigroup</option>
+        <option value="13">CréditAgricole</option>
+        <option value="14">CreditSuisse</option>
+        <option value="15">DeutscheBank</option>
+        <option value="16">Dresdner/Commerz</option>
+        <option value="17">Fidelity</option>
+        <option value="18">GoldmanSachs</option>
+        <option value="19">HSBC</option>
+        <option value="20">JPMorgan</option>
+        <option value="21">MitsubishiUFJFinancialGroup</option>
+        <option value="22">MorganStanley</option>
+        <option value="23">NewEdge</option>
+        <option value="24">Nomura</option>
+        <option value="25">Prudential</option>
+        <option value="26">RoyalBankofCanada</option>
+        <option value="27">RoyalBankofScotland</option>
+        <option value="28">SociétéGénérale</option>
+        <option value="29">StateStreet</option>
+        <option value="30">UBS</option>
+        <option value="31">NA</option>
+        <option value="32">Other</option>
+      </select>
+    </p>
+      <p>
+        <label for="CounterpartyAffiliatedInstitutionOtherName"></label>
+        Other:
+  <input type="text" name="CounterpartyAffiliatedInstitutionOtherName4" id="CounterpartyAffiliatedInstitutionOtherName">
+      </p></td>
+    <td><input type="text" name="CounterpartyExposure" id="CounterpartyExposure"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(e)</td>
+    <td><input type="text" name="CounterpartyLegalName" id="CounterpartyLegalName"></td>
+    <td><p>
+      <select name="CounterpartyAffiliatedInstitutionCode5" id="CounterpartyAffiliatedInstitutionCode5">
+        <option value="1">SwissRe</option>
+        <option value="2">WellsFargo</option>
+        <option value="3">PIMCO</option>
+        <option value="4">BlackRock</option>
+        <option value="5">Natixsis</option>
+        <option value="6">Barclays</option>
+        <option value="7">BankofAmerica/MerrillLynch</option>
+        <option value="8">BankofNewYork</option>
+        <option value="9">BNPParibas</option>
+        <option value="10">Calyon</option>
+        <option value="11">CargillFinancialMarkets</option>
+        <option value="12">Citigroup</option>
+        <option value="13">CréditAgricole</option>
+        <option value="14">CreditSuisse</option>
+        <option value="15">DeutscheBank</option>
+        <option value="16">Dresdner/Commerz</option>
+        <option value="17">Fidelity</option>
+        <option value="18">GoldmanSachs</option>
+        <option value="19">HSBC</option>
+        <option value="20">JPMorgan</option>
+        <option value="21">MitsubishiUFJFinancialGroup</option>
+        <option value="22">MorganStanley</option>
+        <option value="23">NewEdge</option>
+        <option value="24">Nomura</option>
+        <option value="25">Prudential</option>
+        <option value="26">RoyalBankofCanada</option>
+        <option value="27">RoyalBankofScotland</option>
+        <option value="28">SociétéGénérale</option>
+        <option value="29">StateStreet</option>
+        <option value="30">UBS</option>
+        <option value="31">NA</option>
+        <option value="32">Other</option>
+      </select>
+    </p>
+      <p>
+        <label for="CounterpartyAffiliatedInstitutionOtherName"></label>
+        Other:
+  <input type="text" name="CounterpartyAffiliatedInstitutionOtherName5" id="CounterpartyAffiliatedInstitutionOtherName">
+      </p></td>
+    <td><input type="text" name="CounterpartyExposure" id="CounterpartyExposure"></td>
+  </tr>
+</table>
+</div>
+
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td width="3%">24. </td>
+    <td colspan="3"><div>
+      <p>Provide the following information regarding your use of trading and clearing mechanisms during the reporting period. </p>
+      <p>(Provide good faith estimates of the mode in which instruments were traded and cleared by the reporting fund, and not the market as a whole. For purposes of this question, a &ldquo;trade&rdquo; includes any transaction, whether entered into on a bilateral basis or through an exchange, trading facility or other system and whether long or short. With respect to clearing, transactions for which margin is held in a customer omnibus account at a CCP should be considered cleared by a CCP. Tri-party repo applies where repo collateral is held at a custodian (not including a CCP) that acts as a third party agent to both the repo buyer and the repo seller.) </p>
+      <p>(The total in each part of this question should add up to 100%. Enter &ldquo;NA&rdquo; in each part of this question for which the reporting fund engaged in no relevant trades.) </p>
+    </div></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td width="3%">&nbsp;</td>
+    <td width="66%">&nbsp;</td>
+    <td width="28%" align="center">%</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(a)</td>
+    <td>&nbsp;Estimated % (in terms of value) of securities (other than derivatives) that were traded by the reporting fund:        </td>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>On a regulated exchange </td>
+    <td align="center"><input type="text" name="SecuritiesTradedExchangePercent" id="SecuritiesTradedExchangePercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>OTC </td>
+    <td align="center"><input type="text" name="SecuritiesTradedOTCPercent" id="SecuritiesTradedOTCPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(b)</td>
+    <td><div>
+      <p>Estimated % (in terms of trade volumes) of derivatives that were traded by </p>
+          <p>the reporting fund:<br/>
+          </p>
+        </div></td>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>On a regulated exchange or swap execution facility </td>
+    <td align="center"><input type="text" name="DerivativesTradedExchangePercent" id="DerivativesTradedExchangePercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>OTC </td>
+    <td align="center"><input type="text" name="DerivativesTradedOTCPercent" id="DerivativesTradedOTCPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(c) </td>
+    <td>&nbsp;Estimated % (in terms of trade volumes) of derivatives that were traded by the reporting fund and:        </td>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Cleared by a CCP </td>
+    <td align="center"><input type="text" name="DerivativesTradedCCPClearedPercent" id="DerivativesTradedCCPClearedPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Bilaterally transacted (i.e., not cleared by a CCP) </td>
+    <td align="center"><input type="text" name="DerivativesTradedNotCCPClearedPercent" id="DerivativesTradedNotCCPClearedPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>(d) </td>
+    <td>&nbsp;Estimated % (in terms of value) of repo trades that were entered into by the reporting fund and:</td>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Cleared by a CCP </td>
+    <td align="center"><input type="text" name="RepoTradedCCPClearedPercent" id="RepoTradedCCPClearedPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Bilaterally transacted (i.e., not cleared by a CCP) </td>
+    <td align="center"><input type="text" name="RepoTradedNotCCPClearedPercent" id="RepoTradedNotCCPClearedPercent"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>Constitute a tri-party repo </td>
+    <td align="center"><input type="text" name="RepoTradedTriPartyRepoPercent" id="RepoTradedTriPartyRepoPercent"></td>
+  </tr>
+</table>
+</div>
+
+<div class="q-block">
+<table width="90%">
+  <tr>
+    <td width="3%">25. </td>
+    <td width="69%">What percentage of the reporting fund’s net asset value relates to transactions that are not described in any of the categories listed in items (a) through (d) of Question 24?</td>
+    <td width="28%" align="center"><input type="text" name="OtherTransactionPercent" id="OtherTransactionPercent"></td>
+  </tr>
+</table>
+</div>
+
+
+</div>
+</body>
+</html>
